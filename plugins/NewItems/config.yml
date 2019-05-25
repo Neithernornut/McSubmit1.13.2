@@ -1,4 +1,4 @@
-thisPluginAppliesTheResourcePackAutomatically: true
+thisPluginAppliesTheResourcePackAutomatically: false
 areYouUsingCustomResourcePackLink: false
 kickPlayersThatAreNotAcceptingResourcePack: false
 your-resource-pack-version: 1

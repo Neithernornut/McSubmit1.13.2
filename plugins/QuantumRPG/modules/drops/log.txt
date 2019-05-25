@@ -1,1 +1,4 @@
 [25/05/2019 09:34:47/INFO] Loaded &f1&7 drop tables!
+[25/05/2019 18:08:24/INFO] Loaded &f1&7 drop tables!
+[25/05/2019 18:20:07/INFO] Loaded &f1&7 drop tables!
+[25/05/2019 18:29:03/INFO] Loaded &f1&7 drop tables!

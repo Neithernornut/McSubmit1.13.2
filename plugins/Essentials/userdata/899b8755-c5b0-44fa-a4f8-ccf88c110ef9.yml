@@ -1,0 +1,20 @@
+lastAccountName: Russamee
+timestamps:
+  login: 1558784974166
+  logout: 1558785417881
+ipAddress: 125.26.34.24
+lastlocation:
+  world: MMO
+  x: 236.73178776611633
+  y: 63.0
+  z: 99.78794791855775
+  yaw: -355.7879
+  pitch: -1.0405338
+logoutlocation:
+  world: MMO
+  x: 238.14031751412398
+  y: 63.0
+  z: 98.17659269437173
+  yaw: 37.59253
+  pitch: 10.742204
+afk: false

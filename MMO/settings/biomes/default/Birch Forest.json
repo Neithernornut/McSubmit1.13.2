@@ -739,5 +739,11 @@
     ],
     "repeat": true
   },
-  "groundMaterials": []
+  "groundMaterials": [
+    {
+      "material": "STONE",
+      "data": 0,
+      "chance": 1.0
+    }
+  ]
 }

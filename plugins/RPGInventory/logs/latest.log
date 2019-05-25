@@ -18,3 +18,112 @@
 [25/05/62 09:34:42 INFO]: [RPGInventory] Backpack system is enabled
 [25/05/62 09:34:42 INFO]: [RPGInventory] Resource-pack is disabled in config
 [25/05/62 09:35:16 INFO]: [RPGInventory] Disabling RPGInventory v2.3.0
+[25/05/62 18:07:08 INFO]: [RPGInventory] Loading RPGInventory v2.3.0
+[25/05/62 18:08:08 INFO]: [RPGInventory] Enabling RPGInventory v2.3.0
+[25/05/62 18:08:08 WARNING]: [RPGInventory] Support of 1.13.2-R0.1-SNAPSHOT is experimental! Use RPGInventory with caution.
+[25/05/62 18:08:08 INFO]: [RPGInventory] Permissions hooked: UltraPermissions
+[25/05/62 18:08:08 INFO]: [RPGInventory] Economy hooked: iConomy 5.08
+[25/05/62 18:08:16 INFO]: [RPGInventory] Placeholder API hooked!
+[25/05/62 18:08:17 INFO]: [RPGInventory] 6 pet(s) has been loaded
+[25/05/62 18:08:17 INFO]: [RPGInventory] 1 food(s) has been loaded
+[25/05/62 18:08:17 INFO]: [RPGInventory] Pet system is enabled
+[25/05/62 18:08:17 INFO]: [RPGInventory] Craft system is disabled in config
+[25/05/62 18:08:17 INFO]: [RPGInventory] Craft extensions isn't loaded
+[25/05/62 18:08:17 INFO]: [RPGInventory] Inventory lock system is disabled in config
+[25/05/62 18:08:17 INFO]: [RPGInventory] Inventory lock system isn't loaded
+[25/05/62 18:08:17 INFO]: [RPGInventory] 4 item(s) has been loaded
+[25/05/62 18:08:17 INFO]: [RPGInventory] Item system is enabled
+[25/05/62 18:08:17 INFO]: [RPGInventory] 3 backpack type(s) has been loaded
+[25/05/62 18:08:17 INFO]: [RPGInventory] 0 backpack(s) has been loaded
+[25/05/62 18:08:17 INFO]: [RPGInventory] Backpack system is enabled
+[25/05/62 18:08:17 INFO]: [RPGInventory] Resource-pack is disabled in config
+[25/05/62 18:14:08 INFO]: [RPGInventory] Disabling RPGInventory v2.3.0
+[25/05/62 18:17:20 INFO]: [RPGInventory] Loading RPGInventory v2.3.0
+[25/05/62 18:19:55 INFO]: [RPGInventory] Enabling RPGInventory v2.3.0
+[25/05/62 18:19:56 WARNING]: [RPGInventory] Support of 1.13.2-R0.1-SNAPSHOT is experimental! Use RPGInventory with caution.
+[25/05/62 18:19:56 INFO]: [RPGInventory] Permissions hooked: UltraPermissions
+[25/05/62 18:19:56 INFO]: [RPGInventory] Economy hooked: iConomy 5.08
+[25/05/62 18:20:02 INFO]: [RPGInventory] Placeholder API hooked!
+[25/05/62 18:20:02 INFO]: [RPGInventory] 6 pet(s) has been loaded
+[25/05/62 18:20:02 INFO]: [RPGInventory] 1 food(s) has been loaded
+[25/05/62 18:20:02 INFO]: [RPGInventory] Pet system is enabled
+[25/05/62 18:20:02 INFO]: [RPGInventory] Craft system is disabled in config
+[25/05/62 18:20:02 INFO]: [RPGInventory] Craft extensions isn't loaded
+[25/05/62 18:20:02 INFO]: [RPGInventory] Inventory lock system is disabled in config
+[25/05/62 18:20:02 INFO]: [RPGInventory] Inventory lock system isn't loaded
+[25/05/62 18:20:02 INFO]: [RPGInventory] 4 item(s) has been loaded
+[25/05/62 18:20:02 INFO]: [RPGInventory] Item system is enabled
+[25/05/62 18:20:02 INFO]: [RPGInventory] 3 backpack type(s) has been loaded
+[25/05/62 18:20:02 INFO]: [RPGInventory] 0 backpack(s) has been loaded
+[25/05/62 18:20:02 INFO]: [RPGInventory] Backpack system is enabled
+[25/05/62 18:20:02 INFO]: [RPGInventory] Resource-pack is disabled in config
+[25/05/62 18:26:26 INFO]: [RPGInventory] Disabling RPGInventory v2.3.0
+[25/05/62 18:26:26 INFO]: [RPGInventory] Saving players inventories...
+[25/05/62 18:27:44 INFO]: [RPGInventory] Loading RPGInventory v2.3.0
+[25/05/62 18:28:48 INFO]: [RPGInventory] Enabling RPGInventory v2.3.0
+[25/05/62 18:28:49 WARNING]: [RPGInventory] Support of 1.13.2-R0.1-SNAPSHOT is experimental! Use RPGInventory with caution.
+[25/05/62 18:28:49 INFO]: [RPGInventory] Permissions hooked: UltraPermissions
+[25/05/62 18:28:49 INFO]: [RPGInventory] Economy hooked: iConomy 5.08
+[25/05/62 18:28:56 INFO]: [RPGInventory] Placeholder API hooked!
+[25/05/62 18:28:56 INFO]: [RPGInventory] 6 pet(s) has been loaded
+[25/05/62 18:28:56 INFO]: [RPGInventory] 1 food(s) has been loaded
+[25/05/62 18:28:56 INFO]: [RPGInventory] Pet system is enabled
+[25/05/62 18:28:56 INFO]: [RPGInventory] Craft system is disabled in config
+[25/05/62 18:28:56 INFO]: [RPGInventory] Craft extensions isn't loaded
+[25/05/62 18:28:56 INFO]: [RPGInventory] Inventory lock system is disabled in config
+[25/05/62 18:28:56 INFO]: [RPGInventory] Inventory lock system isn't loaded
+[25/05/62 18:28:56 INFO]: [RPGInventory] 4 item(s) has been loaded
+[25/05/62 18:28:56 INFO]: [RPGInventory] Item system is enabled
+[25/05/62 18:28:56 INFO]: [RPGInventory] 3 backpack type(s) has been loaded
+[25/05/62 18:28:56 INFO]: [RPGInventory] 0 backpack(s) has been loaded
+[25/05/62 18:28:56 INFO]: [RPGInventory] Backpack system is enabled
+[25/05/62 18:28:57 INFO]: [RPGInventory] Resource-pack is disabled in config
+[25/05/62 18:49:24 INFO]: [RPGInventory] Disabling RPGInventory v2.3.0
+[25/05/62 18:49:24 INFO]: [RPGInventory] Enabling RPGInventory v2.3.0
+[25/05/62 18:49:24 WARNING]: [RPGInventory] Support of 1.13.2-R0.1-SNAPSHOT is experimental! Use RPGInventory with caution.
+[25/05/62 18:49:24 INFO]: [RPGInventory] Permissions hooked: UltraPermissions
+[25/05/62 18:49:24 INFO]: [RPGInventory] Economy hooked: iConomy 5.08
+[25/05/62 18:49:24 INFO]: [RPGInventory] Placeholder API hooked!
+[25/05/62 18:49:24 INFO]: [RPGInventory] 6 pet(s) has been loaded
+[25/05/62 18:49:24 INFO]: [RPGInventory] 1 food(s) has been loaded
+[25/05/62 18:49:24 INFO]: [RPGInventory] Pet system is enabled
+[25/05/62 18:49:24 INFO]: [RPGInventory] Craft system is disabled in config
+[25/05/62 18:49:24 INFO]: [RPGInventory] Craft extensions isn't loaded
+[25/05/62 18:49:24 INFO]: [RPGInventory] Inventory lock system is enabled
+[25/05/62 18:49:25 INFO]: [RPGInventory] 4 item(s) has been loaded
+[25/05/62 18:49:25 INFO]: [RPGInventory] Item system is enabled
+[25/05/62 18:49:25 INFO]: [RPGInventory] 3 backpack type(s) has been loaded
+[25/05/62 18:49:25 INFO]: [RPGInventory] 0 backpack(s) has been loaded
+[25/05/62 18:49:25 INFO]: [RPGInventory] Backpack system is enabled
+[25/05/62 18:49:25 WARNING]: [RPGInventory] 
+[25/05/62 18:49:25 WARNING]: [RPGInventory] ######### Something wrong with RP settings! ##########
+[25/05/62 18:49:25 WARNING]: [RPGInventory] # Set 'resource-pack.url' in config or disable it!
+[25/05/62 18:49:25 WARNING]: [RPGInventory] ######################################################
+[25/05/62 18:49:25 WARNING]: [RPGInventory] 
+[25/05/62 18:49:25 SEVERE]: [RPGInventory] Resource-pack can not be enabled
+[25/05/62 18:50:41 INFO]: [RPGInventory] Disabling RPGInventory v2.3.0
+[25/05/62 18:50:41 INFO]: [RPGInventory] Saving players inventories...
+[25/05/62 18:50:41 INFO]: [RPGInventory] Enabling RPGInventory v2.3.0
+[25/05/62 18:50:42 WARNING]: [RPGInventory] Support of 1.13.2-R0.1-SNAPSHOT is experimental! Use RPGInventory with caution.
+[25/05/62 18:50:42 INFO]: [RPGInventory] Permissions hooked: UltraPermissions
+[25/05/62 18:50:42 INFO]: [RPGInventory] Economy hooked: iConomy 5.08
+[25/05/62 18:50:42 INFO]: [RPGInventory] Placeholder API hooked!
+[25/05/62 18:50:42 INFO]: [RPGInventory] 6 pet(s) has been loaded
+[25/05/62 18:50:42 INFO]: [RPGInventory] 1 food(s) has been loaded
+[25/05/62 18:50:42 INFO]: [RPGInventory] Pet system is enabled
+[25/05/62 18:50:42 INFO]: [RPGInventory] Craft system is disabled in config
+[25/05/62 18:50:42 INFO]: [RPGInventory] Craft extensions isn't loaded
+[25/05/62 18:50:42 INFO]: [RPGInventory] Inventory lock system is enabled
+[25/05/62 18:50:42 INFO]: [RPGInventory] 4 item(s) has been loaded
+[25/05/62 18:50:42 INFO]: [RPGInventory] Item system is enabled
+[25/05/62 18:50:42 INFO]: [RPGInventory] 3 backpack type(s) has been loaded
+[25/05/62 18:50:42 INFO]: [RPGInventory] 0 backpack(s) has been loaded
+[25/05/62 18:50:42 INFO]: [RPGInventory] Backpack system is enabled
+[25/05/62 18:50:42 WARNING]: [RPGInventory] 
+[25/05/62 18:50:42 WARNING]: [RPGInventory] ######### Something wrong with RP settings! ##########
+[25/05/62 18:50:42 WARNING]: [RPGInventory] # Set 'resource-pack.url' in config or disable it!
+[25/05/62 18:50:42 WARNING]: [RPGInventory] ######################################################
+[25/05/62 18:50:42 WARNING]: [RPGInventory] 
+[25/05/62 18:50:42 SEVERE]: [RPGInventory] Resource-pack can not be enabled
+[25/05/62 18:50:42 INFO]: [RPGInventory] Loading players inventories...
+[25/05/62 18:56:59 INFO]: [RPGInventory] Disabling RPGInventory v2.3.0

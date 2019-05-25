@@ -1,0 +1,33 @@
+﻿title:
+- '&f&l> &c&lCharachter&f&l <'
+text:
+- '&3Name &0: &e{PLAYER}'
+- '&6Cash &0: &f[&a%vault_eco_balance%&f]'
+- '&bClass &0: &3%skills_skill%'
+- '&4&lHP &0: &7%skills_health%8/&7%skills_maxhealth%'
+- '&bแต้มวิญญาน &b: &f%skills_soul%'
+- '&aLevel &0: &e%skills_level% &aEXP &0: &e%skills_xp%/&e%skills_maxxp%'
+- '&1ExpBoost &0: &9%skills_xpbonusduration%'
+- '&1SoulBoost &0: &9%skills_soulbonusduration%'
+- '&c&lDamage &0: &7%rpginv_damage_bonus% &8(Weapon)'
+- '           &0: &7%rpginv_bow_damage_bonus% &8(Bow)'
+- '           &0: &7%rpginv_hand_damage_bonus% &8(Hand)'
+- '&6&lCrit Damage &0: &7%rpginv_crit_damage_bonus%'
+- '&e&lCrit Chance &0: &7%rpginv_crit_chance%'
+- '&9&lArmor &0: &7%rpginv_armor_bonus%'
+updater:
+  title: 2
+  text: 5
+enabledWorlds:
+- MMO
+changeableText:
+  healthloc:
+    text:
+    - ''
+    interval: 60
+scroller:
+  info:
+    text: '&7Welcome &e{PLAYER} &7on this server! This server is running on &e&lQuickBoard'
+    width: 26
+    spaceBetween: 6
+    update: 1

@@ -50,18 +50,18 @@
 System:
     Default:
         Currency:
-            Major: [ 'Dollar', 'Dollars' ]                # Major ([Major].Minor) 1.00 Dollar (With Seperate 1 Dollar)
+            Major: [ 'Cash', 'Cash' ]                # Major ([Major].Minor) 1.00 Dollar (With Seperate 1 Dollar)
             Minor: [ 'Coin', 'Coins' ]                    # Minor (Major.[Minor]) 0.23 Coins  (With Seperate 0 Dollars, 23 Coins)
         Account:
-            Holdings: 30.0                            # Default holdings on hand upon join / creation.
+            Holdings: 0.0                            # Default holdings on hand upon join / creation.
         Bank:
             Name: iConomy                             # Default Bank Name
             Currency:
-                Major: [ 'Dollar', 'Dollars' ]
+                Major: [ 'Cash', 'Cash' ]
                 Minor: [ 'Coin', 'Coins' ]
             Account:
-                Fee: 20.0                             # Default cost to register an account
-                Holdings: 30.0                        # Default initial account holdings
+                Fee: 0.0                             # Default cost to register an account
+                Holdings: 0.0                        # Default initial account holdings
     Formatting:
         Minor: false                                  # Example (true) 0.23 Coins and 1.23 Dollars (false) 0.23 Dollars and 1.23 Dollars
         Seperate: false                               # Example (true) 1 Dollar, 23 Coins (false) 1.23 Dollars (Only if Minor is true)
@@ -85,12 +85,12 @@ System:
             Maximum: 1                                # (Range) Maximum amount for random in between. (Make Max/Min equal for a flat-rate amount ie: 5/5)
             Minimum: 2                                # (Range) Minimum amount for random in between.
     Database:
-        Type: 'H2SQL'                                 # H2 or MySQL
+        Type: 'MySQL'                                 # H2 or MySQL
         Settings:
-          Name: 'minecraft'
+          Name: 'mcserverdb'
           Table: 'iConomy'
           MySQL:
               Username: 'root'
-              Password: 'pass'
+              Password: ''
               Hostname: 'localhost'
               Port: 3306

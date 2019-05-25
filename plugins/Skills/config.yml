@@ -1,7 +1,7 @@
 lang: eng
 playerdata-save-interval-seconds: 300
 enabled-worlds:
-- Dungeon
+- MMO
 use-actionbar: true
 soul-lose-disabled-worlds:
 - Survival
@@ -108,11 +108,11 @@ commands-to-perform-upon-skill-change:
     console: *id848
 level-up-statpoint-reward-thresholds:
 - 0:1
-- '10:2'
-- '40:4'
-- '60:6'
-- '80:8'
-- '100:10'
+- '10:1'
+- '40:2'
+- '60:4'
+- '80:6'
+- '100:8'
 perform-commands-upon-level-up: false
 commands-to-perform-on-level-up:
   player:
@@ -299,14 +299,14 @@ base-costs:
     defile: 300*(lvl+1)
 stats:
   allow-reset: true
-  reset-soul-cost: 300
+  reset-soul-cost: 500
 party:
   souls-per-player-rounded-down: partysize/5+souls
   exp-per-player-rounded-down: partysize/2+exp
-  party-player-max-distance: 30
+  party-player-max-distance: 10
 mythicmobs:
-  deny-xp-if-target-lower-level-at: 11
-  deny-souls-if-target-lower-level-at: 11
-  deny-xp-if-target-higher-level-at: 99999
-  deny-souls-if-target-higher-level-at: 99999
+  deny-xp-if-target-lower-level-at: 10
+  deny-souls-if-target-lower-level-at: 5
+  deny-xp-if-target-higher-level-at: 15
+  deny-souls-if-target-higher-level-at: 15
   worlds-without-level-margin: []

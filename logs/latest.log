@@ -1,456 +1,720 @@
-[09:33:38] [main/INFO]: Loaded 0 recipes
-[09:33:38] [Server thread/INFO]: Starting minecraft server version 1.13.2
-[09:33:38] [Server thread/INFO]: Loading properties
-[09:33:38] [Server thread/INFO]: Default game type: ADVENTURE
-[09:33:39] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-1a3504a-dfa7583 (MC: 1.13.2) (Implementing API version 1.13.2-R0.1-SNAPSHOT)
-[09:33:39] [Server thread/INFO]: Debug logging is disabled
-[09:33:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[09:33:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[09:33:39] [Server thread/INFO]: Generating keypair
-[09:33:40] [Server thread/INFO]: Starting Minecraft server on 192.168.1.7:25565
-[09:33:40] [Server thread/INFO]: Using default channel type
-[09:33:52] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard placeholder %name% for plugin BannerBoard...[m
-[09:33:52] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard placeholder %BannerBoard:name% for plugin BannerBoard...[m
-[09:33:52] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard placeholder %uuid% for plugin BannerBoard...[m
-[09:33:52] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard placeholder %BannerBoard:uuid% for plugin BannerBoard...[m
-[09:33:52] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer COLOR for plugin BannerBoard...[m
-[09:33:52] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:COLOR for plugin BannerBoard...[m
-[09:33:52] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer IMAGE for plugin BannerBoard...[m
-[09:33:52] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:IMAGE for plugin BannerBoard...[m
-[09:33:52] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer TEXT for plugin BannerBoard...[m
-[09:33:52] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:TEXT for plugin BannerBoard...[m
-[09:33:52] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer SKIN for plugin BannerBoard...[m
-[09:33:52] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:SKIN for plugin BannerBoard...[m
-[09:33:52] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer LIVEIMG for plugin BannerBoard...[m
-[09:33:52] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:LIVEIMG for plugin BannerBoard...[m
-[09:33:52] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer URLIMG for plugin BannerBoard...[m
-[09:33:52] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:URLIMG for plugin BannerBoard...[m
-[09:33:52] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer INTERACT for plugin BannerBoard...[m
-[09:33:52] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:INTERACT for plugin BannerBoard...[m
-[09:33:56] [Server thread/WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-[09:33:56] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
-[09:33:56] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-[09:33:57] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.0.0-beta-05;6bbf29b
-[09:33:57] [Server thread/INFO]: [OpenInv] Loading OpenInv v3.3.7
-[09:33:57] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.1
-[09:33:57] [Server thread/INFO]: [UltraCustomizer] Loading UltraCustomizer v1.1.8
-[09:33:57] [Server thread/INFO]: [BannerBoard] Loading BannerBoard v1.10.2
-[09:33:57] [Server thread/INFO]: [NewItems] Loading NewItems v4.3.25
-[09:33:57] [Server thread/INFO]: [ActionBarAPI] Loading ActionBarAPI v1.5.4
-[09:33:57] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.4.0
-[09:33:57] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.13.2) has not yet been tested! Proceed with caution.
-[09:33:58] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.0-beta-03;e51a220
-[09:33:58] [Server thread/INFO]: [WolfyUtilities] Loading WolfyUtilities v1.0.0.0
-[09:33:58] [Server thread/INFO]: [elyby-skinsystem] Loading elyby-skinsystem v0.2.0-beta
-[09:33:58] [Server thread/INFO]: [ShowItem] Loading ShowItem v1.4.12 (build #297)
-[09:33:58] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
-[09:33:58] [Server thread/INFO]: [UltraPermissions] Loading UltraPermissions v4.1.7
-[09:33:58] [Server thread/INFO]: [Essentials] Loading Essentials v2.16.1.153
-[09:33:58] [Server thread/INFO]: [QuickBoard] Loading QuickBoard v4.2.1
-[09:33:58] [Server thread/INFO]: [Skills] Loading Skills v12.3.5
-[09:33:58] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.3.2
-[09:33:58] [Server thread/INFO]: [SafeTrade] Loading SafeTrade v1.1.0
-[09:33:58] [Server thread/INFO]: [MythicMobs] Loading MythicMobs v4.5.9-2586
-[09:33:58] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.16.1.153
-[09:33:58] [Server thread/INFO]: [RPGInventory] Loading RPGInventory v2.3.0
-[09:33:58] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.16.1.153
-[09:33:58] [Server thread/INFO]: [ItemCases] Loading ItemCases v2.6.1
-[09:33:58] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.16.1.153
-[09:33:58] [Server thread/INFO]: [iConomy] Loading iConomy v5.08
-[09:33:58] [Server thread/INFO]: [EpicCraftingsPlus] Loading EpicCraftingsPlus v5.2.1
-[09:33:58] [Server thread/INFO]: [TAB] Loading TAB v2.4.3
-[09:33:58] [Server thread/INFO]: [QuantumRPG] Loading QuantumRPG v4.0.7.98-BETA
-[09:33:58] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.16.1.153
-[09:33:58] [Server thread/INFO]: [WorldGuardExtraFlags] Loading WorldGuardExtraFlags v4.1.2
-[09:33:59] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.4.0
-[09:33:59] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
-[09:33:59] [Server thread/INFO]: [elyby-skinsystem] Enabling elyby-skinsystem v0.2.0-beta
-[09:33:59] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
-[09:33:59] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[09:33:59] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[09:33:59] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
-[09:33:59] [Server thread/INFO]: [iConomy] Enabling iConomy v5.08
-[09:33:59] [Server thread/INFO]: [iConomy] Default setup file written: Config.yml
-[09:33:59] [Server thread/INFO]: [iConomy] Default setup file written: Template.yml
-[09:33:59] [Server thread/INFO]: [iConomy] Downloading Dependencies
-[09:33:59] [Server thread/INFO]:    + h2.jar downloading...
-[09:34:06] [Server thread/INFO]:    - h2.jar finished.
-[09:34:06] [Server thread/INFO]: [iConomy] Registered Vault interface.
-[09:34:09] [Server thread/INFO]: [iConomy] Logging is currently disabled.
-[09:34:09] [Server thread/INFO]: [iConomy] v5.08 (Towny Edition) loaded.
-[09:34:09] [Server thread/INFO]: [iConomy] Developed by: [Nijikokun, ElgarL, LlmDl, graywolf336]
-[09:34:09] [Server thread/INFO]: Preparing level "MMO"
-[09:34:09] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[09:34:12] [Server thread/INFO]: Loaded 524 recipes
-[09:34:14] [Server thread/INFO]: -------- World Settings For [MMO] --------
-[09:34:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[09:34:14] [Server thread/INFO]: Item Despawn Rate: 6000
-[09:34:14] [Server thread/INFO]: Item Merge Radius: 2.5
-[09:34:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[09:34:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[09:34:14] [Server thread/INFO]: View Distance: 10
-[09:34:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[09:34:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[09:34:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[09:34:14] [Server thread/INFO]: Cane Growth Modifier: 100%
-[09:34:14] [Server thread/INFO]: Melon Growth Modifier: 100%
-[09:34:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[09:34:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[09:34:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[09:34:14] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[09:34:14] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[09:34:14] [Server thread/INFO]: Potato Growth Modifier: 100%
-[09:34:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[09:34:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[09:34:14] [Server thread/INFO]: Vine Growth Modifier: 100%
-[09:34:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[09:34:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[09:34:14] [Server thread/INFO]: Random Lighting Updates: false
-[09:34:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[09:34:14] [Server thread/INFO]: Experience Merge Radius: 3.0
-[09:34:14] [Server thread/INFO]: Mob Spawn Range: 6
-[09:34:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[09:34:14] [Server thread/INFO]: Max TNT Explosions: 100
-[09:34:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[09:34:14] [Server thread/INFO]: Preparing start region for level minecraft:overworld (Seed: -8251772380355017014)
-[09:34:15] [Server thread/INFO]: Preparing spawn area: 4%
-[09:34:15] [Server thread/INFO]: Preparing spawn area: 8%
-[09:34:15] [Server thread/INFO]: Preparing spawn area: 12%
-[09:34:15] [Server thread/INFO]: Preparing spawn area: 16%
-[09:34:15] [Server thread/INFO]: Preparing spawn area: 20%
-[09:34:15] [Server thread/INFO]: Preparing spawn area: 24%
-[09:34:16] [Server thread/INFO]: Preparing spawn area: 28%
-[09:34:16] [Server thread/INFO]: Preparing spawn area: 32%
-[09:34:16] [Server thread/INFO]: Preparing spawn area: 36%
-[09:34:16] [Server thread/INFO]: Preparing spawn area: 40%
-[09:34:16] [Server thread/INFO]: Preparing spawn area: 44%
-[09:34:16] [Server thread/INFO]: Preparing spawn area: 48%
-[09:34:16] [Server thread/INFO]: Preparing spawn area: 52%
-[09:34:16] [Server thread/INFO]: Preparing spawn area: 56%
-[09:34:16] [Server thread/INFO]: Preparing spawn area: 60%
-[09:34:16] [Server thread/INFO]: Preparing spawn area: 64%
-[09:34:16] [Server thread/INFO]: Preparing spawn area: 68%
-[09:34:16] [Server thread/INFO]: Preparing spawn area: 72%
-[09:34:16] [Server thread/INFO]: Preparing spawn area: 76%
-[09:34:16] [Server thread/INFO]: Preparing spawn area: 80%
-[09:34:16] [Server thread/INFO]: Preparing spawn area: 84%
-[09:34:17] [Server thread/INFO]: Preparing spawn area: 88%
-[09:34:17] [Server thread/INFO]: Preparing spawn area: 92%
-[09:34:17] [Server thread/INFO]: Preparing spawn area: 96%
-[09:34:17] [Server thread/INFO]: Preparing spawn area: 100%
-[09:34:17] [Server thread/INFO]: Time elapsed: 2481 ms
-[09:34:17] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.0.0-beta-05;6bbf29b
-[09:34:17] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_13_R2_2 as the Bukkit adapter
-[09:34:18] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
-[09:34:18] [Server thread/INFO]: WEPIF: Updated config file
-[09:34:18] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[09:34:18] [Server thread/INFO]: [OpenInv] Enabling OpenInv v3.3.7
-[09:34:18] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.1
-[09:34:18] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[09:34:19] [Server thread/INFO]: [UltraCustomizer] Enabling UltraCustomizer v1.1.8
-[09:34:21] [Server thread/INFO]: [0;36;1m[[0;37;22mUltraCustomizer[0;36;1m] [mLoading Plugin...[m
-[09:34:22] [Server thread/INFO]: [0;36;1m[[0;37;22mUltraCustomizer[0;36;1m] [mRegistered 45 Elements[m
-[09:34:22] [Server thread/INFO]: [0;36;1m[[0;37;22mUltraCustomizer[0;36;1m] [mSuccessfully loaded in 1182 ms[m
-[09:34:22] [Server thread/INFO]: [BannerBoard] Enabling BannerBoard v1.10.2
-[09:34:22] [Server thread/INFO]: [NewItems] Enabling NewItems v4.3.25
-[09:34:22] [Server thread/INFO]: [NewItems] Cracked by d3v1l | https://blackspigot.com     
-[09:34:30] [Server thread/INFO]: [0;36;1m------ NewItems ------[m
-[09:34:30] [Server thread/INFO]: [0;36;1m    _   _             _____ _                     [m
-[09:34:30] [Server thread/INFO]: [0;36;1m   | \ | |           |_   _| |                    [m
-[09:34:30] [Server thread/INFO]: [0;36;1m   |  \| | _____      _| | | |_ ___ _ __ ___  ___ [m
-[09:34:30] [Server thread/INFO]: [0;36;1m   | . ` |/ _ \ \ /\ / | | | __/ _ | '_ ` _ \/ __|[m
-[09:34:30] [Server thread/INFO]: [0;36;1m   | |\  |  __/\ V  V _| |_| ||  __| | | | | \__ \[m
-[09:34:30] [Server thread/INFO]: [0;36;1m   |_| \_|\___| \_/\_|_____|\__\___|_| |_| |_|___/[m
-[09:34:30] [Server thread/INFO]: [0;36;1m [m
-[09:34:30] [Server thread/INFO]: [0;33;22mVersion: [0;36;1m4.3.25 Stable[m
-[09:34:30] [Server thread/INFO]: [0;33;22mServer version: [0;36;1mv1_13_R2[m
-[09:34:30] [Server thread/INFO]: [m
-[09:34:30] [Server thread/INFO]: [NewItems] [0;31;1mGriefPrevention not detected![0;36;1m(optional dependency)[m
-[09:34:30] [Server thread/INFO]: [NewItems] [0;32;1mDetected Vault![m
-[09:34:30] [Server thread/INFO]: [NewItems] [0;31;1mTowny not detected![0;36;1m(optional dependency)[m
-[09:34:30] [Server thread/INFO]: [0;31;1m----------------------[m
-[09:34:30] [Server thread/INFO]: [ActionBarAPI] Enabling ActionBarAPI v1.5.4
-[09:34:30] [Server thread/INFO]: [0;36;1mActionBarAPI V1.5.4 has been enabled![m
-[09:34:30] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.0-beta-03;e51a220
-[09:34:31] [Server thread/INFO]: [WorldGuard] Default configuration file written: C:\Users\iMagi\Desktop\MyNewPJMCserver\MCServerProject\plugins\WorldGuard\config.yml
-[09:34:31] [Server thread/INFO]: [WorldGuard] Default configuration file written: C:\Users\iMagi\Desktop\MyNewPJMCserver\MCServerProject\plugins\WorldGuard\worlds\MMO\config.yml
-[09:34:31] [Server thread/INFO]: [WorldGuard] Default configuration file written: C:\Users\iMagi\Desktop\MyNewPJMCserver\MCServerProject\plugins\WorldGuard\worlds\MMO\blacklist.txt
-[09:34:31] [Server thread/INFO]: [WorldGuard] (MMO) TNT ignition is PERMITTED.
-[09:34:31] [Server thread/INFO]: [WorldGuard] (MMO) Lighters are PERMITTED.
-[09:34:31] [Server thread/INFO]: [WorldGuard] (MMO) Lava fire is blocked.
-[09:34:31] [Server thread/INFO]: [WorldGuard] (MMO) Fire spread is UNRESTRICTED.
-[09:34:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'MMO'
-[09:34:31] [Server thread/INFO]: [WorldGuard] Unloading and saving region data that is currently loaded...
-[09:34:31] [Server thread/INFO]: [WorldGuard] Loading region data for loaded worlds...
-[09:34:31] [Server thread/INFO]: [WorldGuard] Regions saved after UUID migration! This won't happen again unless you change the relevant configuration option in WorldGuard's config.
-[09:34:31] [Server thread/INFO]: [WorldGuard] Loading region data...
-[09:34:32] [Server thread/INFO]: [WolfyUtilities] Enabling WolfyUtilities v1.0.0.0
-[09:34:32] [Server thread/INFO]: [ShowItem] Enabling ShowItem v1.4.12 (build #297)
-[09:34:32] [Server thread/INFO]: [ShowItem] Loading Config...
-[09:34:32] [Server thread/INFO]: [ShowItem] Update notifications are enabled!
-[09:34:32] [Server thread/INFO]: [ShowItem] Loading item blocker...
-[09:34:32] [Server thread/INFO]: [ShowItem] Loading TranslationMapping...
-[09:34:32] [Server thread/INFO]: [ShowItem] Found API-Version 1.13, using new Material IDs...
-[09:34:32] [Server thread/INFO]: [ShowItem] TranslationMapping loaded.
-[09:34:32] [Server thread/INFO]: [ShowItem] Loading Text Icon Resourcepack mapping...
-[09:34:32] [Server thread/INFO]: [ShowItem] Found API-Version 1.13, using new Material IDs...
-[09:34:32] [Server thread/INFO]: [ShowItem] Text Icon Resourcepack mapping loaded.
-[09:34:33] [Server thread/INFO]: [ShowItem] Detected Spigot server. Using Bungee chat api for fancy messages!
-[09:34:33] [Server thread/INFO]: [ShowItem] Using LibChatManager
-[09:34:33] [Server thread/INFO]: [ShowItem] Listening on chat packets with the HIGHEST priority!
-[09:34:33] [Server thread/INFO]: [UltraPermissions] Enabling UltraPermissions v4.1.7
-[09:34:33] [Server thread/INFO]: [0;36;1m[[0;37;22mUltraPermissions[0;36;1m] [mLoading Plugin...[m
-[09:34:34] [Server thread/INFO]: [0;36;1m[[0;37;22mUltraPermissions[0;36;1m] [m[Hook] Hello Vault ?_? Let me hook into you...[m
-[09:34:34] [Server thread/INFO]: [0;36;1m[[0;37;22mUltraPermissions[0;36;1m] [m[Hook] Hello PlaceholderAPI ?_? Let me hook into you...[m
-[09:34:34] [Server thread/INFO]: [0;36;1m[[0;37;22mUltraPermissions[0;36;1m] [mSuccessfully loaded in 1003 ms[m
-[09:34:34] [Server thread/INFO]: [Essentials] Enabling Essentials v2.16.1.153
-[09:34:34] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[09:34:34] [Server thread/INFO]: No kits found to migrate.
-[09:34:34] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[09:34:34] [Server thread/INFO]: [Essentials] Starting usermap repair
-[09:34:34] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
-[09:34:34] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[09:34:34] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
-[09:34:35] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[09:34:35] [Server thread/INFO]: Loaded 19702 items from items.json.
-[09:34:35] [Server thread/INFO]: Using locale en_US
-[09:34:35] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[09:34:35] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[09:34:35] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
-[09:34:35] [Server thread/INFO]: [Essentials] Using Vault based permissions (generic)
-[09:34:35] [Server thread/INFO]: [Essentials] Payment method found (Vault - Economy: iConomy 5.08 version: 1.7.2-b107)
-[09:34:35] [Server thread/INFO]: [QuickBoard] Enabling QuickBoard v4.2.1
-[09:34:35] [Server thread/INFO]: [QuickBoard] ------------------------------
-[09:34:35] [Server thread/INFO]: [QuickBoard]           QuickBoard          
-[09:34:35] [Server thread/INFO]: [QuickBoard] Listeners registered
-[09:34:35] [Server thread/INFO]: [QuickBoard] Loading scoreboards
-[09:34:35] [Server thread/INFO]: [QuickBoard] Loaded 'scoreboard.default.yml' with permission 'scoreboard.default'
-[09:34:35] [Server thread/INFO]: [QuickBoard] Scoreboards loaded
-[09:34:35] [Server thread/INFO]: [QuickBoard] Config registered
-[09:34:35] [Server thread/INFO]: [QuickBoard] Update Tasks started
-[09:34:35] [Server thread/INFO]: [QuickBoard] Command 'quickboard' enabled
-[09:34:35] [Server thread/INFO]: [QuickBoard]           QuickBoard          
-[09:34:35] [Server thread/INFO]: [QuickBoard] ------------------------------
-[09:34:35] [Server thread/INFO]: [Skills] Enabling Skills v12.3.5
-[09:34:38] [Server thread/INFO]: [Skills]: Loaded 0 language statements
-[09:34:38] [Server thread/INFO]: [Skills] ActionBarAPI found and hooked.
-[09:34:38] [Server thread/INFO]: [Skills] Citizens not found.
-[09:34:38] [Server thread/INFO]: [Skills] Factions not found.
-[09:34:38] [Server thread/INFO]: [Skills] Kingdoms not found.
-[09:34:38] [Server thread/INFO]: [Skills] Residence not found.
-[09:34:38] [Server thread/INFO]: [Skills] PlaceholderAPI found and hooked.
-[09:34:38] [Server thread/INFO]: [Skills] MVdWPlaceholderAPI not found.
-[09:34:38] [Server thread/INFO]: [Skills] ParticleLIBManager not found.
-[09:34:38] [Server thread/INFO]: [Skills] Spartan not found.
-[09:34:38] [Server thread/INFO]: [Skills] MythicMobs found and hooked.
-[09:34:38] [Server thread/INFO]: [Skills] MyPet not found.
-[09:34:38] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.3.2
-[09:34:39] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
-[09:34:39] [Server thread/INFO]: [SafeTrade] Enabling SafeTrade v1.1.0
-[09:34:39] [Server thread/INFO]: [SafeTrade] Using iConomy 5.08
-[09:34:39] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v4.5.9-2586
-[09:34:39] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Bukkit v1_13_R2 (Minecraft 1.13)...
-[09:34:39] [Server thread/INFO]: [MythicMobs] MythicMobs Vault Support has been enabled!
-[09:34:39] [Server thread/INFO]: [MythicMobs] MythicMobs WorldGuard Support has been enabled!
-[09:34:40] [Server thread/INFO]: [LumineUtils] (io.lumine.utils.) is bound to plugin MythicMobs - io.lumine.xikage.mythicmobs.MythicMobs
-[09:34:40] [Server thread/INFO]: [MythicMobs] File config.yml not found! Creating a new one...
-[09:34:40] [Server thread/INFO]: [MythicMobs] File ExampleItems.yml not found! Creating a new one...
-[09:34:40] [Server thread/INFO]: [MythicMobs] File ExampleSkills.yml not found! Creating a new one...
-[09:34:40] [Server thread/INFO]: [MythicMobs] File VanillaMobs.yml not found! Creating a new one...
-[09:34:40] [Server thread/INFO]: [MythicMobs] File ExampleMobs.yml not found! Creating a new one...
-[09:34:40] [Server thread/INFO]: [MythicMobs] File CachedMobs.yml not found! Creating a new one...
-[09:34:40] [Server thread/INFO]: [MythicMobs] File ExampleDropTables.yml not found! Creating a new one...
-[09:34:40] [Server thread/INFO]: [MythicMobs] File ExampleRandomSpawns.yml not found! Creating a new one...
-[09:34:40] [Server thread/INFO]: [MythicMobs] Spawners folder not found! Creating...
-[09:34:40] [Server thread/INFO]: [MythicMobs] Loaded 5 mobs.
-[09:34:40] [Server thread/INFO]: [MythicMobs] Loaded 3 vanilla mob overrides.
-[09:34:40] [Server thread/INFO]: [MythicMobs] Loaded 0 mob stacks.
-[09:34:40] [Server thread/INFO]: [MythicMobs] Loaded 3 skills.
-[09:34:40] [Server thread/INFO]: [MythicMobs] Loaded 2 random spawns.
-[09:34:40] [Server thread/INFO]: [MythicMobs] Loaded 3 mythic items.
-[09:34:40] [Server thread/INFO]: [MythicMobs] Loaded 2 drop tables.
-[09:34:40] [Server thread/INFO]: [MythicMobs] Loaded 0 mob spawners.
-[09:34:40] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
-[09:34:41] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
-[09:34:41] [Server thread/INFO]: [MythicMobs] [32m? MythicMobs v4.5.9 (build 2586) has been successfully loaded![0m
-[09:34:41] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.16.1.153
-[09:34:41] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
-[09:34:41] [Server thread/INFO]: [RPGInventory] Enabling RPGInventory v2.3.0
-[09:34:41] [Server thread/WARN]: [RPGInventory] Support of 1.13.2-R0.1-SNAPSHOT is experimental! Use RPGInventory with caution.
-[09:34:41] [Server thread/INFO]: [RPGInventory] Permissions hooked: UltraPermissions
-[09:34:41] [Server thread/INFO]: [RPGInventory] Economy hooked: iConomy 5.08
-[09:34:41] [Server thread/INFO]: [RPGInventory] Placeholder API hooked!
-[09:34:41] [Server thread/INFO]: [RPGInventory] 6 pet(s) has been loaded
-[09:34:41] [Server thread/INFO]: [RPGInventory] 1 food(s) has been loaded
-[09:34:41] [Server thread/INFO]: [RPGInventory] Pet system is enabled
-[09:34:41] [Server thread/INFO]: [RPGInventory] Craft system is disabled in config
-[09:34:41] [Server thread/INFO]: [RPGInventory] Craft extensions isn't loaded
-[09:34:41] [Server thread/INFO]: [RPGInventory] Inventory lock system is disabled in config
-[09:34:41] [Server thread/INFO]: [RPGInventory] Inventory lock system isn't loaded
-[09:34:42] [Server thread/INFO]: [RPGInventory] 4 item(s) has been loaded
-[09:34:42] [Server thread/INFO]: [RPGInventory] Item system is enabled
-[09:34:42] [Server thread/INFO]: [RPGInventory] 3 backpack type(s) has been loaded
-[09:34:42] [Server thread/INFO]: [RPGInventory] 0 backpack(s) has been loaded
-[09:34:42] [Server thread/INFO]: [RPGInventory] Backpack system is enabled
-[09:34:42] [Server thread/INFO]: [RPGInventory] Resource-pack is disabled in config
-[09:34:42] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.16.1.153
-[09:34:42] [Server thread/INFO]: [ItemCases] Enabling ItemCases v2.6.1
-[09:34:42] [Server thread/INFO]: [ItemCases] HolographicDisplays was found
-[09:34:42] [Server thread/INFO]: [ItemCases] Loaded 0 cases
-[09:34:42] [Server thread/INFO]: [ItemCases] Generating Item Names file
-[09:34:42] [Server thread/INFO]: [ItemCases] Loading extra data names
-[09:34:42] [Server thread/INFO]: Cracked by Devil.[m
-[09:34:42] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.16.1.153
-[09:34:42] [Server thread/INFO]: [EpicCraftingsPlus] Enabling EpicCraftingsPlus v5.2.1
-[09:34:42] [Server thread/INFO]: [0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;32;22m[[0;32;1mEpicCraftingsPlus[0;32;22m][0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m[m
-[09:34:42] [Server thread/INFO]: [0;33;1mHas been enabled! [0;37;1mVersion: 5.2.1[m
-[09:34:42] [Server thread/INFO]: [0;33;1mOptional Dependencies:[m
-[09:34:42] [Server thread/INFO]: [0;36;1m[JOBS] [0;31;1mNot Found![m
-[09:34:42] [Server thread/INFO]: [0;36;1m[VAULT] [0;32;1mFound![m
-[09:34:42] [Server thread/INFO]: [0;36;1m[BATTLELEVELS] [0;31;1mNot Found![m
-[09:34:42] [Server thread/INFO]: [0;36;1m[SKILLAPI] [0;31;1mNot Found![m
-[09:34:42] [Server thread/INFO]: [0;36;1m[TOKENENCHANT] [0;31;1mNot Found![m
-[09:34:42] [Server thread/INFO]: [0;36;1m[PLACEHOLDERAPI] [0;32;1mFound![m
-[09:34:42] [Server thread/INFO]: [m
-[09:34:42] [Server thread/INFO]: [0;33;1mThanks for using my plugin!  [0;37;1m~Ajneb97[m
-[09:34:43] [Server thread/INFO]: [0;31;1mThere is a new version available. [0;33;1m([0;37;22m5.2.2[0;33;1m)[m
-[09:34:43] [Server thread/INFO]: [0;31;1mYou can download it at: [0;37;1mhttps://www.spigotmc.org/resources/39967/[m
-[09:34:43] [Server thread/INFO]: [0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m-[0;36;1m-[0;32;22m[m
-[09:34:43] [Server thread/INFO]: [TAB] Enabling TAB v2.4.3
-[09:34:43] [Server thread/INFO]: [TAB] Enabled in 618ms
-[09:34:43] [Server thread/INFO]: [QuantumRPG] Enabling QuantumRPG v4.0.7.98-BETA
-[09:34:43] [Server thread/INFO]: [0;32;22m---------[ [0;32;1mPlugin Initializing [0;32;22m]---------[m
-[09:34:43] [Server thread/INFO]: [0;37;22m> [0;37;1mPlugin name: [0;32;1mQuantumRPG[m
-[09:34:43] [Server thread/INFO]: [0;37;22m> [0;37;1mAuthor: [0;32;1mNightExpress[m
-[09:34:43] [Server thread/INFO]: [0;37;22m> [0;37;1mVersion: [0;32;1m4.0.7.98-BETA[m
-[09:34:43] [Server thread/INFO]: [0;37;22m> [0;37;1mServer version: [0;32;1mv1_13_R2 / OK![m
-[09:34:44] [Server thread/INFO]: [ReflectionHelper] Version is v1_13_R2 (11302)
-[09:34:44] [Server thread/INFO]: Injected custom channel handlers.
-[09:34:44] [Server thread/INFO]: Adding channels for online players...
-[09:34:44] [Server thread/INFO]: [0;36;22m---------[ [0;36;1mHooks Initializing [0;36;22m]---------[m
-[09:34:44] [Server thread/INFO]: [0;37;22m> [0;37;1mCitizens: [0;31;1mNot found / Error.[m
-[09:34:44] [Server thread/INFO]: [0;37;22m> [0;37;1mBattleLevels: [0;31;1mNot found / Error.[m
-[09:34:44] [Server thread/INFO]: [0;37;22m> [0;37;1mHeroes: [0;31;1mNot found / Error.[m
-[09:34:44] [Server thread/INFO]: [0;37;22m> [0;37;1mHolographicDisplays: [0;32;1mSuccess![m
-[09:34:44] [Server thread/INFO]: [0;37;22m> [0;37;1mmcMMO: [0;31;1mNot found / Error.[m
-[09:34:44] [Server thread/INFO]: [0;37;22m> [0;37;1mMythicMobs: [0;32;1mSuccess![m
-[09:34:44] [Server thread/INFO]: [0;37;22m> [0;37;1mPlaceholderAPI: [0;32;1mSuccess![m
-[09:34:44] [Server thread/INFO]: [0;37;22m> [0;37;1mPvPLevels: [0;31;1mNot found / Error.[m
-[09:34:44] [Server thread/INFO]: [0;37;22m> [0;37;1mPlayerLevels: [0;31;1mNot found / Error.[m
-[09:34:44] [Server thread/INFO]: [0;37;22m> [0;37;1mRacesOfThana: [0;31;1mNot found / Error.[m
-[09:34:44] [Server thread/INFO]: [0;37;22m> [0;37;1mRPGInventory: [0;32;1mSuccess![m
-[09:34:44] [Server thread/INFO]: [0;37;22m> [0;37;1mSkillAPI: [0;31;1mNot found / Error.[m
-[09:34:44] [Server thread/INFO]: [0;37;22m> [0;37;1mSkills: [0;32;1mSuccess![m
-[09:34:44] [Server thread/INFO]: [0;37;22m> [0;37;1mVault: [0;32;1mSuccess![m
-[09:34:44] [Server thread/INFO]: [0;37;22m> [0;37;1mWorldGuard: [0;32;1mSuccess![m
-[09:34:44] [Server thread/INFO]: [0;37;22m> [0;37;1mResidence: [0;31;1mNot found / Error.[m
-[09:34:47] [Server thread/INFO]: [0;32;22m[QRPG/INFO] Drops: [0;37;22mLoaded [0;37;1m1[0;37;22m drop tables![m
-[09:34:47] [Server thread/INFO]: [0;33;22m---------[ [0;33;1mModules Initializing [0;33;22m]---------[m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mGems[0;37;22m v1.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mEssences[0;37;22m v1.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mRunes[0;37;22m v1.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mConsumables[0;37;22m v1.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mMagic Dust[0;37;22m v1.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mArrows[0;37;22m v1.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mSets[0;37;22m v1.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mActive Items[0;37;22m v1.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mCustom Items[0;37;22m v1.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mTiers[0;37;22m v1.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mRefine[0;37;22m v1.0.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mIdentify[0;37;22m v1.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mSoulbound[0;37;22m v1.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mRepair[0;37;22m v1.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mResolve[0;37;22m v1.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mExtractor[0;37;22m v1.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mParty[0;37;22m v1.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mItem Hints[0;37;22m v1.0.1: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mDrops[0;37;22m v1.1.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mSell[0;37;22m v1.0.2: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mBuffs[0;37;22m v1.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mCombat Log[0;37;22m v1.0.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [0;37;22m> [0;37;1mNotifications[0;37;22m v1.0: [0;32;1mActive![m
-[09:34:47] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.16.1.153
-[09:34:47] [Server thread/INFO]: [WorldGuardExtraFlags] Enabling WorldGuardExtraFlags v4.1.2
-[09:34:47] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnEntryFlagHandler
-[09:34:47] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnExitFlagHandler
-[09:34:47] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnEntryFlagHandler
-[09:34:47] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnExitFlagHandler
-[09:34:47] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnEntryFlagHandler
-[09:34:47] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnExitFlagHandler
-[09:34:47] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.WalkSpeedFlagHandler
-[09:34:47] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.BlockedEffectsFlagHandler
-[09:34:47] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GodmodeFlagHandler
-[09:34:47] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GiveEffectsFlagHandler
-[09:34:47] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.FlyFlagHandler
-[09:34:47] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.PlaySoundsFlagHandler
-[09:34:47] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GlideFlagHandler
-[09:34:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[09:34:48] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[09:34:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: essentials
-[09:34:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
-[09:34:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
-[09:34:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic
-[09:34:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
-[09:34:48] [Server thread/INFO]: Done (39.265s)! For help, type "help"
-[09:34:49] [Server thread/INFO]: [INFO] [BannerBoard] Loading images...[m
-[09:34:49] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded 0 image(s).[m
-[09:34:49] [Server thread/INFO]: [INFO] [BannerBoard] Loading color cache table color_palette_v1_12_R1.bc...
-[09:34:49] [Server thread/INFO]: [INFO] [BannerBoard] Connecting to skinrender.com with key ***********EY_HERE...[m
-[09:34:52] [Craft Scheduler Thread - 0/INFO]: [PlaceholderAPI] 145 placeholder expansions are available on the cloud.
-[09:34:52] [Craft Scheduler Thread - 14/INFO]: [Vault] Checking for Updates ... 
-[09:34:52] [Craft Scheduler Thread - 45/INFO]: [0;36;1m[[0;37;22mUltraPermissions[0;36;1m] [mLoading Permission Database...[m
-[09:34:52] [Craft Scheduler Thread - 46/INFO]: Trying to get new version of QuickBoard...
-[09:34:52] [Craft Scheduler Thread - 45/INFO]: [0;36;1m[[0;37;22mUltraPermissions[0;36;1m] [m- 113 Permissions extracted from .jars[m
-[09:34:52] [Craft Scheduler Thread - 0/INFO]: [PlaceholderAPI] 2 installed expansions have updates available.
-[09:34:52] [Server thread/INFO]: [ActionBarAPI] No update was found, you are running the latest version.
-[09:34:52] [Craft Scheduler Thread - 46/INFO]: Current QuickBoard version: 4.2.1
-[09:34:52] [Craft Scheduler Thread - 46/INFO]: Web QuickBoard version: 4.2.1
-[09:34:52] [Craft Scheduler Thread - 45/INFO]: [0;36;1m[[0;37;22mUltraPermissions[0;36;1m] [m- 4287 Permissions downloaded from the Cloud[m
-[09:34:53] [Craft Scheduler Thread - 14/INFO]: [Vault] No new version available
-[09:35:15] [Server thread/INFO]: Stopping the server
-[09:35:15] [Server thread/INFO]: Stopping server
-[09:35:15] [Server thread/INFO]: [WorldGuardExtraFlags] Disabling WorldGuardExtraFlags v4.1.2
-[09:35:15] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.16.1.153
-[09:35:15] [Server thread/INFO]: [QuantumRPG] Disabling QuantumRPG v4.0.7.98-BETA
-[09:35:15] [Server thread/INFO]: [TAB] Disabling TAB v2.4.3
-[09:35:15] [Server thread/INFO]: [TAB] Disabled in 2ms
-[09:35:15] [Server thread/INFO]: [EpicCraftingsPlus] Disabling EpicCraftingsPlus v5.2.1
-[09:35:15] [Server thread/INFO]: [0;32;22m[[0;32;1mEpicCraftingsPlus[0;32;22m][0;33;1m Has been disabled! [0;37;1mVersion: 5.2.1[m
-[09:35:15] [Server thread/INFO]: [iConomy] Disabling iConomy v5.08
-[09:35:16] [Server thread/INFO]: [iConomy] Plugin disabled.
-[09:35:16] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.16.1.153
-[09:35:16] [Server thread/INFO]: [ItemCases] Disabling ItemCases v2.6.1
-[09:35:16] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.16.1.153
-[09:35:16] [Server thread/INFO]: [RPGInventory] Disabling RPGInventory v2.3.0
-[09:35:16] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.16.1.153
-[09:35:16] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v4.5.9-2586
-[09:35:16] [Server thread/INFO]: [MythicMobs] Disabling Mythic Mobs...
-[09:35:16] [Server thread/INFO]: [MythicMobs] All active settings have been saved.
-[09:35:16] [Server thread/INFO]: [MythicMobs] v4.5.9-2586 has been Disabled!
-[09:35:16] [Server thread/INFO]: [SafeTrade] Disabling SafeTrade v1.1.0
-[09:35:16] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.3.2
-[09:35:16] [Server thread/INFO]: [Skills] Disabling Skills v12.3.5
-[09:35:16] [Server thread/INFO]: [QuickBoard] Disabling QuickBoard v4.2.1
-[09:35:16] [Server thread/INFO]: [Essentials] Disabling Essentials v2.16.1.153
-[09:35:16] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: essentials
-[09:35:16] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
-[09:35:16] [Server thread/INFO]: [UltraPermissions] Disabling UltraPermissions v4.1.7
-[09:35:16] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
-[09:35:16] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[09:35:16] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: vault
-[09:35:16] [Server thread/INFO]: [ShowItem] Disabling ShowItem v1.4.12 (build #297)
-[09:35:16] [Server thread/INFO]: [elyby-skinsystem] Disabling elyby-skinsystem v0.2.0-beta
-[09:35:16] [Server thread/INFO]: [WolfyUtilities] Disabling WolfyUtilities v1.0.0.0
-[09:35:16] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.0-beta-03;e51a220
-[09:35:16] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
-[09:35:16] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.4.0
-[09:35:16] [Server thread/INFO]: [ActionBarAPI] Disabling ActionBarAPI v1.5.4
-[09:35:16] [Server thread/INFO]: [NewItems] Disabling NewItems v4.3.25
-[09:35:16] [Server thread/INFO]: [BannerBoard] Disabling BannerBoard v1.10.2
-[09:35:17] [Server thread/INFO]: [UltraCustomizer] Disabling UltraCustomizer v1.1.8
-[09:35:17] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.10.1
-[09:35:17] [Server thread/INFO]: [OpenInv] Disabling OpenInv v3.3.7
-[09:35:17] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.0.0-beta-05;6bbf29b
-[09:35:17] [Server thread/INFO]: Saving players
-[09:35:17] [Server thread/INFO]: Saving worlds
-[09:35:17] [Server thread/INFO]: Saving chunks for level 'MMO'/minecraft:overworld
+[18:27:02] [main/INFO]: Loaded 0 recipes
+[18:27:03] [Server thread/INFO]: Starting minecraft server version 1.13.2
+[18:27:03] [Server thread/INFO]: Loading properties
+[18:27:03] [Server thread/INFO]: Default game type: ADVENTURE
+[18:27:04] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-1a3504a-dfa7583 (MC: 1.13.2) (Implementing API version 1.13.2-R0.1-SNAPSHOT)
+[18:27:04] [Server thread/INFO]: Debug logging is disabled
+[18:27:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:27:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:27:04] [Server thread/INFO]: Generating keypair
+[18:27:05] [Server thread/INFO]: Starting Minecraft server on 192.168.1.7:25565
+[18:27:05] [Server thread/INFO]: Using default channel type
+[18:27:29] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard placeholder %name% for plugin BannerBoard...[m
+[18:27:29] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard placeholder %BannerBoard:name% for plugin BannerBoard...[m
+[18:27:29] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard placeholder %uuid% for plugin BannerBoard...[m
+[18:27:29] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard placeholder %BannerBoard:uuid% for plugin BannerBoard...[m
+[18:27:29] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer COLOR for plugin BannerBoard...[m
+[18:27:29] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:COLOR for plugin BannerBoard...[m
+[18:27:29] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer IMAGE for plugin BannerBoard...[m
+[18:27:29] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:IMAGE for plugin BannerBoard...[m
+[18:27:29] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer TEXT for plugin BannerBoard...[m
+[18:27:29] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:TEXT for plugin BannerBoard...[m
+[18:27:29] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer SKIN for plugin BannerBoard...[m
+[18:27:29] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:SKIN for plugin BannerBoard...[m
+[18:27:29] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer LIVEIMG for plugin BannerBoard...[m
+[18:27:29] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:LIVEIMG for plugin BannerBoard...[m
+[18:27:29] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer URLIMG for plugin BannerBoard...[m
+[18:27:29] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:URLIMG for plugin BannerBoard...[m
+[18:27:29] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer INTERACT for plugin BannerBoard...[m
+[18:27:29] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:INTERACT for plugin BannerBoard...[m
+[18:27:37] [Server thread/WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+[18:27:37] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+[18:27:37] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[18:27:39] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.0.0-beta-05;6bbf29b
+[18:27:39] [Server thread/INFO]: [OpenInv] Loading OpenInv v3.3.7
+[18:27:39] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.1
+[18:27:39] [Server thread/INFO]: [UltraCustomizer] Loading UltraCustomizer v1.1.8
+[18:27:39] [Server thread/INFO]: [BannerBoard] Loading BannerBoard v1.10.2
+[18:27:39] [Server thread/INFO]: [NewItems] Loading NewItems v4.3.25
+[18:27:39] [Server thread/INFO]: [ActionBarAPI] Loading ActionBarAPI v1.5.4
+[18:27:39] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.4.0
+[18:27:39] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.13.2) has not yet been tested! Proceed with caution.
+[18:27:42] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.0-beta-03;e51a220
+[18:27:42] [Server thread/INFO]: [WolfyUtilities] Loading WolfyUtilities v1.0.0.0
+[18:27:42] [Server thread/INFO]: [elyby-skinsystem] Loading elyby-skinsystem v0.2.0-beta
+[18:27:42] [Server thread/INFO]: [EpicWorldGenerator] Loading EpicWorldGenerator v8.1.0
+[18:27:42] [Server thread/WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+[18:27:42] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+[18:27:42] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[18:27:44] [Server thread/INFO]: [ShowItem] Loading ShowItem v1.4.12 (build #297)
+[18:27:44] [Server thread/INFO]: [LoneDevCheck] Loading LoneDevCheck v1.0.5
+[18:27:44] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[18:27:44] [Server thread/INFO]: [UltraPermissions] Loading UltraPermissions v4.1.7
+[18:27:44] [Server thread/INFO]: [Essentials] Loading Essentials v2.16.1.153
+[18:27:44] [Server thread/INFO]: [QuickBoard] Loading QuickBoard v4.2.1
+[18:27:44] [Server thread/INFO]: [Skills] Loading Skills v12.3.5
+[18:27:44] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.3.2
+[18:27:44] [Server thread/INFO]: [SafeTrade] Loading SafeTrade v1.1.0
+[18:27:44] [Server thread/INFO]: [MythicMobs] Loading MythicMobs v4.5.9-2586
+[18:27:44] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.16.1.153
+[18:27:44] [Server thread/INFO]: [RPGInventory] Loading RPGInventory v2.3.0
+[18:27:44] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.16.1.153
+[18:27:44] [Server thread/INFO]: [ItemCases] Loading ItemCases v2.6.1
+[18:27:44] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.16.1.153
+[18:27:44] [Server thread/INFO]: [iConomy] Loading iConomy v5.08
+[18:27:44] [Server thread/INFO]: [TAB] Loading TAB v2.4.3
+[18:27:44] [Server thread/INFO]: [QuantumRPG] Loading QuantumRPG v4.0.7.98-BETA
+[18:27:44] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.16.1.153
+[18:27:44] [Server thread/INFO]: [WorldGuardExtraFlags] Loading WorldGuardExtraFlags v4.1.2
+[18:27:45] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.4.0
+[18:27:45] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[18:27:45] [Server thread/INFO]: [elyby-skinsystem] Enabling elyby-skinsystem v0.2.0-beta
+[18:27:45] [Server thread/INFO]: [EpicWorldGenerator] Enabling EpicWorldGenerator v8.1.0
+[18:27:48] [Server thread/INFO]:  
+[18:27:48] [Server thread/INFO]:  
+[18:27:48] [Server thread/INFO]: [0;32;1m  _                              __[m
+[18:27:48] [Server thread/INFO]: [0;32;1m |_ ._  o  _ \    / _  ._ |  _| /__  _  ._   _  ._ _. _|_  _  ._ [m
+[18:27:48] [Server thread/INFO]: [0;32;1m |_ |_) | (_  \/\/ (_) |  | (_| \_| (/_ | | (/_ | (_|  |_ (_) |  [m
+[18:27:48] [Server thread/INFO]: [0;32;1m    |       [m
+[18:27:48] [Server thread/INFO]:  
+[18:27:48] [Server thread/INFO]:               Version 8.1.0 | Cracked by Java | DirectLeaks
+[18:27:48] [Server thread/INFO]:  
+[18:27:48] [Server thread/INFO]:  Documentation can be found at http://discuss.dynamic-bytes.com/p/1-wiki
+[18:27:48] [Server thread/INFO]:  
+[18:27:48] [Server thread/INFO]:  
+[18:27:48] [Server thread/INFO]:   > Loading structures (.EWG schematics)
+[18:27:50] [Server thread/INFO]:     - DECO_desert_tower
+[18:27:53] [Server thread/INFO]:     - DECO_forest_house
+[18:27:53] [Server thread/INFO]:     - DECO_jungle_tower
+[18:27:54] [Server thread/INFO]:     - DECO_portals_204
+[18:27:54] [Server thread/INFO]:     - DECO_rock_01
+[18:27:54] [Server thread/INFO]:     - DECO_rock_02
+[18:27:54] [Server thread/INFO]:     - DECO_rock_03
+[18:27:54] [Server thread/INFO]:     - DECO_rock_04
+[18:27:54] [Server thread/INFO]:     - DECO_rock_10
+[18:27:54] [Server thread/INFO]:     - DECO_rock_17
+[18:27:54] [Server thread/INFO]:     - DECO_rock_18
+[18:27:54] [Server thread/INFO]:     - DECO_rock_19
+[18:27:54] [Server thread/INFO]:     - DECO_rock_20
+[18:27:54] [Server thread/INFO]:     - DECO_rock_21
+[18:27:54] [Server thread/INFO]:     - DECO_rock_22
+[18:27:54] [Server thread/INFO]:     - DECO_rock_23
+[18:27:55] [Server thread/INFO]:     - DECO_rock_24
+[18:27:55] [Server thread/INFO]:     - DECO_rock_25
+[18:27:55] [Server thread/INFO]:     - DECO_swampBush_1
+[18:27:55] [Server thread/INFO]:     - DECO_swampPlants_1
+[18:27:55] [Server thread/INFO]:     - DECO_swampPlants_2
+[18:27:55] [Server thread/INFO]:     - DECO_swampPlants_3
+[18:27:55] [Server thread/INFO]:     - DECO_swampPlants_4
+[18:27:55] [Server thread/INFO]:     - DECO_swampRocks_1
+[18:27:55] [Server thread/INFO]:     - DECO_swampRootSmall_1
+[18:27:55] [Server thread/INFO]:     - DECO_swampRootSmall_2
+[18:27:55] [Server thread/INFO]:     - DECO_swampRootSmall_3
+[18:27:55] [Server thread/INFO]:     - DECO_swampRootSmall_4
+[18:27:55] [Server thread/INFO]:     - DECO_swampRootSmall_5
+[18:27:55] [Server thread/INFO]:     - DECO_swampRootSmall_6
+[18:27:55] [Server thread/INFO]:     - DECO_swampRoot_1
+[18:27:55] [Server thread/INFO]:     - DECO_swampRoot_2
+[18:27:55] [Server thread/INFO]:     - DECO_swampRoot_3
+[18:27:55] [Server thread/INFO]:     - DECO_swampRoot_4
+[18:27:55] [Server thread/INFO]:     - DECO_swampRoot_5
+[18:27:55] [Server thread/INFO]:     - DECO_swampRoot_6
+[18:27:55] [Server thread/INFO]:     - DECO_swampRoot_7
+[18:27:55] [Server thread/INFO]:     - TREES_birch_normal
+[18:27:55] [Server thread/INFO]:     - TREES_birch_normal_2
+[18:27:55] [Server thread/INFO]:     - TREES_birch_normal_3
+[18:27:55] [Server thread/INFO]:     - TREES_birch_normal_4
+[18:27:55] [Server thread/INFO]:     - TREES_bonsai_big
+[18:27:55] [Server thread/INFO]:     - TREES_bonsai_big_2
+[18:27:55] [Server thread/INFO]:     - TREES_bonsai_big_3
+[18:27:55] [Server thread/INFO]:     - TREES_bonsai_huge
+[18:27:55] [Server thread/INFO]:     - TREES_bonsai_medium
+[18:27:55] [Server thread/INFO]:     - TREES_bonsai_medium_2
+[18:27:55] [Server thread/INFO]:     - TREES_bonsai_normal
+[18:27:55] [Server thread/INFO]:     - TREES_bonsai_normal_2
+[18:27:56] [Server thread/INFO]:     - TREES_bonsai_small
+[18:27:56] [Server thread/INFO]:     - TREES_bonsai_tiny
+[18:27:56] [Server thread/INFO]:     - TREES_dead_big
+[18:27:56] [Server thread/INFO]:     - TREES_dead_huge
+[18:27:56] [Server thread/INFO]:     - TREES_dead_medium
+[18:27:56] [Server thread/INFO]:     - TREES_dead_medium_2
+[18:27:56] [Server thread/INFO]:     - TREES_dead_normal
+[18:27:56] [Server thread/INFO]:     - TREES_dead_normal_2
+[18:27:56] [Server thread/INFO]:     - TREES_fantasy_normal
+[18:27:56] [Server thread/INFO]:     - TREES_fantasy_normal_2
+[18:27:56] [Server thread/INFO]:     - TREES_fantasy_small
+[18:27:56] [Server thread/INFO]:     - TREES_fantasy_small_2
+[18:27:56] [Server thread/INFO]:     - TREES_fantasy_small_3
+[18:27:56] [Server thread/INFO]:     - TREES_forgottenForest_medium
+[18:27:56] [Server thread/INFO]:     - TREES_forgottenForest_medium_4
+[18:27:57] [Server thread/INFO]:     - TREES_forgottenForest_medium_5
+[18:27:57] [Server thread/INFO]:     - TREES_forgottenForest_normal_2
+[18:27:57] [Server thread/INFO]:     - TREES_forgottenForest_normal_3
+[18:27:57] [Server thread/INFO]:     - TREES_jungle_big
+[18:27:57] [Server thread/INFO]:     - TREES_jungle_huge
+[18:27:57] [Server thread/INFO]:     - TREES_jungle_medium
+[18:27:57] [Server thread/INFO]:     - TREES_jungle_normal
+[18:27:57] [Server thread/INFO]:     - TREES_jungle_normal_2
+[18:27:57] [Server thread/INFO]:     - TREES_jungle_normal_3
+[18:27:57] [Server thread/INFO]:     - TREES_jungle_normal_4
+[18:27:57] [Server thread/INFO]:     - TREES_jungle_small
+[18:27:57] [Server thread/INFO]:     - TREES_jungle_small_2
+[18:27:57] [Server thread/INFO]:     - TREES_jungle_small_3
+[18:27:57] [Server thread/INFO]:     - TREES_nether_normal
+[18:27:58] [Server thread/INFO]:     - TREES_oakTree_huge_1
+[18:27:58] [Server thread/INFO]:     - TREES_oakTree_huge_2
+[18:27:58] [Server thread/INFO]:     - TREES_oakTree_huge_3
+[18:27:58] [Server thread/INFO]:     - TREES_oakTree_normal_4
+[18:27:58] [Server thread/INFO]:     - TREES_oldtree_normal_1
+[18:27:58] [Server thread/INFO]:     - TREES_oldtree_normal_2
+[18:27:58] [Server thread/INFO]:     - TREES_pineLong_huge_4
+[18:27:58] [Server thread/INFO]:     - TREES_pineLong_normal_1
+[18:27:58] [Server thread/INFO]:     - TREES_pineLong_normal_2
+[18:27:58] [Server thread/INFO]:     - TREES_pineLong_normal_3
+[18:27:58] [Server thread/INFO]:     - TREES_pine_big
+[18:27:58] [Server thread/INFO]:     - TREES_pine_huge
+[18:27:58] [Server thread/INFO]:     - TREES_pine_medium
+[18:27:58] [Server thread/INFO]:     - TREES_pine_normal
+[18:27:58] [Server thread/INFO]:     - TREES_pine_normal_2
+[18:27:58] [Server thread/INFO]:     - TREES_pine_small
+[18:27:58] [Server thread/INFO]:     - TREES_pine_small_2
+[18:27:58] [Server thread/INFO]:     - TREES_pine_small_3
+[18:27:58] [Server thread/INFO]:     - TREES_pine_tiny
+[18:27:58] [Server thread/INFO]:     - TREES_pine_tiny_2
+[18:27:58] [Server thread/INFO]:     - TREES_scotsPine_normal_10
+[18:27:58] [Server thread/INFO]:     - TREES_scotsPine_normal_11
+[18:27:58] [Server thread/INFO]:     - TREES_scotsPine_normal_12
+[18:27:58] [Server thread/INFO]:     - TREES_scotsPine_normal_6
+[18:27:58] [Server thread/INFO]:     - TREES_scotsPine_normal_8
+[18:27:58] [Server thread/INFO]:     - TREES_scotsPine_normal_9
+[18:27:58] [Server thread/INFO]:     - TREES_snowyPine_normal_01
+[18:27:58] [Server thread/INFO]:     - TREES_snowyPine_normal_02
+[18:27:58] [Server thread/INFO]:     - TREES_snowyPine_normal_03
+[18:27:59] [Server thread/INFO]:     - TREES_stoneForest_normal
+[18:27:59] [Server thread/INFO]:     - TREES_stoneForest_normal_2
+[18:27:59] [Server thread/INFO]:     - TREES_stoneForest_normal_3
+[18:27:59] [Server thread/INFO]:     - TREES_swamp_huge_1
+[18:27:59] [Server thread/INFO]:     - TREES_swamp_huge_2
+[18:27:59] [Server thread/INFO]:     - TREES_swamp_medium_1
+[18:27:59] [Server thread/INFO]:     - TREES_swamp_medium_2
+[18:27:59] [Server thread/INFO]:     - TREES_swamp_medium_3
+[18:27:59] [Server thread/INFO]:     - TREES_swamp_small_1
+[18:27:59] [Server thread/INFO]:     - TREES_tropicalForest_medium_1
+[18:27:59] [Server thread/INFO]:     - TREES_tropicalForest_medium_2
+[18:27:59] [Server thread/INFO]:     - TREES_tropicalForest_medium_3
+[18:27:59] [Server thread/INFO]:     - TREES_tropicalForest_medium_4
+[18:27:59] [Server thread/INFO]:     - TREES_tropicalForest_small_1
+[18:27:59] [Server thread/INFO]:     - TREES_willow_big
+[18:27:59] [Server thread/INFO]:     - TREES_willow_big_2
+[18:27:59] [Server thread/INFO]:     - TREES_willow_huge
+[18:27:59] [Server thread/INFO]:     - TREES_willow_medium
+[18:27:59] [Server thread/INFO]:     - TREES_willow_medium_2
+[18:27:59] [Server thread/INFO]:     - TREES_willow_normal
+[18:27:59] [Server thread/INFO]:     - TREES_willow_small
+[18:27:59] [Server thread/INFO]:     - TREES_willow_tiny
+[18:27:59] [Server thread/INFO]:     - TREES_willow_tiny_2
+[18:27:59] [Server thread/INFO]:     - TREES_willow_tiny_3
+[18:27:59] [Server thread/INFO]:  
+[18:27:59] [Server thread/INFO]:   > Loading configuration
+[18:27:59] [Server thread/INFO]:  
+[18:27:59] [Server thread/INFO]: Done
+[18:27:59] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[18:28:00] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[18:28:00] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:28:00] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[18:28:00] [Server thread/INFO]: [iConomy] Enabling iConomy v5.08
+[18:28:00] [Server thread/INFO]: [iConomy] Registered Vault interface.
+[18:28:05] [Server thread/INFO]: [iConomy] Logging is currently disabled.
+[18:28:05] [Server thread/INFO]: [iConomy] v5.08 (Towny Edition) loaded.
+[18:28:05] [Server thread/INFO]: [iConomy] Developed by: [Nijikokun, ElgarL, LlmDl, graywolf336]
+[18:28:05] [Server thread/INFO]: Preparing level "MMO"
+[18:28:05] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[18:28:09] [Server thread/INFO]: Loaded 524 recipes
+[18:28:14] [Server thread/INFO]: -------- World Settings For [MMO] --------
+[18:28:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:28:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:28:14] [Server thread/INFO]: View Distance: 10
+[18:28:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:28:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:28:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:28:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:28:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:28:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:28:14] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:28:14] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:28:14] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:28:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:28:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:28:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:28:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:28:14] [Server thread/INFO]: Random Lighting Updates: false
+[18:28:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:28:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:28:14] [Server thread/INFO]: Mob Spawn Range: 6
+[18:28:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[18:28:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:28:14] [Server thread/INFO]: Max TNT Explosions: 100
+[18:28:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:28:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:28:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:28:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:28:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:28:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[18:28:18] [Server thread/INFO]: CUSTOM TERRAIN: Scots pine forest
+[18:28:18] [Server thread/INFO]: [0;32;1m~~~~~~~~~~~~[ EWG Settings for MMO ]~~~~~~~~~~~~[m
+[18:28:18] [Server thread/INFO]: [m
+[18:28:18] [Server thread/INFO]: [0;37;22mBiomes that will generated;[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Birch Forest[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Bonsai Forest[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Volcano[m
+[18:28:18] [Server thread/INFO]: [0;37;22m[0;37;22m * Dark forest[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Desert[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Deep Ocean[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Deciduous Forest[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Fantasy Forest[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Farmland[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Forgotten Forest[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Frozen Ocean[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Scots pine forest[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Jungle[m
+[18:28:18] [Server thread/INFO]: [0;37;22m[0;37;22m * Jungle Edge[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Lukewarm Ocean[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Mesa[m
+[18:28:18] [Server thread/INFO]: [0;37;22m[0;37;22m * Mega Spruce Taiga[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Mega Taiga[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Ocean[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Pine Forest[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Plains[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * River[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Stone Forest[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Swamp[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Snowy Pine[m
+[18:28:18] [Server thread/INFO]: [0;37;22m[0;37;22m * Savanna[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Swamp Edge[m
+[18:28:18] [Server thread/INFO]: [0;37;22m[0;37;22m * Swampland[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Tropical Forest[m
+[18:28:18] [Server thread/INFO]: [0;37;22m * Warm Ocean[m
+[18:28:18] [Server thread/INFO]: [m
+[18:28:18] [Server thread/INFO]: [0;37;22mGenerator version: 8.1.0[m
+[18:28:18] [Server thread/INFO]: [m
+[18:28:18] [Server thread/INFO]: Biomes in total: 30[m
+[18:28:18] [Server thread/INFO]: Preparing world injection[m
+[18:28:18] [Server thread/INFO]: Preparing start region for level minecraft:overworld (Seed: -1203218582212729642)
+[18:28:19] [Server thread/INFO]: Preparing spawn area: 4%
+[18:28:19] [Server thread/INFO]: Preparing spawn area: 8%
+[18:28:19] [Server thread/INFO]: Preparing spawn area: 12%
+[18:28:19] [Server thread/INFO]: Preparing spawn area: 16%
+[18:28:20] [Server thread/INFO]: Preparing spawn area: 20%
+[18:28:20] [Server thread/INFO]: Preparing spawn area: 24%
+[18:28:20] [Server thread/INFO]: Preparing spawn area: 28%
+[18:28:20] [Server thread/INFO]: Preparing spawn area: 32%
+[18:28:20] [Server thread/INFO]: Preparing spawn area: 36%
+[18:28:21] [Server thread/INFO]: Preparing spawn area: 40%
+[18:28:21] [Server thread/INFO]: Preparing spawn area: 44%
+[18:28:21] [Server thread/INFO]: Preparing spawn area: 48%
+[18:28:21] [Server thread/INFO]: Preparing spawn area: 52%
+[18:28:21] [Server thread/INFO]: Preparing spawn area: 56%
+[18:28:21] [Server thread/INFO]: Preparing spawn area: 60%
+[18:28:21] [Server thread/INFO]: Preparing spawn area: 64%
+[18:28:21] [Server thread/INFO]: Preparing spawn area: 68%
+[18:28:22] [Server thread/INFO]: Preparing spawn area: 72%
+[18:28:22] [Server thread/INFO]: Preparing spawn area: 76%
+[18:28:22] [Server thread/INFO]: Preparing spawn area: 80%
+[18:28:22] [Server thread/INFO]: Preparing spawn area: 84%
+[18:28:23] [Server thread/INFO]: Preparing spawn area: 88%
+[18:28:23] [Server thread/INFO]: Preparing spawn area: 92%
+[18:28:23] [Server thread/INFO]: Preparing spawn area: 96%
+[18:28:23] [Server thread/INFO]: Preparing spawn area: 100%
+[18:28:23] [Server thread/INFO]: Time elapsed: 5306 ms
+[18:28:23] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.0.0-beta-05;6bbf29b
+[18:28:24] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_13_R2_2 as the Bukkit adapter
+[18:28:26] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[18:28:27] [Server thread/INFO]: [OpenInv] Enabling OpenInv v3.3.7
+[18:28:27] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.1
+[18:28:27] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[18:28:27] [Server thread/INFO]: [UltraCustomizer] Enabling UltraCustomizer v1.1.8
+[18:28:29] [Server thread/INFO]: [0;36;1m[[0;37;22mUltraCustomizer[0;36;1m] [mLoading Plugin...[m
+[18:28:30] [Server thread/INFO]: [0;36;1m[[0;37;22mUltraCustomizer[0;36;1m] [mRegistered 45 Elements[m
+[18:28:30] [Server thread/INFO]: [0;36;1m[[0;37;22mUltraCustomizer[0;36;1m] [mSuccessfully loaded in 1348 ms[m
+[18:28:30] [Server thread/INFO]: [BannerBoard] Enabling BannerBoard v1.10.2
+[18:28:30] [Server thread/INFO]: [NewItems] Enabling NewItems v4.3.25
+[18:28:30] [Server thread/INFO]: [NewItems] Cracked by d3v1l | https://blackspigot.com     
+[18:28:31] [Server thread/INFO]: [0;36;1m------ NewItems ------[m
+[18:28:31] [Server thread/INFO]: [0;36;1m    _   _             _____ _                     [m
+[18:28:31] [Server thread/INFO]: [0;36;1m   | \ | |           |_   _| |                    [m
+[18:28:31] [Server thread/INFO]: [0;36;1m   |  \| | _____      _| | | |_ ___ _ __ ___  ___ [m
+[18:28:31] [Server thread/INFO]: [0;36;1m   | . ` |/ _ \ \ /\ / | | | __/ _ | '_ ` _ \/ __|[m
+[18:28:31] [Server thread/INFO]: [0;36;1m   | |\  |  __/\ V  V _| |_| ||  __| | | | | \__ \[m
+[18:28:31] [Server thread/INFO]: [0;36;1m   |_| \_|\___| \_/\_|_____|\__\___|_| |_| |_|___/[m
+[18:28:31] [Server thread/INFO]: [0;36;1m [m
+[18:28:31] [Server thread/INFO]: [0;33;22mVersion: [0;36;1m4.3.25 Stable[m
+[18:28:31] [Server thread/INFO]: [0;33;22mServer version: [0;36;1mv1_13_R2[m
+[18:28:31] [Server thread/INFO]: [m
+[18:28:31] [Server thread/INFO]: [NewItems] [0;31;1mGriefPrevention not detected![0;36;1m(optional dependency)[m
+[18:28:31] [Server thread/INFO]: [NewItems] [0;32;1mDetected Vault![m
+[18:28:31] [Server thread/INFO]: [NewItems] [0;31;1mTowny not detected![0;36;1m(optional dependency)[m
+[18:28:31] [Server thread/INFO]: [0;31;1m----------------------[m
+[18:28:31] [Server thread/INFO]: [ActionBarAPI] Enabling ActionBarAPI v1.5.4
+[18:28:31] [Server thread/INFO]: [0;36;1mActionBarAPI V1.5.4 has been enabled![m
+[18:28:31] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.0-beta-03;e51a220
+[18:28:32] [Server thread/INFO]: [WorldGuard] (MMO) TNT ignition is PERMITTED.
+[18:28:32] [Server thread/INFO]: [WorldGuard] (MMO) Lighters are PERMITTED.
+[18:28:32] [Server thread/INFO]: [WorldGuard] (MMO) Lava fire is blocked.
+[18:28:32] [Server thread/INFO]: [WorldGuard] (MMO) Fire spread is UNRESTRICTED.
+[18:28:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'MMO'
+[18:28:33] [Server thread/INFO]: [WorldGuard] Loading region data...
+[18:28:33] [Server thread/INFO]: [WolfyUtilities] Enabling WolfyUtilities v1.0.0.0
+[18:28:33] [Server thread/INFO]: [ShowItem] Enabling ShowItem v1.4.12 (build #297)
+[18:28:34] [Server thread/INFO]: [ShowItem] Loading Config...
+[18:28:34] [Server thread/INFO]: [ShowItem] Update notifications are enabled!
+[18:28:34] [Server thread/INFO]: [ShowItem] Loading item blocker...
+[18:28:34] [Server thread/INFO]: [ShowItem] Loading TranslationMapping...
+[18:28:34] [Server thread/INFO]: [ShowItem] Found API-Version 1.13, using new Material IDs...
+[18:28:34] [Server thread/INFO]: [ShowItem] TranslationMapping loaded.
+[18:28:34] [Server thread/INFO]: [ShowItem] Loading Text Icon Resourcepack mapping...
+[18:28:34] [Server thread/INFO]: [ShowItem] Found API-Version 1.13, using new Material IDs...
+[18:28:34] [Server thread/INFO]: [ShowItem] Text Icon Resourcepack mapping loaded.
+[18:28:34] [Server thread/INFO]: [ShowItem] Detected Spigot server. Using Bungee chat api for fancy messages!
+[18:28:34] [Server thread/INFO]: [ShowItem] Using LibChatManager
+[18:28:34] [Server thread/INFO]: [ShowItem] Listening on chat packets with the HIGHEST priority!
+[18:28:34] [Server thread/INFO]: [LoneDevCheck] Enabling LoneDevCheck v1.0.5
+[18:28:34] [Server thread/INFO]: [ LoneDevCheck ] [0;36;1mChecking if your server is compatible with my plugins...[m
+[18:28:34] [Server thread/INFO]: [ LoneDevCheck ] [0;36;1mServer version: [0;33;1mgit-Spigot-1a3504a-dfa7583 (MC: 1.13.2)[m
+[18:28:35] [Server thread/INFO]: [ LoneDevCheck ]  [m
+[18:28:35] [Server thread/INFO]: [ LoneDevCheck ] [0;31;1mYour server is NOT compatible with [0;36;1mItemsAdder[m
+[18:28:35] [Server thread/INFO]: [ LoneDevCheck ] [0;31;1mYour server is NOT compatible with [0;36;1mDiamond Anticheat[m
+[18:28:35] [Server thread/INFO]: [ LoneDevCheck ] [0;32;1mYour server is compatible with [0;36;1mNewItems[m
+[18:28:35] [Server thread/INFO]: [ LoneDevCheck ] [0;32;1mYour server is compatible with [0;36;1mReal DualWield[m
+[18:28:35] [Server thread/INFO]: [ LoneDevCheck ] [0;32;1mYour server is compatible with [0;36;1mBackPack[m
+[18:28:35] [Server thread/INFO]: [ LoneDevCheck ] [0;32;1mYour server is compatible with [0;36;1mAdvancedBank[m
+[18:28:35] [Server thread/INFO]: [ LoneDevCheck ] [0;32;1mYour server is compatible with [0;36;1mRPGMoney[m
+[18:28:35] [Server thread/INFO]: [UltraPermissions] Enabling UltraPermissions v4.1.7
+[18:28:36] [Server thread/INFO]: [0;36;1m[[0;37;22mUltraPermissions[0;36;1m] [mLoading Plugin...[m
+[18:28:36] [Server thread/INFO]: [0;36;1m[[0;37;22mUltraPermissions[0;36;1m] [m[Hook] Hello Vault ?_? Let me hook into you...[m
+[18:28:36] [Server thread/INFO]: [0;36;1m[[0;37;22mUltraPermissions[0;36;1m] [m[Hook] Hello PlaceholderAPI ?_? Let me hook into you...[m
+[18:28:36] [Server thread/INFO]: [0;36;1m[[0;37;22mUltraPermissions[0;36;1m] [mSuccessfully loaded in 706 ms[m
+[18:28:36] [Server thread/INFO]: [Essentials] Enabling Essentials v2.16.1.153
+[18:28:37] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:28:37] [Server thread/INFO]: No kits found to migrate.
+[18:28:38] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[18:28:38] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[18:28:39] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[18:28:39] [Server thread/INFO]: Loaded 19702 items from items.json.
+[18:28:39] [Server thread/INFO]: Using locale en_US
+[18:28:39] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:28:40] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:28:40] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[18:28:40] [Server thread/INFO]: [Essentials] Using Vault based permissions (generic)
+[18:28:40] [Server thread/INFO]: [Essentials] Payment method found (Vault - Economy: iConomy 5.08 version: 1.7.2-b107)
+[18:28:40] [Server thread/INFO]: [QuickBoard] Enabling QuickBoard v4.2.1
+[18:28:40] [Server thread/INFO]: [QuickBoard] ------------------------------
+[18:28:40] [Server thread/INFO]: [QuickBoard]           QuickBoard          
+[18:28:40] [Server thread/INFO]: [QuickBoard] Listeners registered
+[18:28:40] [Server thread/INFO]: [QuickBoard] Loading scoreboards
+[18:28:40] [Server thread/INFO]: [QuickBoard] Loaded 'scoreboard.default.yml' with permission 'scoreboard.default'
+[18:28:40] [Server thread/INFO]: [QuickBoard] Loaded 'StatsDungeonWorld.default.yml' with permission 'StatsDungeonWorld.default'
+[18:28:40] [Server thread/INFO]: [QuickBoard] Scoreboards loaded
+[18:28:40] [Server thread/INFO]: [QuickBoard] Config registered
+[18:28:40] [Server thread/INFO]: [QuickBoard] Update Tasks started
+[18:28:40] [Server thread/INFO]: [QuickBoard] Command 'quickboard' enabled
+[18:28:40] [Server thread/INFO]: [QuickBoard]           QuickBoard          
+[18:28:40] [Server thread/INFO]: [QuickBoard] ------------------------------
+[18:28:40] [Server thread/INFO]: [Skills] Enabling Skills v12.3.5
+[18:28:44] [Server thread/INFO]: [Skills]: Loaded 0 language statements
+[18:28:44] [Server thread/INFO]: [Skills] ActionBarAPI found and hooked.
+[18:28:44] [Server thread/INFO]: [Skills] Citizens not found.
+[18:28:44] [Server thread/INFO]: [Skills] Factions not found.
+[18:28:44] [Server thread/INFO]: [Skills] Kingdoms not found.
+[18:28:44] [Server thread/INFO]: [Skills] Residence not found.
+[18:28:44] [Server thread/INFO]: [Skills] PlaceholderAPI found and hooked.
+[18:28:44] [Server thread/INFO]: [Skills] MVdWPlaceholderAPI not found.
+[18:28:44] [Server thread/INFO]: [Skills] ParticleLIBManager not found.
+[18:28:44] [Server thread/INFO]: [Skills] Spartan not found.
+[18:28:44] [Server thread/INFO]: [Skills] MythicMobs found and hooked.
+[18:28:44] [Server thread/INFO]: [Skills] MyPet not found.
+[18:28:44] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.3.2
+[18:28:44] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[18:28:45] [Server thread/INFO]: [SafeTrade] Enabling SafeTrade v1.1.0
+[18:28:45] [Server thread/INFO]: [SafeTrade] Using iConomy 5.08
+[18:28:45] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v4.5.9-2586
+[18:28:45] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Bukkit v1_13_R2 (Minecraft 1.13)...
+[18:28:45] [Server thread/INFO]: [MythicMobs] MythicMobs Vault Support has been enabled!
+[18:28:45] [Server thread/INFO]: [MythicMobs] MythicMobs WorldGuard Support has been enabled!
+[18:28:46] [Server thread/INFO]: [LumineUtils] (io.lumine.utils.) is bound to plugin MythicMobs - io.lumine.xikage.mythicmobs.MythicMobs
+[18:28:47] [Server thread/INFO]: [MythicMobs] Loaded 5 mobs.
+[18:28:47] [Server thread/INFO]: [MythicMobs] Loaded 3 vanilla mob overrides.
+[18:28:47] [Server thread/INFO]: [MythicMobs] Loaded 0 mob stacks.
+[18:28:47] [Server thread/INFO]: [MythicMobs] Loaded 3 skills.
+[18:28:47] [Server thread/INFO]: [MythicMobs] Loaded 2 random spawns.
+[18:28:47] [Server thread/INFO]: [MythicMobs] Loaded 3 mythic items.
+[18:28:47] [Server thread/INFO]: [MythicMobs] Loaded 2 drop tables.
+[18:28:47] [Server thread/INFO]: [MythicMobs] Loaded 0 mob spawners.
+[18:28:47] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[18:28:48] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[18:28:48] [Server thread/INFO]: [MythicMobs] [32m? MythicMobs v4.5.9 (build 2586) has been successfully loaded![0m
+[18:28:48] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.16.1.153
+[18:28:48] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[18:28:48] [Server thread/INFO]: [RPGInventory] Enabling RPGInventory v2.3.0
+[18:28:49] [Server thread/WARN]: [RPGInventory] Support of 1.13.2-R0.1-SNAPSHOT is experimental! Use RPGInventory with caution.
+[18:28:49] [Server thread/INFO]: [RPGInventory] Permissions hooked: UltraPermissions
+[18:28:49] [Server thread/INFO]: [RPGInventory] Economy hooked: iConomy 5.08
+[18:28:56] [Server thread/INFO]: [RPGInventory] Placeholder API hooked!
+[18:28:56] [Server thread/INFO]: [RPGInventory] 6 pet(s) has been loaded
+[18:28:56] [Server thread/INFO]: [RPGInventory] 1 food(s) has been loaded
+[18:28:56] [Server thread/INFO]: [RPGInventory] Pet system is enabled
+[18:28:56] [Server thread/INFO]: [RPGInventory] Craft system is disabled in config
+[18:28:56] [Server thread/INFO]: [RPGInventory] Craft extensions isn't loaded
+[18:28:56] [Server thread/INFO]: [RPGInventory] Inventory lock system is disabled in config
+[18:28:56] [Server thread/INFO]: [RPGInventory] Inventory lock system isn't loaded
+[18:28:56] [Server thread/INFO]: [RPGInventory] 4 item(s) has been loaded
+[18:28:56] [Server thread/INFO]: [RPGInventory] Item system is enabled
+[18:28:56] [Server thread/INFO]: [RPGInventory] 3 backpack type(s) has been loaded
+[18:28:56] [Server thread/INFO]: [RPGInventory] 0 backpack(s) has been loaded
+[18:28:56] [Server thread/INFO]: [RPGInventory] Backpack system is enabled
+[18:28:57] [Server thread/INFO]: [RPGInventory] Resource-pack is disabled in config
+[18:28:58] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.16.1.153
+[18:28:59] [Server thread/INFO]: [ItemCases] Enabling ItemCases v2.6.1
+[18:28:59] [Server thread/INFO]: [ItemCases] HolographicDisplays was found
+[18:29:00] [Server thread/INFO]: [ItemCases] Loaded 0 cases
+[18:29:00] [Server thread/INFO]: [ItemCases] Loading Item Names file
+[18:29:00] [Server thread/INFO]: [ItemCases] 463 Item Names Loaded
+[18:29:00] [Server thread/INFO]: [ItemCases] Loading extra data names
+[18:29:00] [Server thread/INFO]: Cracked by Devil.[m
+[18:29:00] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.16.1.153
+[18:29:00] [Server thread/INFO]: [TAB] Enabling TAB v2.4.3
+[18:29:00] [Server thread/INFO]: [TAB] Enabled in 483ms
+[18:29:00] [Server thread/INFO]: [QuantumRPG] Enabling QuantumRPG v4.0.7.98-BETA
+[18:29:00] [Server thread/INFO]: [0;32;22m---------[ [0;32;1mPlugin Initializing [0;32;22m]---------[m
+[18:29:00] [Server thread/INFO]: [0;37;22m> [0;37;1mPlugin name: [0;32;1mQuantumRPG[m
+[18:29:00] [Server thread/INFO]: [0;37;22m> [0;37;1mAuthor: [0;32;1mNightExpress[m
+[18:29:00] [Server thread/INFO]: [0;37;22m> [0;37;1mVersion: [0;32;1m4.0.7.98-BETA[m
+[18:29:00] [Server thread/INFO]: [0;37;22m> [0;37;1mServer version: [0;32;1mv1_13_R2 / OK![m
+[18:29:00] [Server thread/INFO]: [ReflectionHelper] Version is v1_13_R2 (11302)
+[18:29:00] [Server thread/INFO]: Injected custom channel handlers.
+[18:29:00] [Server thread/INFO]: Adding channels for online players...
+[18:29:01] [Server thread/INFO]: [0;36;22m---------[ [0;36;1mHooks Initializing [0;36;22m]---------[m
+[18:29:01] [Server thread/INFO]: [0;37;22m> [0;37;1mCitizens: [0;31;1mNot found / Error.[m
+[18:29:01] [Server thread/INFO]: [0;37;22m> [0;37;1mBattleLevels: [0;31;1mNot found / Error.[m
+[18:29:01] [Server thread/INFO]: [0;37;22m> [0;37;1mHeroes: [0;31;1mNot found / Error.[m
+[18:29:01] [Server thread/INFO]: [0;37;22m> [0;37;1mHolographicDisplays: [0;32;1mSuccess![m
+[18:29:01] [Server thread/INFO]: [0;37;22m> [0;37;1mmcMMO: [0;31;1mNot found / Error.[m
+[18:29:01] [Server thread/INFO]: [0;37;22m> [0;37;1mMythicMobs: [0;32;1mSuccess![m
+[18:29:01] [Server thread/INFO]: [0;37;22m> [0;37;1mPlaceholderAPI: [0;32;1mSuccess![m
+[18:29:01] [Server thread/INFO]: [0;37;22m> [0;37;1mPvPLevels: [0;31;1mNot found / Error.[m
+[18:29:01] [Server thread/INFO]: [0;37;22m> [0;37;1mPlayerLevels: [0;31;1mNot found / Error.[m
+[18:29:01] [Server thread/INFO]: [0;37;22m> [0;37;1mRacesOfThana: [0;31;1mNot found / Error.[m
+[18:29:01] [Server thread/INFO]: [0;37;22m> [0;37;1mRPGInventory: [0;32;1mSuccess![m
+[18:29:01] [Server thread/INFO]: [0;37;22m> [0;37;1mSkillAPI: [0;31;1mNot found / Error.[m
+[18:29:01] [Server thread/INFO]: [0;37;22m> [0;37;1mSkills: [0;32;1mSuccess![m
+[18:29:01] [Server thread/INFO]: [0;37;22m> [0;37;1mVault: [0;32;1mSuccess![m
+[18:29:01] [Server thread/INFO]: [0;37;22m> [0;37;1mWorldGuard: [0;32;1mSuccess![m
+[18:29:01] [Server thread/INFO]: [0;37;22m> [0;37;1mResidence: [0;31;1mNot found / Error.[m
+[18:29:03] [Server thread/INFO]: [0;32;22m[QRPG/INFO] Drops: [0;37;22mLoaded [0;37;1m1[0;37;22m drop tables![m
+[18:29:03] [Server thread/INFO]: [0;33;22m---------[ [0;33;1mModules Initializing [0;33;22m]---------[m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mGems[0;37;22m v1.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mEssences[0;37;22m v1.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mRunes[0;37;22m v1.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mConsumables[0;37;22m v1.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mMagic Dust[0;37;22m v1.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mArrows[0;37;22m v1.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mSets[0;37;22m v1.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mActive Items[0;37;22m v1.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mCustom Items[0;37;22m v1.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mTiers[0;37;22m v1.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mRefine[0;37;22m v1.0.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mIdentify[0;37;22m v1.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mSoulbound[0;37;22m v1.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mRepair[0;37;22m v1.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mResolve[0;37;22m v1.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mExtractor[0;37;22m v1.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mParty[0;37;22m v1.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mItem Hints[0;37;22m v1.0.1: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mDrops[0;37;22m v1.1.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mSell[0;37;22m v1.0.2: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mBuffs[0;37;22m v1.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mCombat Log[0;37;22m v1.0.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [0;37;22m> [0;37;1mNotifications[0;37;22m v1.0: [0;32;1mActive![m
+[18:29:03] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.16.1.153
+[18:29:03] [Server thread/INFO]: [WorldGuardExtraFlags] Enabling WorldGuardExtraFlags v4.1.2
+[18:29:03] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnEntryFlagHandler
+[18:29:03] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnExitFlagHandler
+[18:29:03] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnEntryFlagHandler
+[18:29:03] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnExitFlagHandler
+[18:29:03] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnEntryFlagHandler
+[18:29:03] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnExitFlagHandler
+[18:29:03] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.WalkSpeedFlagHandler
+[18:29:03] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.BlockedEffectsFlagHandler
+[18:29:03] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GodmodeFlagHandler
+[18:29:03] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GiveEffectsFlagHandler
+[18:29:03] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.FlyFlagHandler
+[18:29:03] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.PlaySoundsFlagHandler
+[18:29:03] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GlideFlagHandler
+[18:29:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:29:05] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[18:29:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: essentials
+[18:29:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[18:29:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
+[18:29:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic
+[18:29:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[18:29:05] [Server thread/INFO]: Done (60.181s)! For help, type "help"
+[18:29:06] [Server thread/INFO]: [INFO] [BannerBoard] Loading images...[m
+[18:29:06] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded 0 image(s).[m
+[18:29:06] [Server thread/INFO]: [INFO] [BannerBoard] Loading color cache table color_palette_v1_12_R1.bc...
+[18:29:06] [Server thread/INFO]: [INFO] [BannerBoard] Connecting to skinrender.com with key ***********EY_HERE...[m
+[18:29:07] [Craft Scheduler Thread - 18/INFO]: [Vault] Checking for Updates ... 
+[18:29:07] [Server thread/INFO]: [ActionBarAPI] No update was found, you are running the latest version.
+[18:29:08] [Craft Scheduler Thread - 13/INFO]: Trying to get new version of QuickBoard...
+[18:29:08] [Craft Scheduler Thread - 8/INFO]: [0;36;1m[[0;37;22mUltraPermissions[0;36;1m] [mLoading Permission Database...[m
+[18:29:08] [Craft Scheduler Thread - 8/INFO]: [0;36;1m[[0;37;22mUltraPermissions[0;36;1m] [m- 113 Permissions extracted from .jars[m
+[18:29:08] [Craft Scheduler Thread - 13/INFO]: Current QuickBoard version: 4.2.1
+[18:29:08] [Craft Scheduler Thread - 13/INFO]: Web QuickBoard version: 4.2.1
+[18:29:08] [Craft Scheduler Thread - 0/INFO]: [PlaceholderAPI] 145 placeholder expansions are available on the cloud.
+[18:29:08] [Craft Scheduler Thread - 18/INFO]: [Vault] No new version available
+[18:29:08] [Craft Scheduler Thread - 0/INFO]: [PlaceholderAPI] 2 installed expansions have updates available.
+[18:29:09] [Craft Scheduler Thread - 8/INFO]: [0;36;1m[[0;37;22mUltraPermissions[0;36;1m] [m- 4287 Permissions downloaded from the Cloud[m
+[18:29:19] [User Authenticator #1/INFO]: UUID of player Russamee is 899b8755-c5b0-44fa-a4f8-ccf88c110ef9
+[18:29:23] [Server thread/WARN]: [elyby-skinsystem] Unable to get textures for Russamee. Enable debug mode in config to obtain trace log.
+[18:29:25] [Server thread/INFO]: Russamee[/125.26.34.24:61767] logged in with entity id 125 at ([MMO]138.8759236162933, 108.71913291684629, 180.2354560289533)
+[18:29:46] [Server thread/WARN]: [PlaceholderAPI] Skills is currently using a deprecated method to hook into PlaceholderAPI. This will be disabled after the next update. Please consult [Hex_27] and urge them to update it ASAP.
+[18:29:48] [Server thread/WARN]: Russamee moved too quickly! -8.962796704838553,5.437658903505437,1.5543666586996778
+[18:30:02] [Server thread/INFO]: Made Russamee no longer a server operator
+[18:30:15] [Server thread/WARN]: Russamee moved too quickly! -12.690123069376654,-2.4310973042780546,4.379618304559273
+[18:30:30] [Server thread/INFO]: Made Russamee a server operator
+[18:30:43] [Server thread/INFO]: Russamee issued server command: /gamerule disableElytraMovementCheck false
+[18:30:43] [Server thread/INFO]: [Russamee: Gamerule disableElytraMovementCheck is now set to: false]
+[18:30:53] [Server thread/WARN]: Russamee moved too quickly! 21.307516461457055,-4.192231117253726,-7.239772821506165
+[18:31:00] [Server thread/INFO]: Russamee issued server command: /gamerule disableElytraMovementCheck true
+[18:31:00] [Server thread/INFO]: [Russamee: Gamerule disableElytraMovementCheck is now set to: true]
+[18:31:41] [Server thread/INFO]: Russamee issued server command: /gamerule keepInventory true
+[18:31:41] [Server thread/INFO]: [Russamee: Gamerule keepInventory is now set to: true]
+[18:31:51] [Server thread/INFO]: Russamee issued server command: /gamerule announceAdvancements false
+[18:31:51] [Server thread/INFO]: [Russamee: Gamerule announceAdvancements is now set to: false]
+[18:32:58] [Server thread/INFO]: Russamee issued server command: /gamerule disableElytraMovementCheck true
+[18:32:58] [Server thread/INFO]: [Russamee: Gamerule disableElytraMovementCheck is now set to: true]
+[18:33:04] [Server thread/INFO]: Made Russamee no longer a server operator
+[18:33:18] [Server thread/WARN]: Russamee moved too quickly! 16.05972716393555,0.0,-4.224701907837101
+[18:33:40] [Server thread/INFO]: Made Russamee a server operator
+[18:33:46] [Server thread/INFO]: Russamee issued server command: /killall all
+[18:33:47] [Server thread/INFO]: Russamee issued server command: /killall all
+[18:34:16] [Server thread/INFO]: Russamee issued server command: /setspawn
+[18:34:20] [Server thread/INFO]: Russamee issued server command: /kill
+[18:34:22] [Server thread/INFO]: Russamee issued server command: /kill Russamee
+[18:35:00] [Server thread/INFO]: Russamee issued server command: /gm 0
+[18:35:03] [Server thread/INFO]: Russamee issued server command: /gm 2
+[18:35:08] [Server thread/INFO]: Russamee issued server command: /gm 1
+[18:35:12] [Server thread/INFO]: Russamee issued server command: /gm 2
+[18:46:15] [Server thread/INFO]: Russamee issued server command: /gm 1
+[18:46:18] [Server thread/INFO]: Russamee issued server command: /gm 0
+[18:48:46] [Async Chat Thread - #0/INFO]: [0;30;22m[[0;30;1mNewbie[0;30;22m] [0;37;22m [0;37;22mRussamee[0;36;1m: [0;37;1m.[m
+[18:48:54] [Server thread/INFO]: Made Russamee no longer a server operator
+[18:49:00] [Server thread/INFO]: Russamee lost connection: Disconnected
+[18:49:00] [Server thread/INFO]: Russamee left the game
+[18:49:24] [Server thread/INFO]: [RPGInventory] Disabling RPGInventory v2.3.0
+[18:49:24] [Server thread/INFO]: [RPGInventory] Enabling RPGInventory v2.3.0
+[18:49:24] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader RPGInventory v2.3.0
+[18:49:24] [Server thread/WARN]: [RPGInventory] Support of 1.13.2-R0.1-SNAPSHOT is experimental! Use RPGInventory with caution.
+[18:49:24] [Server thread/INFO]: [RPGInventory] Permissions hooked: UltraPermissions
+[18:49:24] [Server thread/INFO]: [RPGInventory] Economy hooked: iConomy 5.08
+[18:49:24] [Server thread/INFO]: [RPGInventory] Placeholder API hooked!
+[18:49:24] [Server thread/INFO]: [RPGInventory] 6 pet(s) has been loaded
+[18:49:24] [Server thread/INFO]: [RPGInventory] 1 food(s) has been loaded
+[18:49:24] [Server thread/INFO]: [RPGInventory] Pet system is enabled
+[18:49:24] [Server thread/INFO]: [RPGInventory] Craft system is disabled in config
+[18:49:24] [Server thread/INFO]: [RPGInventory] Craft extensions isn't loaded
+[18:49:24] [Server thread/INFO]: [RPGInventory] Inventory lock system is enabled
+[18:49:25] [Server thread/INFO]: [RPGInventory] 4 item(s) has been loaded
+[18:49:25] [Server thread/INFO]: [RPGInventory] Item system is enabled
+[18:49:25] [Server thread/INFO]: [RPGInventory] 3 backpack type(s) has been loaded
+[18:49:25] [Server thread/INFO]: [RPGInventory] 0 backpack(s) has been loaded
+[18:49:25] [Server thread/INFO]: [RPGInventory] Backpack system is enabled
+[18:49:25] [Server thread/WARN]: [RPGInventory] 
+[18:49:25] [Server thread/WARN]: [RPGInventory] ######### Something wrong with RP settings! ##########
+[18:49:25] [Server thread/WARN]: [RPGInventory] # Set 'resource-pack.url' in config or disable it!
+[18:49:25] [Server thread/WARN]: [RPGInventory] ######################################################
+[18:49:25] [Server thread/WARN]: [RPGInventory] 
+[18:49:25] [Server thread/ERROR]: [RPGInventory] Resource-pack can not be enabled
+[18:49:25] [Server thread/INFO]: [0;33;1m[RPGInventory] Plugin successfully reloaded![m
+[18:49:29] [User Authenticator #2/INFO]: UUID of player Russamee is 899b8755-c5b0-44fa-a4f8-ccf88c110ef9
+[18:49:34] [Server thread/INFO]: Russamee[/125.26.34.24:61871] logged in with entity id 288 at ([MMO]239.33820485799436, 63.0, 97.18939607531905)
+[18:49:34] [Server thread/INFO]: [0;33;1mRussamee[0;33;1m joined the game[m
+[18:50:41] [Server thread/INFO]: [RPGInventory] Disabling RPGInventory v2.3.0
+[18:50:41] [Server thread/INFO]: [RPGInventory] Saving players inventories...
+[18:50:41] [Server thread/INFO]: [RPGInventory] Enabling RPGInventory v2.3.0
+[18:50:41] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader RPGInventory v2.3.0
+[18:50:42] [Server thread/WARN]: [RPGInventory] Support of 1.13.2-R0.1-SNAPSHOT is experimental! Use RPGInventory with caution.
+[18:50:42] [Server thread/INFO]: [RPGInventory] Permissions hooked: UltraPermissions
+[18:50:42] [Server thread/INFO]: [RPGInventory] Economy hooked: iConomy 5.08
+[18:50:42] [Server thread/INFO]: [RPGInventory] Placeholder API hooked!
+[18:50:42] [Server thread/INFO]: [RPGInventory] 6 pet(s) has been loaded
+[18:50:42] [Server thread/INFO]: [RPGInventory] 1 food(s) has been loaded
+[18:50:42] [Server thread/INFO]: [RPGInventory] Pet system is enabled
+[18:50:42] [Server thread/INFO]: [RPGInventory] Craft system is disabled in config
+[18:50:42] [Server thread/INFO]: [RPGInventory] Craft extensions isn't loaded
+[18:50:42] [Server thread/INFO]: [RPGInventory] Inventory lock system is enabled
+[18:50:42] [Server thread/INFO]: [RPGInventory] 4 item(s) has been loaded
+[18:50:42] [Server thread/INFO]: [RPGInventory] Item system is enabled
+[18:50:42] [Server thread/INFO]: [RPGInventory] 3 backpack type(s) has been loaded
+[18:50:42] [Server thread/INFO]: [RPGInventory] 0 backpack(s) has been loaded
+[18:50:42] [Server thread/INFO]: [RPGInventory] Backpack system is enabled
+[18:50:42] [Server thread/WARN]: [RPGInventory] 
+[18:50:42] [Server thread/WARN]: [RPGInventory] ######### Something wrong with RP settings! ##########
+[18:50:42] [Server thread/WARN]: [RPGInventory] # Set 'resource-pack.url' in config or disable it!
+[18:50:42] [Server thread/WARN]: [RPGInventory] ######################################################
+[18:50:42] [Server thread/WARN]: [RPGInventory] 
+[18:50:42] [Server thread/ERROR]: [RPGInventory] Resource-pack can not be enabled
+[18:50:42] [Server thread/INFO]: [RPGInventory] Loading players inventories...
+[18:50:42] [Server thread/INFO]: [0;33;1m[RPGInventory] Plugin successfully reloaded![m
+[18:54:44] [Server thread/INFO]: Russamee issued server command: /skills reload
+[18:54:50] [Server thread/INFO]: [Skills]: Loaded 0 language statements
+[18:54:50] [Server thread/INFO]: [0;32;1m√’‚À≈¥‡ √Á® ‘Èπ[m
+[18:54:59] [Server thread/INFO]: [Skills]: Loaded 0 language statements
+[18:54:59] [Server thread/INFO]: [0;32;1m√’‚À≈¥‡ √Á® ‘Èπ[m
+[18:56:57] [Server thread/INFO]: Russamee lost connection: Disconnected
+[18:56:57] [Server thread/INFO]: Russamee left the game
+[18:56:59] [Server thread/INFO]: Stopping the server
+[18:56:59] [Server thread/INFO]: Stopping server
+[18:56:59] [Server thread/INFO]: [WorldGuardExtraFlags] Disabling WorldGuardExtraFlags v4.1.2
+[18:56:59] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.16.1.153
+[18:56:59] [Server thread/INFO]: [QuantumRPG] Disabling QuantumRPG v4.0.7.98-BETA
+[18:56:59] [Server thread/INFO]: [TAB] Disabling TAB v2.4.3
+[18:56:59] [Server thread/INFO]: [TAB] Disabled in 2ms
+[18:56:59] [Server thread/INFO]: [iConomy] Disabling iConomy v5.08
+[18:56:59] [Server thread/INFO]: [iConomy] Plugin disabled.
+[18:56:59] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.16.1.153
+[18:56:59] [Server thread/INFO]: [ItemCases] Disabling ItemCases v2.6.1
+[18:56:59] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.16.1.153
+[18:56:59] [Server thread/INFO]: [RPGInventory] Disabling RPGInventory v2.3.0
+[18:56:59] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.16.1.153
+[18:56:59] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v4.5.9-2586
+[18:56:59] [Server thread/INFO]: [MythicMobs] Disabling Mythic Mobs...
+[18:56:59] [Server thread/INFO]: [MythicMobs] All active settings have been saved.
+[18:56:59] [Server thread/INFO]: [MythicMobs] v4.5.9-2586 has been Disabled!
+[18:56:59] [Server thread/INFO]: [SafeTrade] Disabling SafeTrade v1.1.0
+[18:56:59] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.3.2
+[18:56:59] [Server thread/INFO]: [Skills] Disabling Skills v12.3.5
+[18:56:59] [Server thread/INFO]: [QuickBoard] Disabling QuickBoard v4.2.1
+[18:56:59] [Server thread/INFO]: [Essentials] Disabling Essentials v2.16.1.153
+[18:56:59] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: essentials
+[18:56:59] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[18:56:59] [Server thread/INFO]: [UltraPermissions] Disabling UltraPermissions v4.1.7
+[18:56:59] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[18:56:59] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[18:56:59] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: vault
+[18:56:59] [Server thread/INFO]: [LoneDevCheck] Disabling LoneDevCheck v1.0.5
+[18:56:59] [Server thread/INFO]: [ShowItem] Disabling ShowItem v1.4.12 (build #297)
+[18:56:59] [Server thread/INFO]: [EpicWorldGenerator] Disabling EpicWorldGenerator v8.1.0
+[18:56:59] [Server thread/INFO]: [elyby-skinsystem] Disabling elyby-skinsystem v0.2.0-beta
+[18:56:59] [Server thread/INFO]: [WolfyUtilities] Disabling WolfyUtilities v1.0.0.0
+[18:56:59] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.0-beta-03;e51a220
+[18:56:59] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[18:56:59] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.4.0
+[18:56:59] [Server thread/INFO]: [ActionBarAPI] Disabling ActionBarAPI v1.5.4
+[18:56:59] [Server thread/INFO]: [NewItems] Disabling NewItems v4.3.25
+[18:56:59] [Server thread/INFO]: [BannerBoard] Disabling BannerBoard v1.10.2
+[18:57:00] [Server thread/INFO]: [UltraCustomizer] Disabling UltraCustomizer v1.1.8
+[18:57:00] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.10.1
+[18:57:00] [Server thread/INFO]: [OpenInv] Disabling OpenInv v3.3.7
+[18:57:00] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.0.0-beta-05;6bbf29b
+[18:57:00] [Server thread/INFO]: Saving players
+[18:57:00] [Server thread/INFO]: Saving worlds
+[18:57:00] [Server thread/INFO]: Saving chunks for level 'MMO'/minecraft:overworld

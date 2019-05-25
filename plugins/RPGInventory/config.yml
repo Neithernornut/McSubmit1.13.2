@@ -3,13 +3,13 @@
 
 enabled: true
 language: en
-check-update: true
+check-update: false
 worlds:
   mode: BLACKLIST
   list:
   - blocked_world
-level-system: EXP
-class-system: PERMISSIONS
+level-system: SKILLS
+class-system: SKILLS
 fill: DIAMOND_HOE:1
 items:
   lore-pattern:
@@ -28,7 +28,7 @@ backpacks:
   expiration-time: 30
   limit: 1
 resource-pack:
-  enabled: false
+  enabled: true
   delay: 2
   url: PUT_YOUR_URL_HERE
   hash: PUT_YOUR_HASH_HERE
@@ -41,7 +41,7 @@ join-messages:
     - '&6Glad to see you, &3%player_name%'
     - '&6This server using &9RPGInventory'
   rp-info:
-    enabled: false
+    enabled: true
     title: '&l&4It is important!'
     text:
     - '&6You should &callow &6resource pack to play on this server'
@@ -57,12 +57,12 @@ attack:
 armor-slots-action: default
 craft-slots-action: rpginv
 slots:
-  enabled: false
+  enabled: true
   locked: DIAMOND_HOE:19
   buyable: DIAMOND_HOE:18
   free: 2
   money:
-    enabled: true
+    enabled: false
     cost:
       line1: 1000
       line2: 2000
@@ -76,7 +76,7 @@ slots:
       line3: 40
 craft:
   enabled: false
-  workbench: true
+  workbench: false
   extendable: DIAMOND_HOE:27
   extensions:
     journeyman:
