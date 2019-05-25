@@ -1,0 +1,74 @@
+Case:
+  Open:
+    NoKey: '&cYou do not have a key for this case!'
+    AlreadyOpening: '&cYou are already opening a case!'
+    Empty: '&cThis case is empty, contact the staff on the server.'
+    MysteryNoButtons: '&cThis mystery case contains no buttons for you to choose from,
+      contact the staff on the server.'
+  Preview:
+    Disabled: '&cCase previewing has been disabled.'
+Command:
+  Case:
+    PlayerNotFound: '&cThat player couldn''t be found.'
+    DoesntExist: '&cThat case does not exist.'
+    InvalidNumber: '&c&l%INPUT% &7is a invalid number.'
+    AlreadyExists: '&cThat case already exists.'
+    BeingEdited: '&cThat case is being edited by someone else.'
+    Create:
+      UnknownType: '&cThat case type couldn''t be found. Try ''/case types'' for a
+        list of types.'
+      Success: '&aCase has been created.'
+    Types:
+      Success: '&aCase types: %TYPES%.'
+    Remove:
+      Success: '&aCase removed.'
+    List:
+      Success: '&aCases: %LIST%.'
+    GiveKey:
+      Success:
+        MultipleUsers: '&a%AMOUNT% key(s) were given to all online players.'
+        SingleUser: '&a%AMOUNT% key(s) were given to %PLAYER%.'
+    GiveCase:
+      Success:
+        MultipleUsers: '&a%AMOUNT% case(s) were given to all online players.'
+        SingleUser: '&a%AMOUNT% case(s) were given to %PLAYER%.'
+    Give:
+      Success:
+        MultipleUsers: '&a%AMOUNT% case(s) and key(s) were given to all online players.'
+        SingleUser: '&a%AMOUNT% case(s) and key(s) were given to %PLAYER%.'
+    Open:
+      Error: '&cThat case can''t be opened, here''s why: ''%ERROR%''.'
+      Successful: '&a%PLAYERS% had the case opened for them.'
+      Unsuccessful: '&c%PLAYERS% didn''t have the case opened for them because they
+        were already opening a case.'
+    Reload:
+      Success: '&aReloaded the cases and configs.'
+    RedeemPermission:
+      NoPermission: '&cYou do not have permission to claim this case.'
+      NotRedeemable: '&cThis case isn''t redeemable.'
+      OnCooldown: '&cYou must wait %TIME% minute(s) before you can redeem this again.'
+      Claimed: '&aYou have claimed %NAME%.'
+      Message: '&aRedeem permission for %NAME% is ''&e%PERMISSION%&a''.'
+    SetItem:
+      InvalidArg: '&cYou must type either ''key'' or ''case'' to set the item for
+        this case.'
+      CaseDuplicate: '&cAnother case already has this ''case item''. You can have
+        the same keys on different cases, but not case items!'
+      NoDisplayName: '&cThe item you use must be renamed / have a name!'
+      NoItemInHand: '&cYou do not have an item in your hand!'
+      Success: '&aYou manually set the %ITEMTYPE% for the case %CASE%.'
+    SetRedeemDelay:
+      NotANumber: '&cYou didn''t input a number of seconds for how long the delay
+        will be.'
+      Success: '&aDelay set.'
+  Crate:
+    Create:
+      Success: '&aCrate created.'
+    Remove:
+      Success: '&aCrate removed.'
+  Help:
+    Format: '&b%EXAMPLE% &f - %DESCRIPTION%'
+    Header: '&e------------------- Page %PAGE% of %PAGES% -------------------'
+Error:
+  NoPermission: '&cYou do not have permission to do this.'
+  MustBeInGame: '&cYou must be in game to do this.'

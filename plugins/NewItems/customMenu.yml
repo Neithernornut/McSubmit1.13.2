@@ -1,0 +1,9 @@
+menuSettings:
+  name: '&3&lServer special items'
+  sizeY: 2
+  nextPageButton:
+    name: '&fNext page->'
+  previousPageButton:
+    name: '&f<-Previous page'
+  backButton:
+    name: '&fBack'

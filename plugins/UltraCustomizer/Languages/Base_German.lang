@@ -1,0 +1,40 @@
+#
+# Default Language File
+# To make your own language file, copy this file and edit the copy
+#
+# Changes made to this file will be reset!
+# Do not edit it!
+#
+
+ENABLE: aktivieren
+ENABLED: aktiviert
+DISABLE: deaktivieren
+DISABLED: deaktiviert
+SETTINGS: Einstellungen
+THANKSFORPURCHASE: Vielen Dank für den Kauf von %1 programmiert von TechsCode
+GUI_SETTINGS_SELECTPAGE: Klicke um Kategorie zu öffnen
+GUI_SETTINGS_PAGESELECTED: Diese Kategorie ist gerade **geöffnet**
+GUI_SETTINGS_LANGUAGE_NAME: Sprache
+GUI_SETTINGS_MYSQL_NAME: MySQL Datenbank
+GUI_SETTINGS_MYSQL_EDITVALUE_ACTION: Klicke um den Wert zu ändern
+GUI_SETTINGS_MYSQL_CURRENTVALUE: Wert
+GUI_SETTINGS_MYSQL_TYPEINVALUE: Tippe einen neuen Wert ein
+GUI_SETTINGS_MYSQL_SETUP_TITLE: MySQL Einrichten
+GUI_SETTINGS_MYSQL_SETUP_ACTION: Klicke um die MySQL zu aktivieren
+GUI_SETTINGS_MYSQL_SETUP_INFO: Dies erfordert eine externe MySQL Datenbank
+GUI_SETTINGS_MYSQL_DISABLE_TITLE: MySQL deaktivieren
+GUI_SETTINGS_MYSQL_DISABLE_ACTION: Klicke um die MySQL zu deaktivieren
+GUI_SETTINGS_MYSQL_RESTARTREQUIRED: Der Server wird hierbei neugestartet
+GUI_SETTINGS_MYSQL_CANTCONNECT: Konnte nicht mit dem MySQL Server verbinden
+GUI_SETTINGS_MYSQL_SAVE_TITLE: Testen & Speichern
+GUI_SETTINGS_MYSQL_SAVE_ACTION: Klicke um zu **testen** und dann zu **speichern**
+GUI_PAGEABLE_SEARCH_TITLE: Suche
+GUI_PAGEABLE_SEARCH_ACTION: Klicke um zu suchen
+GUI_PAGEABLE_NEXT_TITLE: Nächste Seite
+GUI_PAGEABLE_NEXT_ACTION: Gehe zur nächsten Seite
+GUI_PAGEABLE_PREVIOUS_TITLE: Vorherige Seite
+GUI_PAGEABLE_PREVIOUS_ACTION: Gehe zur vorherigen Seite
+GUI_PAGEABLE_SEARCH_CLOSE_ACTION: Klicke um die Suche zu **schließen**
+GUI_PAGEABLE_SEARCH_TYPEIN: Klicke um ein Suchwort einzugeben
+GUI_BACK_NAME: Zurück
+GUI_BACK_ACTION: Klicke um zurück zu gehen

@@ -1,0 +1,338 @@
+CS:
+  CaseEditor:
+    Title: '&2&lCase Editor'
+    Component:
+      EditRewards:
+        type: 54
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lEdit Rewards'
+        lore:
+        - ''
+        - '&7Total Rewards: &e%TOTAL%'
+      ToggleKeyRequired:
+        type: 131
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lToggle Key Required'
+        lore:
+        - ''
+        - '&7Currently Enabled: &e%ENABLED%'
+        - ''
+        - '&c&o(Toggle whether keys are needed'
+        - '&c&oto open the crates / cases of this)'
+      ToggleSound:
+        type: 25
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lToggle Sound'
+        lore:
+        - ''
+        - '&7Currently Enabled: &e%ENABLED%'
+        - ''
+        - '&c&o(Toggle whether ticking sounds'
+        - '&c&oare played when the case is'
+        - '&c&oopened)'
+      EditBackground:
+        type: 321
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lEdit Background'
+        lore:
+        - ''
+        - '&c&o(Edit the background of the case'
+        - '&c&owhich is shown when opened)'
+  BackgroundEditor:
+    Title: '&2&lBackground Editor'
+    Component:
+      Filler:
+        type: 160
+        amount: 1
+        durability: 15
+        meta: true
+        name: '&0'
+      InvalidSlot:
+        type: 7
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&4&lInvalid Slot'
+      RainbowMode:
+        type: 399
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lRainbow Mode'
+        lore:
+        - ''
+        - '&7Currently Enabled: &e%ENABLED%'
+        - ''
+        - '&c&o(Whether the following types:'
+        - '&c&ostained glass, stained glass pane,'
+        - '&c&owool, stained clay, and carpet'
+        - '&c&owill have their color randomized'
+        - '&c&oeach few ticks)'
+      Save:
+        type: 35
+        amount: 1
+        durability: 5
+        meta: true
+        name: '&a&lSave Background'
+      Copy:
+        type: 339
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lCopy Background'
+        lore:
+        - ''
+        - '&c&o(Copy the background from another'
+        - '&c&ocounter strike case)'
+        ClickMessage: '&aPlease type the name of the counter strike case you wish
+          to copy the background from as a chat message:'
+        Returned:
+          DoesntExist: '&cThe case you were previously editing no longer exists.'
+          NotFound: '&cThe case to copy from couldn''t be found.'
+          NotCounterStrike: '&cThat case is not a counter strike case!'
+          Success: '&aBackground copied from %FROM% to %TO%, %TO% was saved.'
+  Opener:
+    Title: '&2&lOpening'
+RewardsEditor:
+  Title: '&2&lRewards Editor'
+  Component:
+    Filler:
+      type: 160
+      amount: 1
+      durability: 15
+      meta: true
+      name: '&0'
+    Return:
+      type: 35
+      amount: 1
+      durability: 5
+      meta: true
+      name: '&a&lReturn to Editor Menu'
+    Reward:
+      AddedLore:
+        NoIconHasBeenSet:
+        - ''
+        - '&7Chance: &e%CHANCE%%'
+        - ''
+        - '&c&o(Left click: Remove reward)'
+        - '&c&o(Shift Left click: Edit reward icon)'
+        - '&c&o(Right click: Change chance)'
+        IconHasBeenSet:
+        - ''
+        - '&7Chance: &e%CHANCE%%'
+        - ''
+        - '&c&o(An Icon has been set for this reward,'
+        - '&c&oview it in the reward preview menu (left'
+        - '&c&oclick a case/crate) to see it)'
+        - ''
+        - '&c&o(Left click: Remove reward)'
+        - '&c&o(Shift Left click: Edit reward icon)'
+        - '&c&o(Right click: Change chance)'
+    Add:
+      ItemReward:
+        type: 23
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lAdd an Item Reward'
+      CommandReward:
+        type: 339
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lAdd a Command Reward'
+        Informer: '&aTo state the command type the command (including the ''/'') and
+          press enter (note, it will not be ran this time):'
+        CaseRemoved: '&cThat case was removed. Command reward adding was skipped.'
+        AlreadyContains: '&cThe case you''re editing already contains this command
+          reward, please consider changing the percentage of that instead.'
+      IsFull: '&cThe chances of all the rewards in this case adds up to 100%, you
+        must reduce this number to add a new reward.'
+    NextPage:
+      type: 262
+      amount: 1
+      durability: 0
+      meta: true
+      name: '&a&lNext Page'
+    PreviousPage:
+      type: 262
+      amount: 1
+      durability: 0
+      meta: true
+      name: '&a&lPrevious Page'
+  ComponentTotalChance:
+    type: 388
+    amount: 1
+    durability: 0
+    meta: true
+    name: '&a&lTotal Chance'
+    lore:
+    - ''
+    - '&7Combined Chance: &e%TOTALCHANCE%%'
+    - ''
+    - '&c&o(The total of every rewards'
+    - '&c&ochance added together)'
+RewardPreview:
+  Title: '&a&lPreview'
+  Component:
+    NextPage:
+      type: 262
+      amount: 1
+      durability: 0
+      meta: true
+      name: '&a&lNext Page'
+    PreviousPage:
+      type: 262
+      amount: 1
+      durability: 0
+      meta: true
+      name: '&a&lPrevious Page'
+    Filler:
+      type: 160
+      amount: 1
+      durability: 15
+      meta: true
+      name: '&0'
+    Reward:
+      AddedLore:
+      - ''
+      - '&7Chance: &e%CHANCE%%'
+AddItemReward:
+  Title: '&2&lInsert Item'
+  Component:
+    Confirm:
+      type: 35
+      amount: 1
+      durability: 5
+      meta: true
+      name: '&a&lConfirm Item'
+      NoItemInserted: '&cYou haven''t inserted an item!'
+      AlreadyContains: '&cThe case you''re editing already contains this item reward,
+        please consider changing the percentage of that instead.'
+RewardIconInserter:
+  Title: '&2&lInsert new Reward Icon'
+ChanceSelector:
+  Title: '&2&lSelect Chance'
+  Component:
+    Chance:
+      type: 388
+      amount: 1
+      durability: 0
+      meta: true
+      name: '&c&lReward Chance'
+      lore:
+      - ''
+      - '&7Reward Chance: &e%CHANCE%%'
+    Subtraction:
+      type: 95
+      amount: 1
+      durability: 14
+      meta: true
+      name: '&c&lSubtract %AMOUNT%%'
+    Addition:
+      type: 95
+      amount: 1
+      durability: 5
+      meta: true
+      name: '&a&lAdd %AMOUNT%%'
+      AboveMaxError: '&cThat value exceeds the maximum chance, total reward chances
+        cannot exceed 100%.'
+    Continue:
+      type: 35
+      amount: 1
+      durability: 5
+      meta: true
+      name: '&a&lSave Chance & Continue'
+      0Percent: '&cYou must select a percent that is above 0%!'
+Mystery:
+  CaseEditor:
+    Title: '&2&lCase Editor'
+    Component:
+      EditRewards:
+        type: 54
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lEdit Rewards'
+        lore:
+        - ''
+        - '&7Total Rewards: &e%TOTAL%'
+      ToggleKeyRequired:
+        type: 131
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lToggle Key Required'
+        lore:
+        - ''
+        - '&7Currently Enabled: &e%ENABLED%'
+        - ''
+        - '&c&o(Toggle whether keys are needed'
+        - '&c&oto open the crates / cases of this)'
+      AmountOfChoices:
+        type: 23
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lAmount of Choices'
+        lore:
+        - ''
+        - '&7Current Choices: &e%CHOICES%'
+        - ''
+        - '&c(Left click: +1)'
+        - '&c(Right click: -1)'
+        - ''
+        - '&c&o(Select how many guess a player'
+        - '&c&ocan have when they open this case)'
+      EditLayout:
+        type: 130
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lEdit Button Layout'
+        lore:
+        - ''
+        - '&c&o(Edit the buttons which players'
+        - '&c&ocan choose from)'
+  LayoutEditor:
+    Title: '&2&lLayout Editor'
+    Component:
+      Filler:
+        type: 160
+        amount: 1
+        durability: 15
+        meta: true
+        name: '&0'
+      Save:
+        type: 35
+        amount: 1
+        durability: 5
+        meta: true
+        name: '&a&lSave Background'
+      Copy:
+        type: 339
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lCopy Layout'
+        lore:
+        - ''
+        - '&c&o(Copy the layout from another'
+        - '&c&omystery case)'
+        ClickMessage: '&aPlease type the name of the mystery case you wish to copy
+          the background from as a chat message:'
+        Returned:
+          DoesntExist: '&cThe case you were previously editing no longer exists.'
+          NotFound: '&cThe case to copy from couldn''t be found.'
+          NotMystery: '&cThat case is not a counter strike case!'
+          Success: '&aLayout copied from %FROM% to %TO%, %TO% was saved.'
+  Opener:
+    Title: '&2&lOpening'

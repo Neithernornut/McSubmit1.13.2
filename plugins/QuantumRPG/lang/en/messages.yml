@@ -1,0 +1,302 @@
+Prefix: '&aQuantumRPG &8›› &7'
+Help:
+  Main:
+  - '&8&m-----------&8&l[ &aQuantum RPG &8&l]&8&m-----------'
+  - '&2> &a/qrpg set &7- Add item attributes.'
+  - '&2> &a/qrpg modify &7- Modify the item in hand.'
+  - '&2> &a/qrpg reload &7- Reload the plugin and modules.'
+  - '&2> &a/qrpg info &7- Plugin info.'
+  Modify:
+  - '&8&m-----------&8&l[ &aQuantum RPG &7- &aModify &8&l]&8&m-----------'
+  - '&7&l&nCommand List:'
+  - '&2> &a/qrpg modify name <Name> &7- Change display name of the item.'
+  - '&2> &a/qrpg modify lore add [text] [line] &7- Add lore line.'
+  - '&2> &a/qrpg modify lore del [line] &7- Remove lore line.'
+  - '&2> &a/qrpg modify lore clear &7- Clear item lore.'
+  - '&2> &a/qrpg modify flag add <flag> &7- Add a flag to item.'
+  - '&2> &a/qrpg modify flag del <flag> &7- Remove a flag from the item.'
+  - '&2> &a/qrpg modify nbt add <tag> <value> &7- Add an NBT Tag to item.'
+  - '&2> &a/qrpg modify nbt del <tag> &7- Remove NBT Tag from item.'
+  - '&2> &a/qrpg modify enchant <enchantment> <Level> &7- Enchants item.'
+  - '&2> &a/qrpg modify potion <effect> <level> <duration> [ambient(true/false)] [particles(true/false)]
+    [icon(true/false)] &7- Modify potion effects.'
+  - '&2> &a/qrpg modify eggtype <entity type> &7- Change the monster egg type.'
+  - '&2> &a/qrpg modify color <r,g,b> &7- Change the color of leather armor.'
+  Set:
+  - '&8&m-----------&8&l[ &aQuantum RPG &7- &aSet &8&l]&8&m-----------'
+  - '&7&l&nCommand List:'
+  - '&2> &a/qrpg set attribute/stat <type> <value> [line] &7- Set the attribute to
+    item.'
+  - '&2> &a/qrpg set bonus <type> <value> [line] &7- Set the bonus stat to item.'
+  - '&2> &a/qrpg set level <number> [line] &7- Add level requirements to item.'
+  - '&2> &a/qrpg set class <Class1,Class2,Etc> [line] &7- Add class requirements to
+    item.'
+  - '&2> &a/qrpg set damagetype <type> <min> <max> [line] &7- Add the damage type
+    to item.'
+  - '&2> &a/qrpg set defensetype <type> <value> [line] &7- Add the defense type to
+    item.'
+  - '&2> &a/qrpg set ammotype <type> [line] &7- Set the type of ammo to bow.'
+  - '&2> &a/qrpg set slot/socket <type> [line] &7- Add an empty slot to item.'
+Module:
+  Cmd:
+    Help:
+      List:
+      - '&8&m-----------&8&l[ &aQuantum RPG &7- &a%module% &8&l]&8&m-----------'
+      - '%cmds%'
+      Format: '&2> &a/%cmd% %label% %usage% &7- %desc%'
+    Get:
+      Done: You get &ax%amount% &7of &a%item%&7!
+    Give:
+      Done: You gave &ax%amount% &7of &a%item%&7 to &a%player%&7!
+    Drop:
+      Done: You dropped &ax%amount% &7of &a%item%&7 in &a%w%&7, %x%&7, &a%y%&7, &a%z%&7!
+    Usage: '&cUsage: &f/%cmd% %label% %usage%'
+    Reload: Module &a%module% &7reloaded!
+Buffs:
+  Get: You just got the %type% buff for %time% seconds. Your %type% has been increased
+    for %value%%
+  End: Your %type% buff's time ended.
+  Give: You just gave the %value% %mod%% buff for %time% seconds to %p.
+  Invalid: It seems you did a mistake in buff name.
+Consumables:
+  Cooldown: '&cYou must wait &f%time% &cto consume %item% &cagain.'
+  FullHunger: '&cYou can not consume %item% &cbecause your food level is full.'
+  FullHp: '&cYou can not consume %item% &cbecause your health is full.'
+CustomItems:
+  Cooldown: '&cYou must wait &e%time%&c to use &f%item% &cagain!'
+Essences:
+  AlreadyHave: '%item% &7already have this essence.'
+  Enchanting:
+    InvalidType: '&c&lOops! &7This essence can not be applied to this item type!'
+    BadLevel: '&c&lOops! &7This item level is too low or high for this essence!'
+    NoSlots: '&c&lOops! &7This item do not contains empty essnece sockets!'
+    Cancel: '&4&lCanceled!'
+    Success: '&a&lSuccess! &7Your item have been improved!'
+    Failure:
+      Item: '&c&lFailure! &7Your item have been destroyed!'
+      Source: '&c&lFailure! &7Your essence have been destroyed!'
+      Both: '&c&lFailure! &7Your item and essence has been destroyed!'
+      Clear: '&c&lFailure! &7Your item have lost all active essences!'
+Extractor:
+  Select: '&c&lPlease, select the socket type and item to extract!'
+  TooExpensive: '&c&lYou can''t afford the extraction!'
+  Done: '&a&lExtraction complete!'
+  Cancel: '&4&lCancelled.'
+Gems:
+  Enchanting:
+    MultipleNotAllowed: Your item is already have gem &c%gem%&7!
+    InvalidType: '&c&lOops! &7This gem can not be applied to this item type!'
+    BadLevel: '&c&lOops! &7This item level is too low or high for this gem!'
+    NoSlots: '&c&lOops! &7This item do not contains empty gem slots!'
+    Cancel: '&4&lCanceled!'
+    Success: '&a&lSuccess! &7Your item have been improved!'
+    Failure:
+      Item: '&c&lFailure! &7Your item have been destroyed!'
+      Source: '&c&lFailure! &7Your gem have been destroyed!'
+      Both: '&c&lFailure! &7Your item and gem has been destroyed!'
+      Clear: '&c&lFailure! &7Your item have lost all active gems!'
+Identify:
+  Cooldown: '&cYou must wait &e%time%&c to use &f%item% &cagain!'
+  WrongTome: '&clOops! &7This &cIdentify Tome &7can not identify this item.'
+  NoEquip: You can not equip the unidentified item!
+MagicDust:
+  Done: '&a&lSuccess! &7The success rate have been increased!'
+  Maximum: The success rate of the item equals &c%rate%%&7. You cant add more!
+  NoStack: You can not apply Magic Dust on more than 1 item in stack!
+Party:
+  Create: 'Created a new party &a%party%&7. Invite players: &a/party invite <player>&7.'
+  CreateIn: 'You''re already in party! Leave it: &e/party leave&7.'
+  CreateExist: There is already party with this name.
+  JoinIn: 'You''re already in party! Leave it: &e/party leave&7.'
+  Join: '&8*** &7You have joined the &d%party% &7party. &8***'
+  JoinNew: '&8*** &a%player% &7has joined the party. &8***'
+  LeaderNew: '&8*** &7You''re now the new party leader. &8***'
+  Invite:
+    Already: This player is already invited to your party.
+    Send: Invite sended to &e%player%&7.
+    Get: '&8*** &e%leader% &7invites you to the party &e%party%&7. Type &e/party join
+      %party% &8***'
+    Another: You don't have invite to this party.
+  MaxSize: There are maximum players in party.
+  Disband: 'Party disbanded: &c%party%&7.'
+  Leave: '&8*** &7You have left &d%party% &7party. &8***'
+  LeaveNew: '&8*** &c%player% &7left the party. &8***'
+  LeaveDisband: '&c%leader% &7disbands the party.'
+  Kick: '&d%leader% &7kicked you from the party.'
+  KickSelf: Unable to kick self.
+  KickOther: '&c%leader% &7kicked &c%player% &7from the party.'
+  AlreadyIn: '&c%player% &7is already in a party.'
+  PlayerNotIn: Player is not in party.
+  NotIn: You're not in the party.
+  NotLeader: Only party leader can do this.
+  QuitMember: '&7*** &d%player% &5has left the game. &7***'
+  BackMember: '&7*** &e%player% &6joined the game. &7***'
+  TpSelf: Unable to teleport to self!
+  TpTo: '&8*** &7Teleport to &a%player%&7. &8***'
+  TpFrom: '&8*** &a%player% &7teleported to you. &8***'
+  TpCooldown: 'Teleport cooldown: &c%time%'
+  ChatOn: 'Party chat: &aEnabled'
+  ChatOff: 'Party chat: &cDisabled'
+  Drop:
+    FREE: '&aFree'
+    LEADER: '&cLeader'
+    AUTO: '&fAuto'
+    ROLL: '&eRoll'
+    Mode: '&8*** &7Drop mode: &e%mode% &8***'
+Refine:
+  Enchanting:
+    InvalidType: '&c&lOops! &7This gem can not be applied to this item type!'
+    BadLevel: '&c&lOops! &7This item level is too low or high for this stone!'
+    Cancel: '&4&lCanceled!'
+    Success: '&a&lSuccess! &7Your item have been improved!'
+    Failure: '&c&lFailure! &7Your item have been downgraded!'
+Repair:
+  Cancel: '&4&lCancelled.'
+  Select: '&cPlease, select the repair type!'
+  NoItem: '&cYou must hold an item to repair!'
+  InvalidItem: '&c%item% can not be repaired.'
+  NotDamaged: '&c%item% &eis at full durability.'
+  Done: '&aYour item have been repaired.'
+  TooExpensive: '&cYou can''t afford the repair!'
+Resolve:
+  Done: '&a%item% &7resolving complete!'
+  Invalid: '&c%item% &7can not be resolved!'
+  Cancel: '&4&lCancelled'
+Restrictions:
+  NotOwner: '&7You &ccan not &7use this item because you are not the owner of them.'
+  Level: '&7Your level is too low &7(&6%s&7) for using this item.'
+  Class: '&7Your class &c(%s) &7is not allowed to use this item!'
+  NoCommands: '&cYou can not type this command while holding untradable item.'
+  Usage: '&7You must set the &6Soulbound&7 to use this item. Do &6Right-Click &7on
+    this item in your inventory (press E).'
+  SoulAccept: '&7Soulbound have been set &asuccessfully&7!'
+  SoulDecline: '&4&lCanceled.'
+  Hands:
+    CantHold: Your weapon is two-handed! You can't hold items in off hand!
+Runes:
+  Enchanting:
+    InvalidType: '&c&lOops! &7This rune can not be applied to this item type!'
+    BadLevel: '&c&lOops! &7This item level is too low or high for this rune!'
+    NoSlots: '&c&lOops! &7This item do not contains empty rune slots!'
+    AlreadyHave: '%item% &7already have this rune!'
+    Cancel: '&4&lCanceled!'
+    Success: '&a&lSuccess! &7Your item have been enchanted!'
+    Failure:
+      Item: '&c&lFailure! &7Your item have been destroyed!'
+      Source: '&c&lFailure! &7Your rune have been destroyed!'
+      Both: '&c&lFailure! &7Your item and rune has been destroyed!'
+      Clear: '&c&lFailure! &7Your item have lost all active runes!'
+Sell:
+  Sell: Sold for &a$%cost%&7!
+  Cancel: '&4&lCancelled.'
+Scrolls:
+  Cooldown: Scroll is on cooldown. You need to wait &c%s &7seconds to use it again.
+  Using: '&r&lUsing scroll... Don''t move.'
+  Cancelled: '&4&lCanceled.'
+Sets:
+  Invalid: '&cSet &7%s &cdoes not exitst.'
+Soulbound:
+  Cmd:
+    Set:
+      Done: 'Item soulbound: %state%'
+    Untradable:
+      Done: 'Item untradable: %state%'
+  NoDrop: '&cYou can not drop untradeable item!'
+  Error:
+    Pickup: '&cYou can''t pickup item you don''t own.'
+Lore:
+  State:
+    'true': '&a&l✓ &r&a'
+    'false': '&c&l✗ &r&c'
+Other:
+  'true': '&aTrue'
+  'false': '&cFalse'
+  Right: '&fRight'
+  Left: '&fLeft'
+  BrokenItem: Your item is broken! You can not use it!
+  Broadcast: Player &6%p &7found the item &6%item%&7!
+  Disabled: This item is disabled!
+  NoPerm: You dont have permissions to do that!
+  Get: 'You received: &7<%item%&7>'
+  NotAPotion: The item must be a potion!
+  NotAnEgg: The item must be an monster egg!
+  NotALeather: The item must be a leather armor!
+  InvalidType: '&cInvalid type! Available types: %s'
+  InvalidPlayer: '&cPlayer not found!'
+  InvalidNumber: '&f%s &cis invalid number!'
+  InvalidWorld: '&cWorld &7%s &cdoes not exists!'
+  InvalidSender: '&cYou must be a player!'
+  InvalidItem: '&cYou must hold an item!'
+  InvalidCoordinates: '&7%s &care not a valid coordinates!'
+  InvalidRGB: '&7%s &care not a valid RGB colors!'
+  Internal: '&cInternal error! Contact administration.'
+Time:
+  Sec: sec.
+  Min: m.
+  Hour: h.
+Admin:
+  NBTSet: NBT Tag &a%s &7successfully setted!
+  AttributeSet: Attribute &a%s &7successfully setted!
+  Set: Done!
+  WrongUsage: Wrong usage! Type &a/di help&7 for help.
+  Reload: Reload complete!
+EntityNames:
+  ELDER_GUARDIAN: Elder Guardian
+  WITHER_SKELETON: Wither Skeleton
+  STRAY: Stray
+  HUSK: Husk
+  ZOMBIE_VILLAGER: Zombie Villager
+  SKELETON_HORSE: Skeleton Horse
+  ZOMBIE_HORSE: Zombie Horse
+  ARMOR_STAND: Armor Stand
+  DONKEY: Donkey
+  MULE: Mule
+  EVOKER: Evoker
+  VEX: Vex
+  VINDICATOR: Vindicator
+  ILLUSIONER: Illusioner
+  CREEPER: Creeper
+  SKELETON: Skeleton
+  SPIDER: Spider
+  GIANT: Giant
+  ZOMBIE: Zombie
+  SLIME: Slime
+  GHAST: Ghast
+  PIG_ZOMBIE: Pig Zombie
+  ENDERMAN: Enderman
+  CAVE_SPIDER: Cave Spider
+  SILVERFISH: Silverfish
+  BLAZE: Blaze
+  MAGMA_CUBE: Magma Cube
+  ENDER_DRAGON: Ender Dragon
+  WITHER: Wither
+  BAT: Bat
+  WITCH: Witch
+  ENDERMITE: Endermite
+  GUARDIAN: Guardian
+  SHULKER: Shulker
+  PIG: Pig
+  SHEEP: Sheep
+  COW: Cow
+  CHICKEN: Chicken
+  SQUID: Squid
+  WOLF: Wolf
+  MUSHROOM_COW: Mushroom Cow
+  SNOWMAN: Snowman
+  OCELOT: Ocelot
+  IRON_GOLEM: Iron Golem
+  HORSE: Horse
+  RABBIT: Rabbit
+  POLAR_BEAR: Polar Bear
+  LLAMA: Llama
+  PARROT: Parrot
+  VILLAGER: Villager
+  TURTLE: Turtle
+  PHANTOM: Phantom
+  COD: Cod
+  SALMON: Salmon
+  PUFFERFISH: Pufferfish
+  TROPICAL_FISH: Tropical Fish
+  DROWNED: Drowned
+  DOLPHIN: Dolphin
+  PLAYER: Player

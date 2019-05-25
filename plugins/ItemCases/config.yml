@@ -1,0 +1,63 @@
+Case:
+  Item:
+    type: 54
+    amount: 1
+    durability: 0
+    meta: true
+    name: '&a&l%NAME% Case'
+    lore:
+    - ''
+    - '&7This case contains one of the following:'
+    - '&7- &e%CONTENTS%'
+    - ''
+    - '&7Right click with a %NAME%&7 key in your'
+    - '&7inventory to open.'
+    - '&7Left click to preview rewards.'
+    ShowChance: true
+  Key:
+    type: 131
+    amount: 1
+    durability: 0
+    meta: true
+    name: '&a&l%NAME% Key'
+    lore:
+    - ''
+    - '&7Used to open a %NAME%&7 case.'
+Reward:
+  Item:
+    Icon:
+      type: 54
+      amount: 1
+      durability: 0
+  Command:
+    Icon:
+      type: 339
+      amount: 1
+      durability: 0
+      meta: true
+      name: '&a&lCommand Reward'
+      lore:
+      - ''
+      - '&7Command: &e%COMMAND%'
+Mystery:
+  DefaultChoiceButton:
+    type: 130
+    amount: 1
+    durability: 0
+    meta: true
+    name: '&lMystery Item'
+    lore:
+    - ''
+    - '&7Click to use one of your choices'
+    - '&7on this.'
+Crate:
+  Hologram:
+    Lines:
+    - '&a&l%NAME%'
+    - '&7Right click: Open Crate'
+    - '&7Left click: Preview Rewards'
+    YOffset: 0.35
+Preview:
+  Enabled: true
+VirtualKeys:
+  Enabled: false

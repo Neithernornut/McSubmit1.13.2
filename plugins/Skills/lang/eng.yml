@@ -1,0 +1,648 @@
+#Rdx tranlator
+Swordsman:
+- Swordsman
+Devourer:
+- Devourer
+Mage:
+- Mage
+FireMage:
+- FireMage
+Juggernaut:
+- Juggernaut
+Arbalist:
+- Arbalist
+Vampire:
+- Vampire
+Eidolon:
+- Eidolon
+None:
+- ไม่มี
+Energy_Energy:
+- พลังงาน
+Energy_Blood:
+- เลือด
+Energy_Mana:
+- มานา
+Energy_Imbalance:
+- ไม่สมดุล
+Swordsman_Description:
+- Swordsman ผู้เชี่ยวชาญการโจมตีระยะใกล้ ด้วยพลังโจมตีที่รุนแรง
+Swordsman_Strong:
+- Swordsman ผู้ที่แข็งแกร่งที่สุด สามารถชนะได้ถ้าเชียวชาญ
+Swordsman_Weak:
+- Swordsman มีระยะการโจมตีไม่มาก แพ้การโจมตีระยะไกล
+Devourer_Description:
+- Devourer ผู้ว่องไว ปราดเปรียว โจมตีและหลบหนีคือความสามารถพิเศษ
+Devourer_Strong:
+- ไม่มีใครสามารถหนี Devourer ได้ มีชั้นเชิงและสามารถหนีจากอันตรายได้
+Devourer_Weak:
+- Devourer อ่อนแอด้านการป้องกัน
+Mage_Description:
+- Mage เจ้าแห่งการตั้งรับและป้องกันด้วยเวทย์ ร่ายเวทย์โจมตีใส่ศัตรู
+Mage_Strong:
+- Mage ร่ายเวทย์ได้หลายรูปแบบ ทำดาเมจได้หลายแบบ
+Mage_Weak:
+- Mage จะอ่อนแอ ถ้าไม่มีมานา
+FireMage_Description:
+- FireMage จะโจมตีด้วยเวทย์ไฟ และไม่ใช้คฑา สามารถร่ายเวทย์ด้วยการใช้เลือดตัวเอง
+FireMage_Strong:
+- เลือดจะถูกใช้ในการร่ายเวทย์ เวทย์ที่ร่ายนั้นมีพลังรุนแรง
+FireMage_Weak:
+- FireMage จะอ่อนแอถ้าโดนยากันไฟ
+Juggernaut_Description:
+- Juggernaut ทำดาเมจได้มหาศาล
+Juggernaut_Strong:
+- 'แข็งแรงมากแต่ไม่สามารถฟื้นเลือดได้ด้วยสกิล อยู่คงทนกว่าศัตรู'
+Juggernaut_Weak:
+- พลังโจมตีต่ำ
+Arbalist_Description:
+- สามารถประยุกต์ในการต่อสู้ได้ มีสไตล์ที่แตกต่าง ใช้ธนูเป็นอาวุธ
+Arbalist_Strong:
+- ทำดาเมจได้มากถ้าไม่สามารถไปถึงตัว และมีการโต้กลับที่รุนแรง
+Arbalist_Weak:
+- อ่อนแอในระยะใกล้ และโต้กลับเพื่อให้อยู่ในระยะ
+Vampire_Description:
+- Vampire เป็นปีศาจอันสูงส่ง มีความสามารถในการฟื้นเลือดและล่องหน
+Vampire_Strong:
+- โจมตีเพื่อลดมานาเป้าหมาย  และมีความสามารถในการฟื้นเลือดตัวเอง
+Vampire_Weak:
+- Vampire มีอยู่ทั่วไป จะแพ้ถ้าคู่ต่อสู่มีความสามารถ
+Eidolon_Description:
+- Eidolon สามารถเปลี่ยนร่างได้ สลับระหว่างความมืดกับแสงสว่าง
+Eidolon_Strong:
+- มีความสามารถในการตั้งรับได้ดี ถนัดโจมตีระยะใกล้
+Eidolon_Weak:
+- อ่อนแอในด้านมืด
+Command_Help_Select:
+- '&eใช้เพื่อเลือกสกิล'
+Command_Help_Change:
+- '&eใช้เพื่อเปลี่ยนสกิล'
+Command_Help_Info:
+- '&eใช้เพื่อแสดงข้อมมูล เลเวลสกิล สเตตัส'
+Command_Help_Refresh:
+- '&eลบค่า พลังงาน เลือด มานา'
+Command_Help_Improve:
+- '&eใช้เพื่อเปิดเมนูสกิลของคุณ'
+Command_Help_ShowActiveMessages:
+- '&eใช้เพื่อ เปิด/ปิด ข้อความสกิล'
+Command_Help_See:
+- '&eใช้เพื่อแสดงรายละเอียดสกิลของผู้อื่น'
+Command_Help_Stat:
+- '&eใช้เพื่อจัดการค่าสเตตัส'
+Command_Help_Mastery:
+- '&eใช้เพื่อจัดการ masteries'
+Command_Help_Help:
+- '&eแสดงคำสั่งทั้งหมด'
+Command_Help_Setsouls:
+- '&eใช้เพื่อจัดการแต้มวิญญานผู้เล่น'
+Command_Help_Setlevel:
+- '&eใช้เพื่อจัดการเลเวลผู้เล่น'
+Command_Help_Setxp:
+- '&eใช้เพื่อจัดการค่าประสบการณ์ผู้เล่น'
+Command_Help_Setskill:
+- '&eใช้เพื่อจัดการสกิลผู้เล่น'
+Command_Help_Addstatpoints:
+- '&eใช้เพื่อเพิ่มแต้มสเตตัสไปยังผู้เล่น'
+Command_Help_StartXpBoost:
+- '&eใช้เพื่อเปิดโบนัสค่าประสบการณ์ของระบบ'
+Command_Help_StartSoulBoost:
+- '&eใช้เพื่อเปิดโบนัสแต้มวิญญานของระบบ'
+Command_Help_GiveBonus:
+- '&eใช้เพื่อให้โบนัส exp หรือ soul แก่ผู้เล่น'
+Command_Help_TakeBonus:
+- '&eลบโบนัสออกจากผู้เล่น'
+Command_Help_Partycreate:
+- '&eใช้เพื่อสร้างปาร์ตี้'
+Command_Help_Partyleave:
+- '&eใช้เพื่ออกจากปาร์ตี้'
+Command_Help_Partyshow:
+- '&eใช้เพื่อแสดงข้อมูลปาร์ตี้'
+Command_Help_Partyinvite:
+- '&eใช้เพื่อเชิญผู้เล่นเข้าปาร์ตี้'
+Command_Help_Partyaccept:
+- '&eใช้เพื่อตอบรับเข้าปาร์ตี้'
+Command_Help_ResetPlayer:
+- '&eใช้เพื่อลบข้อมูลผู้เล่น'
+Command_Help_NextPage:
+- '&3ใช้ /skills help %page% เพื่อแสดงหน้าถัดไป'
+Command_Help_No_More_Pages:
+- '&3ไม่พบหน้านี้'
+Command_Help_Top:
+- '&eใช้เพื่อแสดงผู้เล่นที่มีเลเวลสูงสุด'
+Command_Help_Reload:
+- '&eรีโหลด ไฟล์ตั้งค่าแล้ว'
+Command_Usage:
+- '&bUsage: '
+Command_Top_Title:
+- '&bTop 10 ผู้เล่น'
+Command_Top_Entry:
+- '&b%number%. &6%name% &b- &eLvl %level%'
+Command_Top_Loading:
+- '&cกำลังคำนวณ...'
+Command_Info_EXP_Bonus:
+- '&aโบนัสค่าประสบการณ์ : '
+Command_Info_Soul_Bonus:
+- '&aโบนัสแต้มวิญญาน : '
+Command_Info_Level:
+- '&bเลเวล : '
+Command_Info_Souls:
+- '&bแต้มวิญญาน : '
+Command_See_Player_Doesnt_Exist:
+- '&cไม่พบผู้เล่น'
+Command_Setsoul_Success:
+- '&a%amount% ถูกเพิ่มไปยังแต้มวิญญาน'
+Command_Refresh_Success:
+- '&aเติมพลังงานแล้ว'
+Command_Setskill_Success:
+- '&a%player% มี %skill%'
+Command_Setskill_Not_Skill:
+- '&cไม่พบสกิล %skill% สกิล : none,swordsman,devourer,mage,firemage,juggernaut,arbalist,vampire,eidolon'
+Command_Setsoul_Not_Number:
+- '&cแต้มวิญญานต้องเป็นตัวเลขเท่านั้น'
+Command_Setstatpoints_Success:
+- '&aค่าสเตตัส %amount% ถูกเพิ่มไปยังผู้เล่น'
+Command_Setstatpoints_Not_Number:
+- '&cค่าสเตตัสต้องเป็นตัวเลขเท่านั้น'
+Command_Setlevel_Success:
+- '&a%amount% ถูกเพิ่มไปยังผู้เล่นแล้ว'
+Command_Setlevel_Not_Number:
+- '&cเลเวลต้องเป็นตัวเลขเท่านั้น'
+Command_Setxp_Success:
+- '&aค่าประสบการณ์ %amount% ถูกเพิ่มไปยังผู้เล่นแล้ว'
+Command_Setxp_Not_Number:
+- '&cค่าประสบการณ์ต้องเป็นตัวเลขเท่านั้น'
+Command_Resetplayer_Success:
+- '&a%player% ถูกรีเซ็ตค่าทั้งหมดแล้ว'
+Command_Misc_Player_Doesnt_Exist:
+- '&cไม่พบผู้เล่น'
+Command_Misc_Player_Not_Online:
+- '&cผู้เล่นไม่ได้ออนไลน์อยู่'
+Command_GiveBonus_Message:
+- '&aคุณได้รับโบนัสเป็นเวลา %time% นาที'
+Command_GiveBonus_Confirmation:
+- '&aให้โบนัสแก่ %player% เป็นเวลา %time% นาที'
+Command_GiveBonus_Multiplier_Error:
+- '&cตัวคูณต้องเป็น exp หรือ soul ตัวอย่าง : 5*soul'
+Command_GiveBonus_Multiplier_Invalid:
+- '&cแต้มการคูณผิด ตัวอย่าง :  5*soul, exp+20'
+Command_TakeBonus_Success:
+- '&aนำบูสออกจากผู้เล่นแล้ว'
+Command_StartBoost_Already_Started:
+- '&cอีเว้นกำลังเริ่ม เวลาคงเหลือ : %time%'
+Command_StartSoulBoost_Broadcast:
+- '&aเพิ่มแต้มวิญญานเป็นเวลา %time% นาที รับแต้มวิญญาน x%multiplier% ต่อการฆ่า'
+Command_StartXpBoost_Broadcast:
+- '&aเพิ่มค่าประสบการณ์เป็นเวลา %time% นาที  รับค่าประสบการณ์ x%multiplier% ต่อการฆ่า'
+Command_ShowActiveMessages_On:
+- '&aข้อความถูกเปิดแล้ว'
+Command_ShowActiveMessages_Off:
+- '&cข้อความถูกปิดแล้ว'
+Command_Reload_Done:
+- '&aรีโหลดเสร็จสิ้น'
+Party_Message_Prefix:
+- '&b[ปาร์ตี้] '
+Party_Members_too_far:
+- '&cสมาชิกปาร์ตี้ของคุณอยู่ห่างกัน โบนัสจะถูกลด'
+Party_Already_In_Party:
+- '&cคุณอยู่ในปาร์ตี้แล้ว'
+Party_Player_Invited_Offline:
+- '&cไม่พบผู้เล่นที่เชิญ'
+Party_Invited_Is_In_Party:
+- '&cผู้เล่นที่ถูกเชิญอยู่ในปาร์ตี้แล้ว'
+Party_Required:
+- '&cคุณต้องมีปาร์ตี้เพื่อที่จะใช้ฟังก์ชั่นนี้ พิมพ์ /skill partycreate หรือเข้าร่วมปารฝืตี้'
+Party_Joined:
+- '&aเข้าร่วมปาร์ตี้ %player% แล้ว'
+Party_Join_Announcement:
+- '&a%player% เข้าร่วมปาร์ตี้'
+Party_Leave_Announcement:
+- '&c%player% ออกจากปาร์ตี้'
+Party_Not_Invited:
+- '&cคุณไม่ได้ถูกเชิญเข้าปาร์ตี้'
+Party_Invite_Message:
+- '&a%player% เชิญคุณเข้าปาร์ตี้ พิมพ์ /skill partyaccept เพื่อตอบรับ'
+Party_Invite_Success:
+- '&a%player% ถูดเชิญแล้ว'
+Party_Created:
+- '&aสร้างปาร์ตี้แล้ว พิมพ์ /skills partyinvite [player] เพื่อเชิญเพื่อนเข้าปาร์ตี้'
+Party_Disbanded:
+- '&cปาร์ตี้ถูกยุบ'
+Party_Leader_Left:
+- '&cผู้นำปาร์ตี้ออกจากปาร์ตี้แล้ว ผู้นำคนใหม่คือ : %player%'
+Party_Bonus_Xp_Amount:
+- '&aคุณได้รับค่าประสบการณ์สกิลเพิ่ม %percent%% จากการฆ่ามอนสเตอร์'
+Party_Bonus_Souls_Amount:
+- '&aคุณได้รับแต้มวิญญาน +%amount% จาการฆ่ามอนสเตอร์'
+Party_Cannot_Harm_Others:
+- '&cคุณไม่สามารถโจมตีเพื่อนได้'
+Party_Show_Bonus_Xp_Rate:
+- 'โบนัสรับค่าประสบการณ์ : '
+Party_Show_Bonus_Soul:
+- 'โบนัสรับแต้มวิญญาน : '
+Misc_Skill_Owned_Error:
+- '&4คุณมีสกิลแล้ว'
+Misc_Info_No_Skill_Error:
+- '&4คุณต้องมีสกิลก่อน'
+Misc_Skill_Selected:
+- '&aคุณได้เป็น %skill%'
+Misc_Skill_Change_Cooldown_Error:
+- '&cคุณต้องรอ %cooldown% วินาที เพื่อที่จะใช้คำสั่ง'
+Misc_No_Perm_Error:
+- '&4ไม่สามารถใช้คำสั่งนี้ได้'
+Misc_Skill_Affected_By:
+- '&bการอัพเกรดมาจากผลของ %stat%'
+Misc_Skill_Maximum_Level:
+- '&cอัพเกรดแล้ว'
+Misc_Not_Enough_Souls:
+- '&cคุณมีแต้มวิญญานไม่พอ'
+Misc_Improvement_Upgraded:
+- '&aสกิลถูกอัพเกรดแล้ว'
+Misc_Mastery_Upgraded:
+- '&aMastery อัพเกรดแล้ว'
+Misc_Improvement_Max:
+- '&cสกิลเป็นเลเวลสูงสุดแล้ว'
+Misc_Cooldown_Active:
+- '&cคุณต้องรอเวลา %time% bก่อนจะใช้สกิลอีกครั้ง'
+Misc_Stunned:
+- '&cคุณไม่สามารถโจมตีได้ ตอนดดนตรีงอยู่'
+Misc_Player_Doesnt_Exist:
+- '&cไม่พบผู้เล่น'
+Misc_Not_enough_Energy:
+- '&cคุณต้องมีพลังอย่างน้อย %amount% แต้ม เพื่อที่จะใช้สกิล'
+Misc_Not_enough_Mana:
+- '&cคุณต้องมีมานาอย่างน้อย %amount% แต้ม เพื่อที่จะใช้สกิล'
+Misc_Not_enough_Health:
+- '&cคุณต้องมีเลือดอย่างน้อย %amount% แต้ม เพื่อที่จะใช้สกิล'
+Misc_Not_enough_Statpoints:
+- '&cมีแต้มไม่เพียงพอ'
+Misc_Two_Statpoints_Needed:
+- '&cต้องมีแต้มสเตตัสอย่างน้อย 2 แต้ม เพื่อแบ่งแต้มอัตโนมัติ'
+Misc_Statpoints_Distribution:
+- '&a%amount% แต้ม ถูกเพิ่มไปยัง %stat%'
+Misc_Statpoints_Spent:
+- '&cใช้ค่าสเตตัส %amount% แต้ม'
+Misc_No_Skill_Error:
+- '&cคุณไม่มีสกิลให้พัฒนา'
+Misc_Soul_Loss:
+- '&cคุณเสียวิญญาน %amount% แต้ม'
+Misc_Level_Up:
+- '&b[&a%xp%xp&b/&a%xp%xp&b] &eเลเวลอัพ พิมพ์ /skill level เพื่อเช็คเลเวลของคุณ'
+Misc_Gained_StatPoints:
+- '&6คุณได้รับแต้มสเตตัส %amount% แต้ม พิมพ์ /skill stats เพื่อเพิ่มไปยังแต้มรวมของคุณ'
+Misc_Xp_Message:
+- '&b[&6%xp%xp&b/&e%maxxp%xp&b]'
+Misc_Placeholder_Boost_Not_On:
+- '&cบูส ไม่ทำงาน'
+Misc_Placeholder_Bonus_Not_On:
+- '&cโบนัส ไม่ทำงาน'
+Guis_StatMenu_Title:
+- '&6ค่าสเตตัสของคุณ'
+Guis_StatMenu_Level:
+- '&bเลเวล : '
+Guis_StatMenu_Amount:
+- '&bจำนวน : '
+Guis_StatMenu_STR:
+- '&6ความแข็งแรง'
+Guis_StatMenu_INT:
+- '&1ความฉลาด'
+Guis_StatMenu_DEX:
+- '&dความชำนาญ'
+Guis_StatMenu_DEF:
+- '&4การป้องกัน'
+Guis_StatMenu_STR_ADDALL:
+- '&6เพิ่มพ้อยทั้งหมดไปยัง ความแข็งแรง'
+Guis_StatMenu_INT_ADDALL:
+- '&1เพิ่มพ้อยทั้งหมดไปยัง ความฉลาด'
+Guis_StatMenu_DEX_ADDALL:
+- '&dเพิ่มพ้อยทั้งหมดไปยัง ความชำนาญ'
+Guis_StatMenu_DEF_ADDALL:
+- '&4เพิ่มพ้อยทั้งหมดไปยัง การป้องกัน'
+Guis_StatMenu_StatPoints:
+- '&aStatPoints'
+Guis_StatMenu_ResetStats:
+- '&cคลิกเพื่อรีเซ็ตค่า'
+Guis_StatMenu_AutoAssign:
+- '&aกำหนดอัตโนมัติ'
+Guis_StatMenu_AutoAssign_Desc:
+- '&eคลิกเพื่อกำหนดค่าสเตตัสอัตโนมัติ ตามชนิดสกิลของคุณ'
+Guis_StatMenu_Explanation:
+- '&aคลิกเพื่อแสดงแต้มสเตตัสที่เพิ่ม'
+Guis_StatMenu_Explanation_Message:
+- '&aค่าสเตตัสที่มีผลต่อการพัฒนาสกิล สามารถดูได้ใต้คำอธอบายในคำสั่ง /skill improve'
+Guis_Selection_Title:
+- '&4เลือกสกิล'
+Guis_Change_Title:
+- '&4เปลี่ยนสกิล'
+Guis_Improve_Title:
+- '&4Skill Tree'
+Guis_Improve_Cost:
+- '&cCost: '
+Guis_Disable_Ability:
+- '&cคลิกเพื่อปิดความสามารถ'
+Guis_Enable_Ability:
+- '&aคลิกเพื่อเปิดความสามารถ'
+Guis_Masteries_Cost:
+- '&cค่าใช้จ่าย : '
+Guis_Masteries_Level:
+- '&bเลเวล : '
+Skill_Passive_Title:
+- '&6Passive'
+Skill_Swordsman_Dodge_Title:
+- '&6Dodge'
+Skill_Swordsman_Parry_Title:
+- '&6Parry'
+Skill_Swordsman_Pierce_Title:
+- '&6Pierce'
+Skill_Swordsman_ThousandCuts_Title:
+- '&6Thousand Cuts'
+Skill_Devourer_EvolveGliders_Title:
+- '&6Evolve Gliders'
+Skill_Devourer_EvolveCloak_Title:
+- '&6Evolve Cloak'
+Skill_Devourer_EvolveSadism_Title:
+- '&6Evolve Sadism'
+Skill_Devourer_Consume_Title:
+- '&6Consume'
+Skill_Mage_Reflect_Title:
+- '&6Reflect'
+Skill_Mage_ExplosionSpell_Title:
+- '&6Explosion Spell'
+Skill_Mage_HealSpell_Title:
+- '&6Heal Spell'
+Skill_Mage_EnergyFlux_Title:
+- '&6Energy Flux'
+Skill_FireMage_AbsorbEnergy_Title:
+- '&6Absorb Energy'
+Skill_FireMage_PhoenixEssence_Title:
+- '&6Phoenix Essence'
+Skill_FireMage_BlackFire_Title:
+- '&6Black Fire'
+Skill_FireMage_Inferno_Title:
+- '&6Inferno'
+Skill_Juggernaut_HeavyStrikes_Title:
+- '&6Heavy Strikes'
+Skill_Juggernaut_StoneSkin_Title:
+- '&6Stone Skin'
+Skill_Juggernaut_AegisProtection_Title:
+- '&6Aegis Protection'
+Skill_Juggernaut_Throw_Title:
+- '&6Throw'
+Skill_Arbalist_Execute_Title:
+- '&6Execute'
+Skill_Arbalist_DualArrow_Title:
+- '&6Dual Arrow'
+Skill_Arbalist_BarbedArrow_Title:
+- '&6Barbed Arrow'
+Skill_Arbalist_FireCrossbow_Title:
+- '&6Fire Crossbow'
+Skill_Vampire_BloodLust_Title:
+- '&6Blood Lust'
+Skill_Vampire_BloodWell_Title:
+- '&6Blood Well'
+Skill_Vampire_Bleed_Title:
+- '&6Bleed'
+Skill_Vampire_EternalDarkness_Title:
+- '&6Eternal Darkness'
+Skill_Eidolon_Purify_Title:
+- '&6Purify'
+Skill_Eidolon_SpiritFire_Title:
+- '&6Spirit Fire'
+Skill_Eidolon_Spectre_Title:
+- '&6Spectre'
+Skill_Eidolon_Defile_Title:
+- '&6Defile'
+Skill_Swordsman_Passive:
+- '&bพลังโจมตีเพิ่มขึ้นเป็น &e%amount%%'
+Skill_Swordsman_Dodge:
+- '&bโอกาส &e%chance%% &bที่จะหลบการโจมตีฝั่งตรงข้าง - สูงสุด 40%'
+Skill_Swordsman_Dodge_Opponent_Message:
+- '&cการโจมตีถูกหลบ'
+Skill_Swordsman_Dodge_Message:
+- '&aหลบการโจมตี'
+Skill_Swordsman_Parry:
+- '&bเมื่อคุณถือดาบมีค่าความแข็งแกร่งน้อยกว่าคุณ สามารถสะท้อนดาเมจ &e%amount%% กลับได้'
+Skill_Swordsman_Pierce:
+- '&bถ้าความแข็งแรงของคุณมากกว่าการป้องกันของฝั่งตรงข้าม การโจมตีของคุณจะทำดาเมจมากขึ้น &e%amount%%'
+Skill_Swordsman_ThousandCuts:
+- '&bคลิกขวาเมื่อถือดาบทำดาเมจ &e%damage% &bแต้มต่อครั้ง'
+Skill_Swordsman_Active_Activation_Message:
+- '&a&lดาบพันเล่มทำงาน โจมตีฝ่ายตรงข้ามตามต้องการ'
+Skill_Swordsman_Active_Finished_Message:
+- '&c&lดาบพันเล่มหมดสภาพ'
+Skill_Swordsman_Ready_Activation_Message:
+- '&a*คุณได้ยกดาบขึ้น* โจมตีเป้าหมายเพื่อใช้สกิล'
+Skill_Swordsman_NotReady_Activation_Message:
+- '&7*คุณได้ลดดาบลง*'
+Skill_Devourer_Passive:
+- '&bทำดาเมจการกัดกร่อนกับเป้าหมาย ทำให้เสียเลือด &e%damage% &bแต้ม ทุกๆ 5 วินาที'
+Skill_Devourer_EvolveGliders:
+- '&bเมื่อวิ่งจะได้รับความเร็วเพิ่ม &e%amount%'
+Skill_Devourer_EvolveCloak:
+- '&bเลเวล 1: รับการล่องหนถาวร เมื่อถูกโจมตีการล่องหนจะหายไปเป็นเวลา 30 วินาที <br>&bเลเวล 2: สามารถพรางตัวได้ เมื่อโจมตีมอนสเตอร์การอำพรางจะหายไปเป็นเวลา 30 วินาที <br>&bเลเวล 3:
+  การโจมตีครั้งแรกจะทำให้คุณล่องหนและทำด้เมจ &e%damage% &bแต้มเพิ่ม'
+Skill_Devourer_Invis_Disabled:
+- '&cการล่องหนหมดเวลากรุณารอ 30 วินาที'
+Skill_Devourer_Invis_Enabled:
+- '&1คุณหายไปในความมืด...'
+Skill_Devourer_Neutrality_Disabled:
+- '&cการอำพรางหมดเวลากรุณารอ 30 วินาที'
+Skill_Devourer_Neutrality_Enabled:
+- '&1คุณได้อำพรางตัว'
+Skill_Devourer_EvolveSadism:
+- '&bเมื่อโจมตี จะทำให้เป้าหมายเจ็บปวด มีโอกาส &e%amount%% &bฟื้นเลือด 1 แต้ม ต่อการโจมตี'
+Skill_Devourer_Consume:
+- '&bคลิกขวาเพื่อใช้งาน โจมตีเป้าหมายเพื่อทำดาเมจ &e%damage% &bแต้ม และทำดาเมจเพิ่ม 1 แต้ม เมื่อเป้าหมายเสียเลือดทุกๆ 5 แต้ม ถ้าเป้าหมายตาย คุณจะฟื้นเลือด 50% จากเลืดทั้งหมดของคุณ'
+Skill_Devourer_Ready_Activation_Message:
+- '&a*คุณได้ลับเขี้ยว*'
+Skill_Devourer_NotReady_Activation_Message:
+- '&7*คุณได้เก็บเขี้ยว*'
+Skill_Devourer_Activation_Message:
+- '&a&l*CHOMP!*'
+Skill_Devourer_Heal_Message:
+- '&a&lเลือดเป้าหมายเหลือ %amount% แต้ม'
+Skill_Mage_PassiveV2:
+- '&bเมื่อโจมตีด้วยคฑา (เคียว) คุณจะได้มานาคืน &e%amount% &bแต้มต่อครั้ง โจมตีด้วยเคียวทำให้ได้ดาเมจมากขึ้น เคียวไม้ได้ดาเมจ 3 แต้ม จนถึงเคียวเพชรได้ดาเมจ 10 แต้ม'
+Skill_Mage_Reflect:
+- '&bเมื่อถูกโจมตี และถือคฑาอยู่ มีโอกาสทำดาเมจต่อศัตรู &e%damage% &bแต้มตามคฑาที่ถือ'
+Skill_Mage_ExplosionSpell:
+- '&bเมื่อถูกโจมตี และถือคฑาอยู่ มีโอกาสทำดาเมจต่อศัตรู &e%damage%%'
+Skill_Mage_HealSpell:
+- '&bทุกๆมานา 10 แต้ม ใช้ฟื้นเลือด &e%amount%&b แต้ม ถ้ามีเลือดมากกว่า 20 แต้ม'
+Skill_Mage_EnergyFluxV2:
+- '&bเมื่อคลิกขวาด้วยคฑา จะปล่อยสายฟ้าทำดาเมจ &e%damage% แต้มเป็นแนวยาว ทำซ้ำๆต่อเป้าหมาย &f%cooldown%s&b &bจะทำให้ดาเมจลดลง 50%'
+Skill_Mage_Ready_Activation_Message:
+- '&a*คุณได้ยกคฑาขึ้น* คลิกในทิศที่ต้องการยิงเวทย์'
+Skill_Mage_NotReady_Activation_Message:
+- '&7*คุณได้ลดคฑาลง*'
+Skill_Mage_Activation_Message:
+- '&a&l*WHOOSH!*'
+Skill_FireMage_PassiveV2:
+- '&bเมื่ออยู่ในไฟ ฟื้นเลือดเพิ่ม &e%amount% &bเพิ่มเทื่อกำลังเพิ่มเลือด และกันไฟ'
+Skill_FireMage_AbsorbEnergy:
+- '&bเมื่อโจมตี ในการโจมตีคร้งต่อไปจะทำให้เป้าหมายติดไฟเป็นเวลา &e%amount% &bวินาที'
+Skill_FireMage_PhoenixEssence:
+- '&bทำดาเมจเพิ่ม &e%damage%% &bทุกๆ 1 วินาที เมื่อเป้าหมายโดนไฟ'
+Skill_FireMage_BlackFire:
+- '&bเมื่อเป้าหมายอยู่ในระยะ 5 บลอกจากคุณ จะเพิ่มดาเมจไฟ &e%amount% แต้ม'
+Skill_FireMage_Inferno:
+- '&bคลิกขวา aโจมตีเป้าหมายด้วยมือ จะทำดาเมจทันที &e%damage%
+  &bแต้ม และ 1 แต้มทุกๆ 20 fireticks'
+Skill_FireMage_Ready_Activation_Message:
+- '&a*คุณกำลังจะร่ายเวทย์* โจมตีเป้าหมายเพื่อใช้พลังเพลิง'
+Skill_FireMage_NotReady_Activation_Message:
+- '&7*คุณได้ลดมือลง*'
+Skill_FireMage_Activation_Message:
+- '&a&lเป้าหมายโดนไฟเผา'
+Skill_Juggernaut_PassiveV2:
+- '&bลดดาเมจลงไป &e%amount%%'
+Skill_Juggernaut_HeavyStrikes:
+- '&bถ้าคุณใช้ขวานตัดไม่โจมตีจะทำดาเมจเพิ่มขึ้น &e%damage%%'
+Skill_Juggernaut_StoneSkin:
+- '&bเลเวล 1: ดาเมจตกจากที่สูงจะลดลง 50% <br>เลเวล 2: ดาเมจจากไฟจะลดลง
+  50% <br>เลเวล 3: ผลของสกิลจะใช้ได้กับธนู บอลไฟ'
+Skill_Juggernaut_AegisProtection:
+- '&bทุกๆ &e%amount%&b วินาที รีโล่เพื่อหักล้างดาเมจ'
+Skill_Juggernaut_Throw:
+- '&bย่อและคลิกขวาที่เป้าหมาย แบกเป้าหมายเป็นเวลา 3 วินาที
+  ทำให้คุณและเป้าหมายไม่สามารถโจมตีได้ จากนั้นโยนเป้าหมายตามด้านที่มอง เมื่อเป้าหมายโดนพื้นทำดาเมจ &e%damage%
+  &bแต้มกับเป้าหมาย เมื่อกำลังแบกเป้าหมาย ดาเมจที่ถูกโจมตีทุกอย่างจะถูกลดลง 50%'
+Skill_Juggernaut_Active_Ready_Message:
+- '&a*คุณเตรียมพร้อม* โจมตีเป้าหมายเพื่อจับและโยน'
+Skill_Juggernaut_Active_NotReady_Message:
+- '&7*คุณได้ลดมือลง*'
+Skill_Juggernaut_Active_Activated_Message:
+- '&a&lคุณจับเป้าหมายไว้บนหัว'
+Skill_Juggernaut_Active_Throw_Message_Countdown:
+- '&c&lเล็ง และโยนเป้าหมายภายใน %countdown%'
+Skill_Juggernaut_Active_Throw_Success:
+- '&a&lโยนเป้าหมาย'
+Skill_Juggernaut_Aegis_Success:
+- '&aโล่บลอกการโจมตี'
+Skill_Arbalist_Passive:
+- '&bระยะยิ่งไกลจากเป้าหมาย ยิ่งทำดาเมจ'
+Skill_Arbalist_Execute:
+- '&bหลังจากยิงเป้าหมาย 2 ครั้งติดต่อกัน ครั้งต่อไปจะทำดาเมจเพิ่ม &e%damage% &bแต้ม'
+Skill_Arbalist_DualArrow:
+- '&bเลเวล 1: สามารถยิงลูกธนูได้ 2 ลูกต่อคร้ง ลูกที่ 2 จะทำดาเมจ 50% เลเวล 2 : จะทำดาเมจ 100% และโบนัสดาเมจ &e%damage%%'
+Skill_Arbalist_BarbedArrow:
+- '&bลูกธนูจะทำให้เป้าหมายขยับไม่ได้ และทำดาเมล &e%damage% &bทุกๆ 2 วินาที'
+Skill_Arbalist_FireCrossBow:
+- '&bโจมตีด้วยพลังงาน อัพเกรดเพื่อลดคูลดาวน์'
+Skill_Arbalist_Activation_Msg:
+- '&aธนูถูกยิงออกไป'
+Skill_Vampire_Passive:
+- '&bเมื่อโจมตีจะสามารถฟื้นเลือดได้ 3 แต้ม ทุกๆ 2 แต้ม จะทำดาเมจ &e%damage%% &b โจมตีระยะใกล้ ระดับเลือดจะลดลง &e(1+10%) &bทุกๆ 4 วินาที'
+Skill_Vampire_BloodLust:
+- '&bเลเวล 1: ถ้ามีเลือดมากกว่า 70% จะทำให้คุณทำดาเมจได้มากขึ้น &e%amount%% <br>เลเวล 2: การฟื้นเลือดปกติจะถูกหยุด <br>เลเวล 3: โจมตีในช่วงนี้จะมีโอกาสฟื้นเลือด 2 แต้ม'
+Skill_Vampire_BloodWell:
+- '&bเพิ่มระดับเลือดทุกๆการอัพเกรด มีโอกาส &e%chance%% &bเพื่อหยุดการเสียเลือด 4 วินาที'
+Skill_Vampire_Bleed:
+- '&bเป้าหมายจะเลือดออกเป็นเวลา &e%amount% &bวินาที ทำดาเมจ 1 แต้ททุกๆ 1 วินาที และเพิ่มเลือดให้คุณทุกๆ 1 แต้ม'
+Skill_Vampire_EternalDarkness:
+- '&bย่อและโจมตีเป้าหมายเพื่อล่องหนเป็นเวลา &e%time% &bวินาที ทำให้เป้าหมายมืด 1 วินาที ทุกครั้งที่โจมตี'
+Skill_Vampire_Active_Activation_Message:
+- '&a&lEternal Darkness มาแล้ว คุณจะคงทนต่อดาเมจ'
+Skill_Vampire_Active_Finished_Message:
+- '&c&lEternal Darkness หมดแล้ว คุณจะอ่อนแอ'
+Skill_Vampire_Ready_Activation_Message:
+- '&a*เขี้ยวของคุณส่องแสง* โจมตีเป้าหมายเพื่อใช้ Eternal Darkness'
+Skill_Vampire_NotReady_Activation_Message:
+- '&7*เหยื่อไม่คุ้มที่จะเสียแรง*'
+Skill_Eidolon_Passive:
+- '&bมีทั้งแสงสว่างและความมืด เมื่อค่าความไม่สมดุลถึง 100 คุณจะเปลี่ยนร่าง เมื่อเปลี่ยนร่างจะฟื้นเลือด &9%amount% &bแต้ม'
+Skill_Eidolon_Purify:
+- '&bทำดาเมจ &9%amount% &bแต้ม ทุกๆเลือดของเป้าหมาย 5 แต้ม สูงสุด &9%max% &6%gain% &bและทำให้ไม่สามรถทรงตัวได้'
+Skill_Eidolon_SpiritFire:
+- '&bในร่างแสงสว่าง ดูดซับดาเมจ &6%amount%% &bแต้มเมื่อโดนโจมตี สูงสุด 50% <br>&bในร่างมืด ทำดาจเป้าหมาย &e%level% &bแต้มที่ดูดซับมา'
+Skill_Eidolon_Spectre:
+- '&bในร่างแสงสว่างจะได้รับโล่ ทำให้ความเร็วเพิ่มขึ้น &c%amount%&b เป็นเวลา 3 วินาที
+  เกราะจะรีทุกๆ &e%time% &bวินาที <br>ในร่างมืด
+  พลังโจมตีจะเพิ่มทุกๆ &e%time% &bวินาที ชาร์จพลังจะทำดาเมจเพิ่ม &6%attack%% &bแต้ม'
+Skill_Eidolon_Defile:
+- '&bคลิกขวาและโจมตีเป้าหมายตอนที่เป้าหมายเสียสมดุล เพิ่มดาเมจโจมตีและลดดาเมจที่ได้รับ &9%amount%% เป็นเวลา &e%time% วินาที'
+Skill_Eidolon_Active_Ready:
+- '&a*พลังสะสมในตัวคุณ* โจมตีเป้าหมายเพื่อปลดปล่อย'
+Skill_Eidolon_Active_Not_Ready:
+- '&c*พลังกำลังจะหมด*'
+Skill_Eidolon_Active_Activation_Message:
+- '&a&lคุณได้ก่อกวนจิตใจฝั่งตรงข้าม'
+Skill_Eidolon_Turn_Light:
+- '&eความมืดจางหายไปจากแสงสว่าง'
+Skill_Eidolon_Turn_Dark:
+- '&4ความมืดปกคลุมแสงสว่าง'
+Skill_Eidolon_Spirit_Expell:
+- '&aคุณปลดปล่อยพลังโจมตี %damage% ทำให้ดาเมจเพิ่มขึ้น'
+Skill_Eidolon_Shield_Refresh:
+- '&aคุณรู้สึกถึงพลังงาน'
+Skill_Eidolon_Shield_Speed:
+- '&aสปีดคุณเพิ่มขึ้น'
+Skill_Eidolon_Attack_Boost:
+- '&aคุณปลดปล่อยพลังโจมตี %damage%% ทำให้ดาเมจเพิ่มขึ้น'
+Mastery_Efficiency:
+- '&aEfficiency'
+Mastery_Efficiency_Logging_Title:
+- '&aLogging'
+Mastery_Efficiency_Logging_Desc:
+- โอกาสได้ไม้แปรรูป 5 บลอก แทนท่อนไม้ 1 ชิ้น เมื่อตัดไม้
+Mastery_Efficiency_Harvesting_Title:
+- '&aHarvesting'
+Mastery_Efficiency_Harvesting_Desc:
+- โอกาสได้รับผลผลิตเป็น 2 เท่า
+Mastery_Efficiency_Mining_Title:
+- '&aMining'
+Mastery_Efficiency_Mining_Desc:
+- โอกาสได้รับแร่เพิ่ม
+Mastery_Efficiency_Pacifist_Title:
+- '&aPacifist'
+Mastery_Efficiency_Pacifist_Desc:
+- รับค่าประสบการณ์จาการทำฟาร์มข้าว
+Mastery_Efficiency_Regeneration_Title:
+- '&aRegeneration'
+Mastery_Efficiency_Regeneration_Desc:
+- เมื่อคุณมีเลือดมากกว่า 20 ต้องฟื้นเลือดด้วยการทานอาหาร
+Mastery_Brutality:
+- '&cBrutality'
+Mastery_Brutality_CriticalStrikes_Title:
+- '&cCritical Strikes'
+Mastery_Brutality_CriticalStrikes_Desc:
+- เพิ่มดาเมจเวลากระโดดตี เพิ่มเป็น 2 เท่าเมื่อไม่ได้โจมตีใส่ผู้เล่น
+Mastery_Brutality_Power_Title:
+- '&cPower'
+Mastery_Brutality_Power_Desc:
+- โอกาสทำดาเมจเพิ่ม 1 แต้ม
+Mastery_Brutality_BruteForce_Title:
+- '&cBruteForce'
+Mastery_Brutality_BruteForce_Desc:
+- โอกาสทำดาเมจให้ฝั่งตรงข้ามเพิ่ม 1 แต้ม ตามจำนวนเกราะที่เราสวมใส่
+Mastery_Brutality_Glory_Title:
+- '&cGlory'
+Mastery_Brutality_Glory_Desc:
+- เพิ่มค่าประสบการณ์ที่ได้จากมอนสเตอร์
+Mastery_Brutality_ThickSkin_Title:
+- '&cThick Skin'
+Mastery_Brutality_ThickSkin_Desc:
+- โอกาสลดดาเมจที่เกิดขึ้น
+Mastery_Finesse:
+- '&bFinesse'
+Mastery_Finesse_Precision_Title:
+- '&bPrecision'
+Mastery_Finesse_Precision_Desc:
+- โอกาสติดดาเมจคริติคอล 50% เมื่อยิงด้วยธนู
+Mastery_Finesse_Exploit_Title:
+- '&bExploit'
+Mastery_Finesse_Exploit_Desc:
+- โอกาสทำดาเมจเพิ่ม 1 แต้ม ตามจำนวนเกราะที่ฝั่งตรงข้ามสวมใส่
+Mastery_Finesse_Reap_Title:
+- '&bReap'
+Mastery_Finesse_Reap_Desc:
+- โอกาสที่จะได้วิญญานเพิ่มต่อการฆ่า
+Mastery_Finesse_Adriot_Title:
+- '&bAdriot'
+Mastery_Finesse_Adriot_Desc:
+- เมื่อถืออาวุธ มีโอกาสที่จะไม่เสียค่าความทนทาน
+Mastery_Finesse_Serration_Title:
+- '&bSerration'
+Mastery_Finesse_Serration_Desc:
+- โอกาสทำดาเมจเพิ่มไปยังเป้าหมายใน 1 วินาทีหลังจากโจมตี
+Mastery_Title:
+- '&bMasteries'

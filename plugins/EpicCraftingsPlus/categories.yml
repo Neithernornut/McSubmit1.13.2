@@ -1,0 +1,96 @@
+size: 45
+Categories:
+  weapons_armor:
+    id: '283'
+    name: '&eWeapons&f/&eArmor'
+    lore:
+    - '&7Here you can find the &cbest'
+    - '&7equipment of the server.'
+    slot: 12
+  others:
+    id: '351:10'
+    name: '&dOther Crafts'
+    lore:
+    - '&7A lot of stuff you can craft,'
+    - '&7like the &bVIP &6rank.'
+    slot: 14
+    permission: epiccraftingsplus.categories.others
+Inventory:
+  '0':
+    id: '160:13'
+    slot: 0
+  '1':
+    id: '160:5'
+    slot: 1
+  '2':
+    id: '160:13'
+    slot: 2
+  '3':
+    id: '160:5'
+    slot: 3
+  '4':
+    id: '160:13'
+    slot: 4
+  '5':
+    id: '160:5'
+    slot: 5
+  '6':
+    id: '160:13'
+    slot: 6
+  '7':
+    id: '160:5'
+    slot: 7
+  '8':
+    id: '160:13'
+    slot: 8
+  '9':
+    id: '160:5'
+    slot: 9
+  '10':
+    id: '160:5'
+    slot: 17
+  '11':
+    id: '160:13'
+    slot: 18
+  '12':
+    id: '160:13'
+    slot: 26
+  '13':
+    id: '160:5'
+    slot: 27
+  '14':
+    id: '160:5'
+    slot: 35
+  '15':
+    id: '262'
+    slot: 36
+    name: '&7Go Back'
+    command: chestcommands open inventory %player%
+  '16':
+    id: '160:5'
+    slot: 37
+  '17':
+    id: '160:13'
+    slot: 38
+  '18':
+    id: '160:5'
+    slot: 39
+  '19':
+    id: '69'
+    name: '&6Info'
+    lore:
+    - '&7Select one of the categories above'
+    - '&7to begin crafting items!'
+    slot: 40
+  '20':
+    id: '160:5'
+    slot: 41
+  '21':
+    id: '160:13'
+    slot: 42
+  '22':
+    id: '160:5'
+    slot: 43
+  '23':
+    id: '160:13'
+    slot: 44

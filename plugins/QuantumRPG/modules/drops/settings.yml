@@ -1,0 +1,24 @@
+cfg_version: 1.0
+command-aliases: drops
+messages-output: ACTION_BAR
+multipliers:
+  VIP: 1.25
+  Premium: 1.5
+  Gold: 1.75
+roll-once: false
+global-rates:
+  ACTIVE_ITEMS: 5.0
+  ARROWS: 5.0
+  CONSUMABLES: 5.0
+  CUSTOM_ITEMS: 5.0
+  ESSENCES: 5.0
+  EXTRACTOR: 5.0
+  GEMS: 5.0
+  IDENTIFY: 5.0
+  MAGIC_DUST: 5.0
+  REFINE: 5.0
+  REPAIR: 5.0
+  RESOLVE: 5.0
+  RUNES: 5.0
+  TIERS: 5.0
+global-drop-chance: 20.0

@@ -1,0 +1,127 @@
+#
+# Default Language File
+# To make your own language file, copy this file and edit the copy
+#
+# Changes made to this file will be reset!
+# Do not edit it!
+#
+
+OVERVIEW: Übersicht
+PERMISSION: Berechtigung
+PERMISSION_NODES: Berechtigungen
+PERMISSIONS: Berechtigungen
+DEFAULT_PERMISSIONS: Default Berechtigung
+GROUP: Gruppe
+GROUPS: Gruppen
+DEFAULT_GROUP: Default Gruppe
+INHERITED_GROUPS: Vererbte Gruppen
+PLAYER: Spieler
+SERVER: Server
+WORLD: Welt
+USERS: Spieler
+USER: Spieler
+TIME: Zeit
+PREFIX: Präfix
+SUFFIX: Suffix
+OPTIONS: Optionen
+SERVERNAME: Server Name
+DONATIONS: Spenden
+ADVANTAGES: Vorteile
+RECOMMENDED: Empfohlen
+SETTINGS: Einstellungen
+PERMISSIONLOG: Berechtigungs Verlauf
+EDITING: Editieren
+ADD: Hinzufügen
+TIME_FOR: für
+COMMAND_NOPERMISSION: Du hast keinen **Zugriff** auf diesen command
+COMMAND_INVALID_ARGS: Unzureichende Argumente
+COMMAND_NOTFOUND: Command konnte nicht gefunden werden
+COMMAND_HINT_HELP: Benutze **/upc** für eine Liste aller commands
+COMMAND_HELP_TITLE: Ultra Permissions Commands
+COMMAND_HELP_FOOTER: Besuche **%1** for mehr informationen
+COMMAND_GROUP_NOTFOUND: Konnte die Gruppe **%1** nicht finden
+COMMAND_PLAYER_NOTFOUND: Konnte den Spieler **%1** nicht finden
+COMMAND_PLAYER_INGROUP: **%1** ist bereits in dieser Gruppe
+COMMAND_PLAYER_SUPERADMIN_ALREADY: **%1** ist bereits ein Superadmin
+COMMAND_PLAYER_SUPERADMIN_ADD: **%1** ist nun ein Superadmin
+COMMAND_PLAYER_ADD_GROUP: **%2** ist nun in der Gruppe **%1**
+COMMAND_PLAYER_ADD_GROUP_TIMED: **%2** ist nun in der Gruppe **%1** für **%3**
+COMMAND_PERMISSION_ADD: Erfolgreich die Berechtigung **%1** zu **%2** gefügt
+COMMAND_PERMISSION_ADD_TIMED: Erfolgreich die Berechtigung **%1** zu **%2** für **%3** gefügt
+GUI_OVERVIEW_USERS_ACTION: Klicke um alle **Spieler** einzusehen
+GUI_OVERVIEW_GROUPS_ACTION: Klicke um alle **Gruppen** einzusehen
+GUI_OVERVIEW_DONATIONS_ACTION: Klicke um alle Spenden anzuzeigen
+GUI_OVERVIEW_REDUCE_TITLE: Einklappen
+GUI_OVERVIEW_REDUCE_ACTION: Klicke um weniger zu sehen
+GUI_OVERVIEW_REDUCE_EXPLANATION: Dies wird erweiterte Einstellungen verbergen
+GUI_OVERVIEW_EXPAND_TITLE: Ausklappen
+GUI_OVERVIEW_EXPAND_ACTION: Klicke um mehr zu sehen
+GUI_OVERVIEW_EXPAND_EXPLANATION: Dies wird alle erweiterten Einstellungen anzeigen
+GUI_OVERVIEW_PERMISSIONLOG_ACTION: Klicke um den Berechtigungs Verlauf anzuzeigen
+GUI_OVERVIEW_PERMISSIONLOG_EXPLANATION: Sehe alle Berechtigungs Checks ein
+GUI_OVERVIEW_SETTINGS_ACTION: Klicke um die Einstellungen zu öffnen
+GUI_OVERVIEW_SETTINGS_EXPLANATION: Adjust all settings of the plugin
+GUI_GROUPBROWSER_TITLE_LIST: Liste
+GUI_GROUPBROWSER_TITLE_ALL: Zeige alle Gruppen
+GUI_GROUPBROWSER_TITLE_RANGE: Zeige %1 / %2 Gruppen
+GUI_GROUPBROWSER_ADD_ACTION: Klicke um eine Gruppe zu erstellen
+GUI_GROUPBROWSER_REORDER_TITLE: Gruppen Sortieren
+GUI_GROUPBROWSER_REORDER_ACTION: Klicke um die Reihenfolge zu ändern
+GUI_GROUPBROWSER_LEFTCLICK_ACTION: **Links Klick** um zu öffnen
+GUI_GROUPBROWSER_Q_ACTION: **Q** um die Speicher Einstellungen zu öffnen
+GUI_GROUPBROWSER_DEFAULT_GROUP_EXPLANATION: Dies ist eine Default Gruppe
+GUI_GROUPBROWSER_SHOWALL_TITLE: Zeige alle Gruppen
+GUI_GROUPBROWSER_SHOWALL_ACTION: Klicke um alle Gruppen von allen Servern & Welten zu sehen
+GUI_USERBROWSER_ACTION: **Klicke** um den Spieler einzusehen
+GUI_USERBROWSER_DELETE_ACTION: Drücke **Q** um den Spieler zu **löschen**
+GUI_USERBROWSER_IS_SUPERADMIN: Dieser Spieler ist ein Superadmin
+GUI_USERBROWSER_SHOWOFFLINE_TITLE: Zeige Offline Spieler
+GUI_USERBROWSER_HIDEOFFLINE_TITLE: Verberge Offline Spieler
+GUI_USERBROWSER_SHOWOFFLINE_ACTION: Klicke um **Offline Spieler** zu zeigen
+GUI_USERBROWSER_HIDEOOFFLINE_ACTION: Klicke um **Offline Spieler** zu verstecken
+GUI_USERVIEW_VIEWPERMISSIONS_TITLE: Berechtigungen
+GUI_USERVIEW_VIEWPERMISSIONS_ACTION: **Klicke** um die Berechtigungen zu verwalten
+GUI_USERVIEW_VIEWGROUPS_ACTION: Klicke um die Gruppen zu verwalten
+GUI_USERVIEW_EDITPREFIXSUFFIX_TITLE: Editiere Präfix oder Suffix
+GUI_USERVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **Links Klick** um den Präfix zu ändern
+GUI_USERVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **Rechts Klick** um den Suffix zu ändern
+GUI_GROUPVIEW_VIEWPERMISSIONS_TITLE: Berechtigungen
+GUI_GROUPVIEW_VIEWPERMISSIONS_ACTION: **Klicke** um die Berechtigungen zu verwalten
+GUI_GROUPVIEW_CHANGEICON_TITLE: Ändere Icon
+GUI_GROUPVIEW_CHANGEICON_ACTION: Klicke um das Icon zu wechseln
+GUI_GROUPVIEW_EDITPREFIXSUFFIX_TITLE: Editiere Präfix oder Suffix
+GUI_GROUPVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **Links Klick** um den Präfix zu ändern
+GUI_GROUPVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **Rechts Klick** um den Suffix zu ändern
+GUI_GROUPVIEW_RENAME_ACTION: Klicke um die Gruppe umzubennen
+GUI_GROUPVIEW_DELETE_TITLE: Lösche Gruppe
+GUI_GROUPVIEW_DELETE_ACTION: Klicke um diese Gruppe zu **löschen**
+GUI_GROUPVIEW_DELETE_PERMANENT: Diese Aktion ist **permanent**
+GUI_GROUPVIEW_DEFAULT_TITLE: Default Gruppe
+GUI_GROUPVIEW_DEFAULT_SETDEFAULT_ACTION: Klicke um diese Gruppe zu einer **Default Gruppe** ernennen
+GUI_GROUPVIEW_DEFAULT_SETUNDEFAULT_ACTION: Klicke um diese Gruppe **Regulär** zu machen
+GUI_GROUPVIEW_DEFAULT_EXPLANATION: Wenn aktiviert, alle neuen Spieler werden diese Gruppe erhalten
+GUI_GROUPVIEW_INHERITANCE_TITLE: Vererbte Gruppen
+GUI_GROUPVIEW_INHERITANCE_ACTION: **Klicke** um die Veerbungen zu editieren
+GUI_PERMEDITOR_INHERITED_ACTION: Klicke um zu **%1** zu springen
+GUI_PERMEDITOR_INHERITED_EXPLANATION: Berechtigung hinzugefügt für **%1**
+GUI_PERMEDITOR_SELECTED_ACTION: **Klicke** um zu **deselektieren**
+GUI_PERMEDITOR_SELECTED_EXPLANATION: Klicke um diese Berechtigung zu **selektieren**
+GUI_PERMEDITOR_NORMAL_LEFTCLICK: **Links Klick** um zu editieren
+GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **Rechts Klick** um zu **selektieren**
+GUI_PERMEDITOR_NORMAL_PRESSQ: **Drücke Q** um zu löschen
+GUI_SETTINGS_FORMAT_NAME: Chat & Tablisten Format
+GUI_SETTINGS_MISC_NAME: Sonstiges
+EDITING_PREFIX_EDIT: Editiere Präfix
+EDITING_PREFIX_TYPEIN: Tippe einen neuen Präfix ein
+EDITING_PREFIX_TYPEINNONE: Tippe **none** ein um den Präfix zu deaktivieren
+EDITING_SUFFIX_EDIT: Editiere Suffix
+EDITING_SUFFIX_TYPEIN: Tippe einen neuen Suffix ein
+EDITING_SUFFIX_TYPEINNONE: Tippe **none** ein um den Suffix zu deaktivieren
+CREATE_GROUP_TITLE: Erstelle Gruppe
+CREATE_GROUP_SUBTITLE: Tippe einen Gruppen Namen ein
+CREATE_GROUP_NOSPACES: Der Gruppen Name sollte keine Spaces enthalten
+CREATE_GROUP_NOCOLORS: Der Gruppen Name sollte keine Chat Colors beinhalten
+CREATE_GROUP_NAMETAKEN: Dieser Gruppen Name wird bereits verwendet
+RENAME_GROUP_TITLE: Gruppe Umbenennen
+RENAME_GROUP_SUBTITLE: Tippe einen neuen Namen ein
+CONFIRM_DELETION_OF: Bestätige das löschen von %1

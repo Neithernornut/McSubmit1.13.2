@@ -1,0 +1,99 @@
+# RPG Inventory
+# by OsipXD
+
+enabled: true
+language: en
+check-update: true
+worlds:
+  mode: BLACKLIST
+  list:
+  - blocked_world
+level-system: EXP
+class-system: PERMISSIONS
+fill: DIAMOND_HOE:1
+items:
+  lore-pattern:
+  - _UNBREAKABLE_
+  - _DROP_
+  - _LEVEL_
+  - _CLASS_
+  - _SEPARATOR_
+  - _LORE_
+  - _SEPARATOR_
+  - _SKILLS_
+  - _SEPARATOR_
+  - _STATS_
+  separator: ''
+backpacks:
+  expiration-time: 30
+  limit: 1
+resource-pack:
+  enabled: false
+  delay: 2
+  url: PUT_YOUR_URL_HERE
+  hash: PUT_YOUR_HASH_HERE
+join-messages:
+  delay: 3
+  default:
+    enabled: false
+    title: '&l&2Welcome to server!'
+    text:
+    - '&6Glad to see you, &3%player_name%'
+    - '&6This server using &9RPGInventory'
+  rp-info:
+    enabled: false
+    title: '&l&4It is important!'
+    text:
+    - '&6You should &callow &6resource pack to play on this server'
+    - '&6This will allow you fully immerse in the RPG atmosphere'
+    - '&6But if you declined downloading of RP you can fix it...'
+    - '&6Select the server in list, click &e''Edit'' &6 and set &e''Resource-Pack:
+      Accept'''
+attack:
+  require-weapon: false
+  force-weapon: false
+  auto-held: false
+  own-pet: false
+armor-slots-action: default
+craft-slots-action: rpginv
+slots:
+  enabled: false
+  locked: DIAMOND_HOE:19
+  buyable: DIAMOND_HOE:18
+  free: 2
+  money:
+    enabled: true
+    cost:
+      line1: 1000
+      line2: 2000
+      line3: 3000
+  level:
+    enabled: true
+    spend: false
+    required:
+      line1: 20
+      line2: 30
+      line3: 40
+craft:
+  enabled: false
+  workbench: true
+  extendable: DIAMOND_HOE:27
+  extensions:
+    journeyman:
+      name: '&aJourneyman slots'
+      lore:
+      - '&eYou must be a journeyman to use it'
+      slots:
+      - 8
+      - 9
+    master:
+      name: '&3Master slots'
+      lore:
+      - '&eYou must be a master to use it'
+      includes:
+      - journeyman
+      slots:
+      - 1
+      - 4
+      - 7
+version: 2.3.0

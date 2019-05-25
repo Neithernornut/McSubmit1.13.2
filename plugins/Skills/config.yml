@@ -1,0 +1,312 @@
+lang: eng
+playerdata-save-interval-seconds: 300
+enabled-worlds:
+- Dungeon
+use-actionbar: true
+soul-lose-disabled-worlds:
+- Survival
+- World
+soul-gain-disabled-worlds:
+- Survival
+- World
+xp-gain-disabled-worlds:
+- Survival
+- World
+is-debug: false
+mob-name-bonus-xp:
+- '&4A_Mob,30'
+special-soul-gain-cases:
+- PLAYER,2
+- WITHER,10
+- ENDER_DRAGON,100
+spawner-support: true
+spawner-percentage-decrease: 0.1
+spawner-award-soul: false
+items-that-prevent-skillactivation:
+- FLINT_AND_STEEL
+- WOOD_HOE
+- WOODEN_HOE
+- STONE_HOE
+- GOLD_HOE
+- DIAMOND_HOE
+- IRON_HOE
+levelRequirementEquation: currlevel*100+1
+max-level: 100
+stat-max: 100
+minimum-soul-count: 0
+souls-lost-upon-death: 5
+skill-change-cooldown: 60
+perform-commands-upon-skill-select: false
+commands-to-perform-upon-skill-select:
+  swordsman:
+    player: &id845
+    - me has picked swordsman
+    - spawn
+    console: &id846
+    - kit %player% swordsman
+  devourer:
+    player: *id845
+    console: *id846
+  firemage:
+    player: *id845
+    console: *id846
+  mage:
+    player: *id845
+    console: *id846
+  pyro:
+    player: *id845
+    console: *id846
+  juggernaut:
+    player: *id845
+    console: *id846
+  arbalist:
+    player: *id845
+    console: *id846
+  vampire:
+    player: *id845
+    console: *id846
+  eidolon:
+    player: *id845
+    console: *id846
+  none:
+    player: *id845
+    console: *id846
+perform-commands-upon-skill-change: false
+commands-to-perform-upon-skill-change:
+  swordsman:
+    player: &id847
+    - me has picked swordsman
+    - spawn
+    console: &id848
+    - kit %player% changeswordsman
+  devourer:
+    player: *id847
+    console: *id848
+  firemage:
+    player: *id847
+    console: *id848
+  mage:
+    player: *id847
+    console: *id848
+  pyro:
+    player: *id847
+    console: *id848
+  juggernaut:
+    player: *id847
+    console: *id848
+  arbalist:
+    player: *id847
+    console: *id848
+  vampire:
+    player: *id847
+    console: *id848
+  eidolon:
+    player: *id847
+    console: *id848
+  none:
+    player: *id847
+    console: *id848
+level-up-statpoint-reward-thresholds:
+- 0:1
+- '10:2'
+- '40:4'
+- '60:6'
+- '80:8'
+- '100:10'
+perform-commands-upon-level-up: false
+commands-to-perform-on-level-up:
+  player:
+  - me has leveled up to %level%!
+  console:
+  - kit levelup %player%
+swordsman:
+  health-scaling: 10+lvl*3.5
+devourer:
+  health-scaling: 10+lvl*2.5
+firemage:
+  health-scaling: 10+lvl*2
+mage:
+  health-scaling: 10+lvl*1.5
+pyro:
+  health-scaling: 10+lvl*1.5
+juggernaut:
+  health-scaling: 10+lvl*4.5
+arbalist:
+  health-scaling: 10+lvl*2
+vampire:
+  health-scaling: 10+lvl*1.5
+eidolon:
+  health-scaling: 10+lvl*3
+none:
+  health-scaling: 10+lvl
+scalings:
+  swordsman:
+    max-energy: 20+lvl
+    passive: (str*2)+1
+    dodge: dex/7+(lvl*5)
+    parry: dex/5+lvl*2
+    pierce: str/2+lvl*3
+    thousandcuts: (lvl*2)+str/10
+    energy-regen-per-sec: 1+0.05*lvl
+  devourer:
+    max-energy: 20+lvl
+    passive: str/20 + 1
+    evolvegliders: lvl
+    evolvecloak: dex/4
+    evolvesadism: dex/3+lvl
+    consume:
+      main: lvl*3+dex/10
+      victim-health-bonus-damage: (victimmaxhp-victimhp)/5
+    energy-regen-per-sec: 1+0.05*lvl
+  mage:
+    max-mana: 20+lvl*1.5
+    passive: int/10+1
+    reflect: lvl*2
+    explosionspell: int/2+lvl*10
+    healspell: lvl
+    energyflux: 1+lvl*2+int/10
+    mana-regen-per-sec: 1+0.04*lvl
+  juggernaut:
+    max-energy: 20+lvl
+    passive: def/2+1
+    heavystrikes: def+lvl*5
+    stoneskin: lvl
+    aegisprotection: 10-lvl
+    throw: str/20+lvl*3
+    energy-regen-per-sec: 1+0.05*lvl
+  vampire:
+    max-blood: 20+lvl+bloodwell*7
+    passive: str/5+1
+    bloodlust: str/7+lvl*2
+    bloodwell: int/4+lvl*2
+    bleed: str/10+lvl
+    eternaldarkness: 1+lvl+int/20
+    blood-lost-per-sec: '2'
+  eidolon:
+    max-imbalance: '100'
+    passive: int/10+1
+    purify:
+      damage: str/15+lvl/2
+    max: int/6+lvl*4
+    spiritfire:
+      light: str/7+lvl*3
+      dark: 6-lvl
+    spectre:
+      cooldowns: 45-(lvl*5)
+      darkattack: 45-(lvl*5)
+      speed: def/30
+    defile:
+      damage: lvl*8+(int/2)+5
+      time: lvl*3
+    imbalance-per-sec: '1'
+  firemage:
+    passive: int/20+1
+    absorbenergy: lvl+int/10
+    phoenixessence: int/9+lvl*2
+    blackfire: lvl+str/20
+    inferno: lvl*2+int/5
+  arbalist:
+    passive: lvl
+    execute: dex/6+lvl*4
+    dualarrow: def/20+lvl
+    barbedarrow: str/30+lvl/2
+    firecrossbow: 7-lvl*2
+    max-energy: '20'
+    energy-regen-per-sec: 1+0.05*lvl
+active-costs-and-cooldowns:
+  thousandcuts:
+    cost: 20
+    cooldown: 30
+  consume:
+    cost: 20
+    cooldown: 30
+  energyflux:
+    cost: 7
+    cooldown: 0
+  inferno:
+    cost: 5
+    cooldown: 15
+  throw:
+    cost: 20
+    cooldown: 30
+  firecrossbow:
+    cost: 0
+  eternaldarkness:
+    cost: 0
+    cooldown: 30
+  defile:
+    cost: 0
+    cooldown: 30
+mastery-cost: 20
+mastery-max: 5
+mastery-enabled:
+  logging: false
+  harvesting: false
+  pacifist: true
+  criticalstrikes: true
+  power: true
+  glory: true
+  precision: true
+  exploit: true
+  reap: true
+  mining: false
+  bruteforce: true
+  adriot: true
+  regeneration: true
+  thickskin: true
+  serration: true
+persistentActionBar: true
+base-costs:
+  swordsman:
+    dodge: 100*(lvl+1)
+    parry: 100*(lvl+1)
+    pierce: 100*(lvl+1)
+    thousandcuts: 300*(lvl+1)
+  devourer:
+    evolvegliders: 100*(lvl+1)
+    evolvecloak: 100*(lvl+1)
+    evolvesadism: 100*(lvl+1)
+    consume: 300*(lvl+1)
+  mage:
+    reflect: 100*(lvl+1)
+    explosionspell: 100*(lvl+1)
+    healspell: 100*(lvl+1)
+    energyflux: 300*(lvl+1)
+  firemage:
+    absorbenergy: 100*(lvl+1)
+    phoenixessence: 100*(lvl+1)
+    blackfire: 100*(lvl+1)
+    inferno: 300*(lvl+1)
+  juggernaut:
+    heavystrikes: 100*(lvl+1)
+    stoneskin: 100*(lvl+1)
+    aegisprotection: 100*(lvl+1)
+    throw: 300*(lvl+1)
+  arbalist:
+    execute: 100*(lvl+1)
+    dualarrow: 100*(lvl+1)
+    barbedarrow: 100*(lvl+1)
+    firecrossbow: 300*(lvl+1)
+  vampire:
+    bloodlust: 100*(lvl+1)
+    bloodwell: 100*(lvl+1)
+    bleed: 100*(lvl+1)
+    eternaldarkness: 300*(lvl+1)
+  eidolon:
+    purify: 100*(lvl+1)
+    spiritfire: 100*(lvl+1)
+    spectre: 100*(lvl+1)
+    defile: 300*(lvl+1)
+stats:
+  allow-reset: true
+  reset-soul-cost: 300
+party:
+  souls-per-player-rounded-down: partysize/5+souls
+  exp-per-player-rounded-down: partysize/2+exp
+  party-player-max-distance: 30
+mythicmobs:
+  deny-xp-if-target-lower-level-at: 11
+  deny-souls-if-target-lower-level-at: 11
+  deny-xp-if-target-higher-level-at: 99999
+  deny-souls-if-target-higher-level-at: 99999
+  worlds-without-level-margin: []

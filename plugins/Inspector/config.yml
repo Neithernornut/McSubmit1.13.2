@@ -1,0 +1,6 @@
+Reporter:
+  server: 20370578-e2ae-46e8-83a6-f8dce45a57b7
+  enabled: true
+  data:
+    core: true
+    plugins: true
